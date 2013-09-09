@@ -1,2 +1,2 @@
-# Getting Started {#getting_started_title}
+# Pričetek {#getting_started_title}
 

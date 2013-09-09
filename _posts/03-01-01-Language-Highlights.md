@@ -1,1 +1,1 @@
-# Language Highlights {#language_highlights_title}
+# Povzetek jezika {#language_highlights_title}
