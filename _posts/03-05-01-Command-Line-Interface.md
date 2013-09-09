@@ -1,4 +1,5 @@
 ---
+title:   CLI - vmesnik komandne vrstice
 isChild: true
 ---
 
