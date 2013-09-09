@@ -2,18 +2,18 @@
 isChild: true
 ---
 
-## Namespaces {#namespaces_title}
+## Imenski prostori - Namespaces {#namespaces_title}
 
-As mentioned above, the PHP community has a lot of developers creating lots of code. This means that one library's PHP code may use the same class name as another library. When both libraries are used in the same namespace, they collide and cause trouble.
+Kot zgoraj omenjeno, ima PHP skupnost veliko razijalcev, ki ustvarijo ogromno kode. To pomeni, da določena PHP koda knjižnice lahko uporabi enako ime razreda kot druga knjižnica. Ko sta obe knjižnici uporabljeni v istem imenskem prostoru, lahko sovpadajo in povzročajo težave.
 
-_Namespaces_ solve this problem. As described in the PHP reference manual, namespaces may be compared to operating system directories that _namespace_ files; two files with the same name may co-exist in separate directories. Likewise, two PHP classes with the same name may co-exist in separate PHP namespaces. It's as simple as that.
+_Imenski prostori_ rešujejo ta problem. Kot je opisano v PHP referenčnem priročniku, lahko primerjamo imenske prostore z direktoriji operacijskega sistema, ki _poimenujejo prostor_ datotek; dve datoteki z enakim imenom lahko obstajata v različnih direktorijih. Enako lahko tudi dva PHP razreda z enakim imenom obstajata v različnih PHP imenskih prostorih. Tako enostavno.
 
-It is important for you to namespace your code so that it may be used by other developers without fear of colliding with other libraries.
+Pomembno je, da vašo kodo prostorsko poimenujete, da je lahko uporabljena s strani drugih razvijalcev brez strahu pred sovpadanjem z drugimi knjižnicami.
 
-One recommended way to use namespaces is outlined in [PSR-0][psr0], which aims to provide a standard file, class and namespace convention to allow plug-and-play code.
+Ena izmed priporočenih poti za uporabo imenskih prostorov je povdarjena v [PSR-0][psr0], ki cilja ponujati standardizirano koncencijo za datoteke, razrede in imenske prostore, da omogoča plug-in-play kodo.
 
-* [Read about Namespaces][namespaces]
-* [Read about PSR-0][psr0]
+* [Preberite o imenskih prostorih][namespaces]
+* [Preberite o PSR-0][psr0]
 
 [namespaces]: http://php.net/manual/en/language.namespaces.php
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
