@@ -1,6 +1,6 @@
 ---
-title: Errors and Exceptions
+title: Napake in izjeme
 ---
 
-# Errors and Exceptions {#errors_and_exceptions_title}
+# Napake in izjeme {#errors_and_exceptions_title}
 
