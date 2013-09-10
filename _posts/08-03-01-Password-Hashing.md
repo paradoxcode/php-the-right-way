@@ -1,21 +1,27 @@
 ---
+title:   Zgoščevanje gesel
 isChild: true
 ---
 
-## Password Hashing {#password_hashing_title}
+## Zgoščevanje gesel {#password_hashing_title}
 
-Eventually everyone builds a PHP application that relies on user login. Usernames and passwords are stored in a database and later used to authenticate users upon login.
+Eventuelno vsakdo zgradi PHP aplikacijo, ki uporablja na uporabniško prijavo. Uporabniška imena in gesla so lahko shranjena v podatkovni bazi in potem uporabljena za potrjevanje
+uporabnikov pri prijavi.
 
-It is important that you properly [_hash_][3] passwords before storing them. Password hashing is an irreversible, one way function performed against the user's password. This produces a fixed-length string that cannot be feasibly reversed. This means you can compare a hash against another to determine if they both came from the same source string, but you cannot determine the original string. If passwords are not hashed and your database is accessed by an unauthorized third-party, all user accounts are now compromised. Some users may (unfortunately) use the same password for other services. Therefore, it is important to take security seriously.
+Pomembno je, da se ustrezno [_zgosti_][3] gesla preden se jih shrani. Zgoščevanje gesel je nepovratna, enosmerna funkcija izvedena nad uporabnikovim geslom. To naredi
+določeno dolg niz, ki se ga ne da enostavno povrniti. To pomeni, da lahko primerjate zgostitev z drugo, da ugotovite, če obe prihajata iz istega vira niza, vendar pa ne morete
+določiti osnovnega niza. Če gesla niso zgoščena in je vaša podatkovna baza dostopna s strani neavtorizirane tretje strani, so vsi uporabniški računi ogroženi. Nekateri uporabniki
+lahko (na žalost) uporabljajo enako geslo za ostale storitve. Zato je pomembno vzeti varnost resno.
 
-**Hashing passwords with `password_hash`**
+**Zgoščevanje gesel s `password_hash`**
 
-In PHP 5.5 `password_hash` was introduced. At this time it is using BCrypt, the strongest algorithm currently supported by PHP. It will be updated in the future to support more algorithms as needed though. The `password_compat` library was created to provide forward compatibility for PHP >= 5.3.7.
+V PHP 5.5 je bila izdana funkcija `password_hash`. Trenutno uporablja BCrypt, najmočnejši algoritem trenutno podprt s strani PHP-ja. Bo pa tudi posodobljena v prihodnosti za podporo večih
+algoritmov kakor bo potrebno. Ustvarjena je bila knjižnica `password_compat`, ki ponuja vnaprejšnjo kompatibilnost za PHP >= 5.3.7.
 
-Below we hash a string, and then check the hash against a new string. Because our two source strings are different ('secret-password' vs. 'bad-password') this login will fail.
+Spodaj bomo zgostili niz in nato preverili zgostitev proti novemu nizu. Ker sta naša dva vira nizov različna ('secret-password' proti 'bad-password') ta prijava ne bo uspela.
 
-{% highlight php %}                                                                                                                                                                                              
-<?php                                                                                                                                                                                                            
+{% highlight php %}
+<?php
 require 'password.php';
 
 $passwordHash = password_hash('secret-password', PASSWORD_DEFAULT);
@@ -25,13 +31,13 @@ if (password_verify('bad-password', $passwordHash)) {
 } else {
     //Wrong password
 }
-{% endhighlight %}  
+{% endhighlight %}
 
 
 
-* [Learn about `password_hash`] [1]
-* [`password_compat` for PHP  >= 5.3.7 && < 5.5] [2]
-* [Learn about hashing in regards to cryptography] [3]
+* [Naučite se o `password_hash`] [1]
+* [`password_compat` za PHP  >= 5.3.7 && < 5.5] [2]
+* [Naučite se o zgoščevanju v zvezi s kriptografijo] [3]
 * [PHP `password_hash` RFC] [4]
 
 [1]: http://us2.php.net/manual/en/function.password-hash.php

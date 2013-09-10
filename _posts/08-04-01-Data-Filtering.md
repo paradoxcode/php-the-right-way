@@ -1,63 +1,62 @@
 ---
+title:   Filtriranje podatkov
 isChild: true
 ---
 
-## Data Filtering {#data_filtering_title}
+## Filtriranje podatkov {#data_filtering_title}
 
-Never ever (ever) trust foreign input introduced to your PHP code. Always sanitize and validate
-foreign input before using it in code. The `filter_var` and `filter_input` functions can sanitize text and validate text formats (e.g.
-email addresses).
+Nikoli, nikoli ne zaupajte tujemu vnosu predstavljenemu vaši PHP kodi. Vedno počistite in preverite
+tuj vnos preden ga uporabljate v kodi. Funkciji `filter_var` in `filter_input` lahko počistijo tekst
+in preverijo obliko teksta (npr. e-poštni naslov).
 
-Foreign input can be anything: `$_GET` and `$_POST` form input data, some values in the `$_SERVER`
-superglobal, and the HTTP request body via `fopen('php://input', 'r')`. Remember, foreign input is not
-limited to form data submitted by the user. Uploaded and downloaded files, session values, cookie data,
-and data from third-party web services are foreign input, too.
+Tuj vnos je lahko karkoli: `$_GET` and `$_POST` podatki obrazcev, nekatere vrednosti v `$_SERVER`
+superglobalni spremenljivki in telo (body) HTTP zahtevka preko `fopen('php://input', 'r')`. Dobro je vedeti,
+da tuj vnos ni omejen na poslane podatke iz obrazca s strani uporabnika. Naložene in prenesene datoteke, vrednosti
+sej, podatki piškotkov in podatki s tretjih strani spletnih servisev so tudi tuji vnosi.
 
-While foreign data can be stored, combined, and accessed later, it is still foreign input. Every
-time you process, output, concatenate, or include data in your code, ask yourself if
-the data is filtered properly and can it be trusted.
+Medtem ko se tuji podatke lahko shrani, kombinira in do njih dostopa kasneje, gre še vedno za tuj vnos. Vsakič,
+ko procesirate, izpisujete, spojite ali vključite podatke v vašo kodo, se vprašajte, če so bili podatki ustrezno
+filtrirani in jim lahko zaupate.
 
-Data may be _filtered_ differently based on its purpose. For example, when unfiltered foreign input is passed
-into HTML page output, it can execute HTML and JavaScript on your site! This is known as Cross-Site
-Scripting (XSS) and can be a very dangerous attack. One way to avoid XSS is to sanitize all user-generated
-data before outputting it to your page by removing HTML tags with the `strip_tags` function or escaping
-characters with special meaning into their respective HTML entities with the `htmlentities`
-or `htmlspecialchars` functions.
+Podatki so lahko _filtrirani_ različno na osnovi njihovega namena. Na primer, ko je nefiltriran tuj vnos podan
+v izpis HTML strani, lahko izvede HTML in JavaScript na vaši strani! To je poznano kot Cross-Site Scripting (XSS)
+in je lahko zelo nevaren napad. En način, da se izognete XSS je čiščenje vseh uporabnikovih generiranih podatkov
+preden jih izpišete v vašo stran z odstranitvijo HTML značke s funkcijo `strip_tags` ali čiščenje znakov s posebnim
+pomenom (escaping) v njihove ustrezne HTML entitete s funkcijama `htmlentites` ali `htmlspecialchars`.
 
-Another example is passing options to be executed on the command line. This can be extremely dangerous
-(and is usually a bad idea), but you can use the built-in `escapeshellarg` function to sanitize the executed
-command's arguments.
+Drug primer je podajanje opcij, ki se bodo izvedle v komandni vrstici. To je lahko izjemno nevarno
+(in je ponavadi slaba ideja), vendar lahko uporabite vgrajeno funkcijo `escapeshellarg` za čiščenje
+izvedenih ukaznih argumentov.
 
-One last example is accepting foreign input to determine a file to load from the filesystem. This can be exploited by
-changing the filename to a file path. You need to remove "/", "../", [null bytes][6], or other characters from the file path so it can't
-load hidden, non-public, or sensitive files.
+Zadnji primer je sprejemanje tujega vnosa za ugotovitev katero datoteko naložiti iz datotečnega sistema. To je
+lahko izkoriščeno s spremembo imena datoteke v pot datoteke. Odstraniti morate "/", "../", [null bajte][6], ali ostale
+znake iz poti datoteke, da ne uspe naložiti skritih, nejavnih ali občutljivih datotek.
 
-* [Learn about data filtering][1]
-* [Learn about `filter_var`][4]
-* [Learn about `filter_input`][5]
-* [Learn about handling null bytes][6]
+* [Naučite se o filtriranju podatkov][1]
+* [Naučite se o `filter_var`][4]
+* [Naučite se o `filter_input`][5]
+* [Naučite se o ravnanju z null bajti][6]
 
-### Sanitization
+### Čiščenje
 
-Sanitization removes (or escapes) illegal or unsafe characters from foreign input.
+Čiščenje odstrani (ali spremeni - escaping) nedovoljene ali nevarne znake iz tujega vnosa.
 
-For example, you should sanitize foreign input before including the input in HTML or inserting it
-into a raw SQL query. When you use bound parameters with [PDO](#databases), it will
-sanitize the input for you.
+Na primer, morali bi počistiti tuj vnos preden vključujete vnos v HTML ali ga vnašate
+v izvorno SQL poizvedbo. Ko uporabljate vezanje parametrov s [PDO](#databases), bo
+vnos počistilo za vas.
 
-Sometimes it is required to allow some safe HTML tags in the input when including it in the HTML
-page. This is very hard to do and many avoid it by using other more restricted formatting like
-Markdown or BBCode, although whitelisting libraries like [HTML Purifier][html-purifier] exists for
-this reason.
+Včasih je potrebno dovoliti nekatere varne HTML značke v vnosu, ko se ga vključuje v HTML stran.
+To je zelo težko izvesti in mnogi se tega izogibajo z uporabo ostalih bolj omejenih oblikovanj kot
+sta Markdown ali BBCode, čeprav s tem namenom obstajajo čistilne knjižnice kot je [HTML Purifier][html-purifier].
 
-[See Sanitization Filters][2]
+[Poglejte si čistilne filtre][2]
 
-### Validation
+### Preverjanje
 
-Validation ensures that foreign input is what you expect. For example, you may want to validate an
-email address, a phone number, or age when processing a registration submission.
+Preverjanje zagotavlja, da je tuj vnos to, kar pričakujete. Na primer, lahko boste želeli preveriti
+e-poštni naslov, telefonsko številko ali starost pri procesiranju registracijske oddaje.
 
-[See Validation Filters][3]
+[Poglejte si filtre preverjanja][3]
 
 [1]: http://www.php.net/manual/en/book.filter.php
 [2]: http://www.php.net/manual/en/filter.filters.sanitize.php
