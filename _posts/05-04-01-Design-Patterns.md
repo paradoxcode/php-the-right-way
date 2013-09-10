@@ -1,16 +1,17 @@
 ---
+title:   
 isChild: true
 ---
 
-## Design Patterns {#design_patterns_title}
+## Načrtovalski vzorci {#design_patterns_title}
 
-When you are building your application it is helpful to use common patterns in your code and common patterns for the
-overall structure of your project. Using common patterns is helpful because it makes it much easier to manage your code
-and lets other developers quickly understand how everything fits together.
+Ko gradite vašo aplikacijo je v pomoč uporabiti pogoste vzorce v vaši kodi in pogoste vzorce za celotno strukturo vašega
+projekta. Uporaba pogostih vzorcev je v pomoč, ker poenostavi upravljanje vaše kode
+in omogoča ostalim razvijalcem hitro razumeti kako se vse skupaj ujema.
 
-If you use a framework then most of the higher level code and project structure will be based on that framework, so a
-lot of the pattern decisions are made for you. But it is still up to you to pick out the best patterns to follow in the
-code you build on top of the framework. If, on the other hand, you are not using a framework to build your application
-then you have to find the patterns that best suit the type and size of application that you're building.
+Če uporabljate ogrodje, potem bo največ najvišje nivojske kode in projektne strukture osnovane na tem ogrodju, tako
+da veliko izbir vzorcev je že urejenih namesto vas. Vendar je še vedno na vas, da izberete najboljše vzorce, ki jim boste
+sledili v kodi, ki jo gradite na osnovi ogrodja. Po drugi strani, če ne uporabljate ogrodja za grajenje vaše aplikacije
+potem morate najti vzorce, ki najbolje zadostijo tipu in velikosti aplikacije, ki jo gradite.
 
-* Continue reading on [Design Patterns](/pages/Design-Patterns.html)
+* Nadaljujte branje na strani [načrtovalski vzorci](/pages/Design-Patterns.html)
