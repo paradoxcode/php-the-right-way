@@ -60,7 +60,7 @@ Sedaj lahko uporabite odvisnosti vašega projekta in bodo avtomatsko naložene n
 
 ### Posodobitev vaših odvisnosti
 
-Composer ustvari datoteko imenovano `composer.lock`, ki shrani točno verzijo za vsak paket, ki ga je prenesel, ko ste prvič pognali ukaz `php composer.phar install`. Če delite vaš projekt z drugimi razvijalci in je datoteka `composer.lock` del vaše distribucije, bodo ob ukazu `php composer.phar install dobili točno enake verzije kot vi. Za posodobitev vaših odvisnosti poženite ukaz `php composer.phar update`.
+Composer ustvari datoteko imenovano `composer.lock`, ki shrani točno verzijo za vsak paket, ki ga je prenesel, ko ste prvič pognali ukaz `php composer.phar install`. Če delite vaš projekt z drugimi razvijalci in je datoteka `composer.lock` del vaše distribucije, bodo ob ukazu `php composer.phar install` dobili točno enake verzije kot vi. Za posodobitev vaših odvisnosti poženite ukaz `php composer.phar update`.
 
 To je najbolj uporabno, ko definirate vaše verzije zahtev fleksibilno. Na primer zahtevana verzija ~1.8 pomeni "karkoli novejše od 1.8.0, vendar manj kot 2.0.x-dev". Lahko uporabite tudi `*` nadomestni kot pri `1.8.*`. Sedaj bo Composer ukaz `php composer.phar update` nadgradil vaše odvisnosti na najnovejše verzije, ki ustrezajo omejitvam, ki ste jih definirali.
 

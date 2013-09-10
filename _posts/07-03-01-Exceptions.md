@@ -5,21 +5,20 @@ isChild: true
 
 ## Izjeme {#exceptions_title}
 
-Izjeme so standardni deli
-Exceptions are a standard part of most popular programming languages, but they are often overlooked by PHP programmers. 
-Languages like Ruby are extremely Exception heavy, so whenever something goes wrong such as a HTTP request failing, or 
-a DB query goes wrong, or even if an image asset could not be found, Ruby (or the gems being used) will throw an 
-exception to the screen meaning you instantly know there is a mistake. 
+Izjeme (Exceptions) so standardni deli najbolj popularnih programskih jezikov, vendar so pogosto spregledani s strani PHP programerjev.
+Jeziki kot je Ruby so izjemno zapolnjeni s izjemami, tako da kadarkoli gre kaj narobe, kot npr. okvara zahtevka HTTP, ali
+okvara pri poizvedbi podatkovne baze, ali celo ko slikovnega stredstva ni mogoče najti, Ruby (ali uporabljeni gemi) bodo izpisali
+izjemo na zaslon, kar pomeni, da takoj veste, kje se nahaja napaka.
 
-PHP itself is fairly lax with this, and a call to `file_get_contents()` will usually just get you a `FALSE` and a warning.
-Many older PHP frameworks like CodeIgniter will just return a false, log a message to their proprietary logs and maybe 
-let you use a method like `$this->upload->get_error()` to see what went wrong. The problem here is that you have to go 
-looking for a mistake and check the docs to see what the error method is for this class, instead of having it made extremely 
-obvious.
+PHP sam po sebi ima precej pomanjkanja glede tega in klic `file_get_contents()` vam bo ponavadi vrnil `FALSE` in opozorilo.
+Mnoga starejša ogrodja kot je naprimer CodeIgniter bodo vrnila samo false vrednost, zapis sporočila v dnevnik in mogoče
+vam omogočila uporabo metode kot je `$this->upload->get_error()`, da lahko vidite, kaj je šlo narobe. Problem tu je, da
+morate iskati napako in preverjati dokumentacijo, za katero napako metode gre za določen razred, namesto da se to naredi
+izjemno očitno.
 
-Another problem is when classes automatically throw an error to the screen and exit the process. When you do this you 
-stop another developer from being able to dynamically handle that error. Exceptions should be thrown to make a developer aware 
-of an error; they then can choose how to handle this. E.g.:
+Naslednji problem je ko razredi avtomatsko vržejo napako na zaslon in zapustijo proces. Ko naredite to, ustavite drugega
+razvijalca, da bi lahko dinamično ravnal s to napako. Izjeme bi morale biti zagnane, da opozorijo razvijalca pred napako.
+Nato le-ta lahko izbere, kako bo ravnal v tem primeru. Primer:
 
 {% highlight php %}
 <?php
@@ -46,27 +45,27 @@ finally
 }
 {% endhighlight %}
 
-### SPL Exceptions
+### SPL izjeme
 
-The generic `Exception` class provides very little debugging context for the developer; however, to remedy this,
-it is possible to create a specialized `Exception` type by sub-classing the generic `Exception` class:
+Generični `Exception` razred ponuja zelo malo konteksta razhroščevanja za razvijalca, čeprav za odpravo tega je
+mogoče narediti specializiran `Exception` tip s pomočjo pod-razreda generičnega `Exception` razreda:
 
 {% highlight php %}
 <?php
 class ValidationException extends Exception {}
 {% endhighlight %}
 
-This means you can add multiple catch blocks and handle different Exceptions differently. This can lead to 
-the creation of a <em>lot</em> of custom Exceptions, some of which could have been avoided using the SPL Exceptions 
-provided in the [SPL extension][splext]. 
+To pomeni, da lahko dodate več catch blokov in upravljate z različnimi izjemami različno. To lahko vodi v
+ustvarjanje <em>veliko</em> izjem po meri, nekaterim med njimi se lahko izognete z uporabo SPL izjem, ki so na voljo
+v [SPL razširitvi][splext]. 
 
-If for example you use the `__call()` Magic Method and an invalid method is requested then instead of throwing a standard 
-Exception which is vague, or creating a custom Exception just for that, you could just `throw new BadFunctionCallException;`.
+Če naprimer uporabite `__call()` magično metodo in je nato zahtevana napačna metoda, se namesto zagona standardne izjeme
+`Exception`, ki je nejasna, ali ustvarjanja izjeme po meri samo za to, lahko samo zaženete `throw new BadFunctionCallException;`.
 
-* [Read about Exceptions][exceptions]
-* [Read about SPL Exceptions][splexe]
-* [Nesting Exceptions In PHP][nesting-exceptions-in-php]
-* [Exception Best Practices in PHP 5.3][exception-best-practices53]
+* [Preberite o izjemah][exceptions]
+* [Preberite o SPL izjemah][splexe]
+* [Gnezdenje izjem v PHP][nesting-exceptions-in-php]
+* [Najboljše prakse izjem v PHP 5.3][exception-best-practices53]
 
 [exceptions]: http://php.net/manual/en/language.exceptions.php
 [splexe]: http://php.net/manual/en/spl.exceptions.php
