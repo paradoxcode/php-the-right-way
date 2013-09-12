@@ -1,5 +1,5 @@
 ---
-title:   
+title:   Načrtovalski vzorci
 isChild: true
 ---
 

@@ -1,4 +1,5 @@
 ---
+title:   Windows namestitev
 isChild: true
 ---
 
@@ -8,7 +9,7 @@ PHP za Windows je na voljo na več načinov. Lahko [prenesete binarne datoteke][
 namestitveni program. Namestitveni program ni več podprt in na voljo od PHP 5.3.0.
 
 Za učenje in lokalni razvoj lahko uporabite vgrajeni spletni strežnik s PHP 5.4+, tako da vam ni treba skrbeti za njegovo konfiguracijo. Če 
-želite "vse v enem", ki vključuje celoten spletni strežnik in tudi MySQL, potem orodja kot je [] [Web Platform Installer][wpi], 
+želite "vse v enem", ki vključuje celoten spletni strežnik in tudi MySQL, potem orodja kot je [Web Platform Installer][wpi], 
 [Zend Server CE][zsce], [XAMPP][xampp] in [WAMP][wamp] pripomorejo k hitri namestitvi na Windows razvojno okolje. Tako bodo orodja 
 malenkost drugačna od produkcijskih, zato bodite previdni na razlike v razvojnih okoljih, če delate na Windows-u in nalagate na Linux.
 

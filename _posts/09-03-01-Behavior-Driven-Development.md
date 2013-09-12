@@ -1,9 +1,11 @@
 ---
+title:   Vedenjsko usmerjen razvoj
 isChild: true
 ---
 
-## Behavior Driven Development {#behavior_driven_development_title}
+## Vedenjsko usmerjen razvoj {#behavior_driven_development_title}
 
+Na voljo sta dva različna tipa vedenjsko usmerjenega razvoja (BDD): SpecBDD in StoryBDD. SpecBDD se osredotoča na tehnično obnašanje kode
 There are two different types of Behavior-Driven Development (BDD): SpecBDD and StoryBDD. SpecBDD focuses on technical behavior or code, while StoryBDD focuses on business or feature behaviors or interactions. PHP has frameworks for both types of BDD.
 
 With StoryBDD, you write human-readable stories that describe the behavior of your application. These stories 

@@ -1,4 +1,5 @@
 ---
+title:   Programske paradigme
 isChild: true
 ---
 
