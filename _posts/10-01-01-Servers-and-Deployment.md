@@ -1,3 +1,8 @@
-# Servers and Deployment {#servers_and_deployment_title}
+---
+title:   Strežniki in postavitev
+isChild: false
+---
 
-PHP applications can be deployed and run on production web servers in a number of ways.
+# Strežniki in postavitev {#servers_and_deployment_title}
+
+PHP aplikacije so lahko postavljene in pognane na produkcijskih spletnih strežnikih na mnoge načine.
