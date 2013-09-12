@@ -1,21 +1,22 @@
 ---
+title:   Predpomnilnik ukazne kode
 isChild: true
 ---
 
-## Bytecode Cache {#bytecode_cache_title}
+## Predpomnilnik ukazne kode {#bytecode_cache_title}
 
-When a PHP file is executed, under the hood it is first compiled to bytecode (also known as opcode) and, only then, the bytecode is executed.
-If a PHP file is not modified, the bytecode will always be the same. This means that the compilation step is a waste of CPU resources.
+Ko se PHP datoteka izvede, se pod pokrovom najprej prevede v ukazno kodo - bytecode (znano tudi kot opcode) in samo takrat se ukazna koda izvede.
+Če PHP datoteka ni modificirana, bo ukazna koda vedno enaka. To pomeni, da je korak prevajanja zapravljanje CPU virov.
 
-This is where Bytecode cache comes in. It prevents redundant compilation by storing bytecode in memory and reusing it on successive calls.
-Setting up bytecode cache is a matter of minutes, and your application will speed up significantly. There's really no reason not to use it.
+Tu je pomemben pa predpomnilnik ukazne kode. Preprečuje dodatna prevajanja s shranitvijo ukazne kode v spomin in jo ponovno uporabi pri zaporednih klicih.
+Vzpostavitev predpomnilnika ukazne kode je stvar nekaj minut in vaša aplikacija bo znatno pohitrena. Res ni razloga, da ga ne bi uporabili.
 
-As of PHP 5.5, there is a built-in bytecode cache called [OPcache](http://php.net/manual/en/book.opcache.php). This is
-also available for earlier versions.
+Od PHP 5.5 je na voljo vgrajeni predpomnilnik ukazne kode imenovan [OPcache](http://php.net/manual/en/book.opcache.php). Ta je na voljo tudi
+za prejšnje različice.
 
-Other popular bytecodes caches are:
+Ostali popularni predpomnilniki ukazne kode so:
 
-* [APC](http://php.net/manual/en/book.apc.php) (PHP 5.4 and earlier)
+* [APC](http://php.net/manual/en/book.apc.php) (PHP 5.4 in prejšnji)
 * [XCache](http://xcache.lighttpd.net/)
-* [Zend Optimizer+](http://www.zend.com/products/server/) (part of Zend Server package)
-* [WinCache](http://www.iis.net/download/wincacheforphp) (extension for MS Windows Server)
+* [Zend Optimizer+](http://www.zend.com/products/server/) (del Zend Server paketa)
+* [WinCache](http://www.iis.net/download/wincacheforphp) (razširitev za MS Windows Server)

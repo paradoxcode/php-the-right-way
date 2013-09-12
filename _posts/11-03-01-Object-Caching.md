@@ -1,33 +1,34 @@
 ---
+title:   Predpomnenje objektov
 isChild: true
 ---
 
-## Object Caching {#object_caching_title}
+## Predpomnenje objektov {#object_caching_title}
 
-There are times when it can be beneficial to cache individual objects in your code, such as with data that is expensive
-to get or database calls where the result is unlikely to change. You can use object caching software to hold these
-pieces of data in memory for extremely fast access later on. If you save these items to a data store after you retrieve
-them, then pull them directly from the cache for following requests, you can gain a significant improvement in
-performance as well as reduce the load on your database servers.
+Pride čas, ko je koristno predpomniti individualne objekte v vašo kodo, kot je s podatki, ki so prepomembni,
+da bi jih dobili ali klicali podatkovno bazo, kjer se rezultat verjetno ne bo spremenil. Lahko uporabite programsko
+opremo za predpomnenje objektov, da shrani te dele podatkov v spomin pri izjemno hitrih kasnejših klicih. Če shranite te
+elemente v podatkovno shrambo, ko naredite poizvedbo zanje, potem jih potegnite direktno iz predpomnilnika za le-te zahtevke.
+Dobite lahko izjemno izboljšavo v zmogljivosti kot tudi zmanjšanje obremenitve na vaše strežnike podatkovne baze.
 
-Many of the popular bytecode caching solutions let you cache custom data as well, so there's even more reason to take
-advantage of them. APCu, XCache, and WinCache all provide APIs to save data from your PHP code to their memory cache.
+Mnoge popularne rešitve predpomnilnikov ukazne kode, vam omogočajo tudi predpomnenje podatkov po meri. Tako, da je še večji razlog,
+da jih izkoristite. APCu, XCache in WinCache vsi ponunajo API-je, da shranite podatke iz vaše PHP kode v njihov spomin predpomnilnika.
 
-The most commonly used memory object caching systems are APCu and memcached. APCu is an excellent choice for object
-caching, it includes a simple API for adding your own data to its memory cache and is very easy to setup and use. The
-one real limitation of APCu is that it is tied to the server it's installed on. Memcached on the other hand is installed
-as a separate service and can be accessed across the network, meaning that you can store objects in a hyper-fast data
-store in a central location and many different systems can pull from it.
+Najobičajnejši uporabljani sistemi spominsko objektnega predpomnenja sta APCu in memcached. APCu je odlična izbira za objektno
+predpomnenje, vključuje enostaven API za dodajanje vaših podatkov v njihov spomin predpomnilnika in je zelo enostaven za
+nastaviti in uporabiti. Ena realna omejitev APCu-ja je, da je vezan na strežnik, na katerega je nameščen. Memcached po drugi strani je
+nameščen kot ločena storitev in se do nje lahko dostopa čez omrežje, kar pomeni, da lahko shranite objekte v hiper-hitro podatkovno
+shrambo v centralni lokaciji in mnoge različne sisteme lahko potegnete iz nje.
 
-Note that when running PHP as a (Fast-)CGI application inside your webserver, every PHP process will have its own
-cache, i.e. APCu data is not shared between your worker processes. In these cases, you might want to consider using
-memcached instead, as it's not tied to the PHP processes.
+Upoštevajte, da ko poganjate PHP kot (Fast-)CGI aplikacijo znotraj vašega spletnega strežnika, vsak PHP proces bo imel namesto tega svoj
+predpomnilnik, to pomeni, da APCu podatki ne bodo deljeni med vašimi delovnimi procesi. V teh primerih je namesto tega dobro premisliti o uporabi
+memcached predpomnilnika, saj ni vezan na PHP procese.
 
-In a networked configuration APCu will usually outperform memcached in terms of access speed, but memcached will be able
-to scale up faster and further. If you do not expect to have multiple servers running your application, or do not need
-the extra features that memcached offers then APCu is probably your best choice for object caching.
+V omrežnih nastavitvah APCu bo običajno prekašal memcached, kar se tiče dostopne hitrosti, vendar memcached bo sposoben
+hitrejšega in širšega skaliranja. Če ne pričakujete, da boste imeli mnoge strežnike za poganjanje vaše aplikacije ali ne potrebujete
+dodatnih lastnosti, ki jih memcached ponuja, potem je APCu verjetno najboljša izbira za predpomnenje objektov.
 
-Example logic using APCu:
+Primer logike z uporabo APCu:
 
 {% highlight php %}
 <?php
@@ -41,10 +42,10 @@ if ($data === false) {
 print_r($data);
 {% endhighlight %}
 
-Note that prior to PHP 5.5, APC provides both an object cache and a bytecode cache. APCu is a project to bring APC's
-object cache to PHP 5.5+, since PHP now has a built-in bytecode cache (OPcache).
+Upoštevajte, da pred PHP 5.5, APC ponuja tako predpomnilnik objektov kot tudi predpomnilnik ukazne kode. APCu je projekt,
+ki je prinesel APC-jev predpomnilnik objektov v PHP 5.5+, odkar ima PHP sedaj vgrajeni predpomnilnik ukazne kode (OPcache).
 
-Learn more about popular object caching systems:
+Naučite se več o popularnih sistemih predpomnilkov objektov:
 
 * [APCu](https://github.com/krakjoe/apcu)
 * [APC Functions](http://php.net/manual/en/ref.apc.php)
