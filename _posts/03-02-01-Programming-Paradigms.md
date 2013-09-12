@@ -31,9 +31,6 @@ Nove anonimne funkcije (s podporo za zapiranje - closures) so prisotne od PHP 5.
 PHP 5.4 je dodal zmožnost za vezavo zapiranj (bind closures) obsega objekta in tudi izboljšano podporo klicajočih, tako da
 so lahko uporabljene neodvisno z anonimnimi funkcijami v skoraj vseh primerih.
 
-PHP 5.4 added the ability to bind closures to an object's scope and also improved support for callables such that they
-can be used interchangeably with anonymous functions in almost all cases.
-
 * Nadaljujte branje na strani [funkcijsko programiranje v PHP](/pages/Functional-Programming.html)
 * [Preberite o anonimnih funkcijah][anonymous-functions]
 * [Preberite o Closure razredu][closure-class]
