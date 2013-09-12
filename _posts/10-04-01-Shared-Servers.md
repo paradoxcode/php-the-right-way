@@ -1,7 +1,10 @@
 ---
+title:   Skupni strežniki
 isChild: true
 ---
 
-## Shared Servers {#shared_servers_title}
+## Skupni strežniki {#shared_servers_title}
 
-PHP has shared servers to thank for its popularity. It is hard to find a host without PHP installed, but be sure it's the latest version. Shared servers allow you and other developers to deploy websites to a single machine. The upside to this is that it has become a cheap commodity. The downside is that you never know what kind of a ruckus your neighboring tenants are going to create; loading down the server or opening up security holes are the main concerns. If your project's budget can afford to avoid shared servers you should.
+PHP se lahko zahvali skupnim strežnikom za njegovo popularnost. Težko je najti gostitelja brez nameščenega PHP, vendar bodite prepričani, da je zadnja verzija. Skupni strežniki dovoljujejo
+vam ali ostalim razvijalcem, da se postavi spletno stran na eno napravo. Prednost tega je, da je to postalo poceni blago. Slabost pa je, da nikoli ne veste, kakšno navlako bodo vaši sosednje ustvarili;
+nalagalni čas strežnika in odprte varnostne luknje so glavna zaskrbljenost. Če si proračun vašega strežnika lahko privošči izogib skupnih strežnikov, je to dobro.
