@@ -1,23 +1,23 @@
 ---
+title:   Ogrodja
 isChild: true
 ---
 
-## Frameworks {#frameworks_title}
+## Ogrodja {#frameworks_title}
 
-Rather than re-invent the wheel, many PHP developers use frameworks to build out web applications. Frameworks abstract away many of the low-level concerns and provide helpful, easy-to-use interfaces to complete common tasks.
+Namesto ponovnega odkrivanja kolesa, mnogi PHP razvijalci uporabljajo ogrodja, da zgradijo spletne aplikacije. Ogrodja abstraktirajo mnoge nizko nivojske skrbi in ponujajo ustrežljive vmesnike enostavne za uporabo, da se dokonča pogosta opravila.
 
-You do not need to use a framework for every project. Sometimes plain PHP is the right way to go, but if you do need a framework then there are three main types available:
+Ne potrebujete uporabljati ogrodja za vsak projekt. Včasih je preprosti PHP, pravilen način, vendar če pa potrebujete ogrodje potem so na voljo trije glavni tipi:
 
-* Micro Frameworks
-* Full-Stack Frameworks
-* Component Frameworks
+* Mikro ogrodja
+* Celotna ogrodja
+* Komponentna ogrodja
 
-Micro-frameworks are essentially a  wrapper to route a HTTP request to a callback, controller, method, etc as quickly as possible, and sometimes come with a few extra libraries to assist development such as basic database wrappers and the like. They are prominently used 
-to build remote HTTP services.
+Mikro ogrodja so v osnovi ovoj za usmeritev HTTP zahtevka v povratni klic, kontroler, metodo itd. kot hitro je mogoče in včasih pridejo z nekaj dodatnimi knjižnicami, da pomagajo razvijanju, kot so osnovna ovijanja podatkovne baze in podobno. Uporabljeni so očitno za gradnjo oddaljenih HTTP storitev.
 
-Many frameworks add a considerable number of features on top of what is available in a micro-framework and these are known Full-Stack 
-Frameworks. These often come bundled with ORMs, Authentication packages, etc.
+Mnoga ogrodja dodajo veliko število lastnosti na, kar je na voljo v mikro ogrodju in ta so znana kot celotna ogrodja.
+Ta pogosto pridejo v paketu z ORM-ji, paketi za preverjanje pristnosti itd.
 
-Component-based frameworks are collections of specialized and single-purpose libraries. Disparate component-based frameworks can be used together to make a micro- or full-stack framework.
+Komponentno osnovana ogrodja so zbirka specializiranih in samonamenskih knjižnic. Raznolika komponentno osnovana ogrodja se lahko uporabljajo skupaj, da se tvori mikro ali celotno ogrodje.
 
-* [Popular PHP Frameworks](https://github.com/codeguy/php-the-right-way/wiki/Frameworks)
+* [Popularna PHP ogrodja](https://github.com/codeguy/php-the-right-way/wiki/Frameworks)
