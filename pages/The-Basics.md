@@ -1,14 +1,14 @@
 ---
 layout: page
-title: The Basics
+title: Osnove
 ---
 
-# The Basics
+# Osnove
 
-## Comparison operators
+## Primerjalni operatorji
 
-Comparison operators are an often overlooked aspect of PHP, which can lead to many unexpected outcomes. One such
-problem stems from strict comparisons (the comparison of booleans as integers).
+Primerjalni operatorji so pogosto spregledani aspekt PHP-ja, kar lahko pelje do mnogih nepričakovanih rezultatov.
+En tak problem izhaja iz striktnih primerjav (primerjava logičnih izrazov kot cela števila).
 
 {% highlight php %}
 <?php
@@ -33,16 +33,16 @@ if (strpos('testing', 'test') !== false) {    // true, as strict comparison was 
 }
 {% endhighlight %}
 
-* [Comparison operators](http://php.net/manual/en/language.operators.comparison.php)
-* [Comparison table](http://php.net/manual/en/types.comparisons.php)
+* [Primerjalni operatorji](http://php.net/manual/en/language.operators.comparison.php)
+* [Primerjalna tabela](http://php.net/manual/en/types.comparisons.php)
 
-## Conditional statements
+## Pogojni stavki
 
-### If statements
+### If stavki
 
-While using 'if/else' statements within a function or class, there is a common misconception that 'else' must be used
-in conjunction to declare potential outcomes. However if the outcome is to define the return value, 'else' is not
-necessary as 'return' will end the function, causing 'else' to become moot.
+Pri uporabi 'if/else' stavkov znotraj funkcije ali razreda, je pogosto spregledano, da mora biti 'else' uporabljen
+v vezavi, da se deklarira potencialne rezultate. Vendar če rezultat definira vrednost, ki jo vrne, 'else' ni
+potreben saj bo 'return' končala funkcijo, kar naredi 'else' spornega.
 
 {% highlight php %}
 <?php
@@ -66,16 +66,16 @@ function test($a)
 }
 {% endhighlight %}
 
-* [If statements](http://php.net/manual/en/control-structures.if.php)
+* [If stavki](http://php.net/manual/en/control-structures.if.php)
 
-### Switch statements
+### Switch stavki
 
-Switch statements are a great way to avoid typing endless if's and elseif's, but there are a few things to be aware of:
+Switch stavki so odličen način za izogib pisanju neskončnih 'if' in 'else' stavkov, vendar je nekaj stvari, na katere je dobro biti pozoren:
 
-- Switch statements only compare values, and not the type (equivalent to '==')
-- They Iterate case by case until a match is found. If no match is found, then the default is used (if defined)
-- Without a 'break', they will continue to implement each case until reaching a break/return
-- Within a function, using 'return' alleviates the need for 'break' as it ends the function
+- Switch stavki samo primerjajo vrednosti in ne tipa (ekvivalentno '==')
+- Ponavljajo 'case' za 'case' sklopom dokler ni ujemanje najdeno. Če ni najdenega ujemanja, potem je uporabljen 'default' (če je definiran)
+- Brez 'break', bodo nadaljevali implementacijo vsakega 'case' dokler ne dosežejo 'break/return'
+- Znotraj funkcije uporaba 'return' blaži potrebo po 'break' saj konča funkcijo
 
 {% highlight php %}
 <?php
@@ -99,13 +99,13 @@ function test($a)
 }
 {% endhighlight %}
 
-* [Switch statements](http://php.net/manual/en/control-structures.switch.php)
+* [Switch stavki](http://php.net/manual/en/control-structures.switch.php)
 * [PHP switch](http://phpswitch.com/)
 
-## Global namespace
+## Globalni imenski prostor
 
-When using namespaces, you may find that internal functions are hidden by functions you wrote. To fix this,
-refer to the global function by using a backslash before the function name.
+Ko se uporablja imenske prostore, lahko ugotovite, da so interne funkcije skrite za funkcijami, ki jih napišete. Da se to popravi,
+se sklicujte na globalne funkcije z uporabo poševnice nazaj pred imenom funkcije.
 
 {% highlight php %}
 <?php
@@ -124,16 +124,16 @@ function array()
 }
 {% endhighlight %}
 
-* [Global space](http://php.net/manual/en/language.namespaces.global.php)
-* [Global rules](http://php.net/manual/en/userlandnaming.rules.php)
+* [Globalni prostor](http://php.net/manual/en/language.namespaces.global.php)
+* [Globalna pravila](http://php.net/manual/en/userlandnaming.rules.php)
 
-## Strings
+## Nizi
 
-### Concatenation
+### Spajanje
 
-- If your line extends beyond the recommended line length (120 characters), consider concatenating your line
-- For readability it's best to use concatenation operators over concatenating assignment operators
-- While within the original scope of the variable, indent when concatenation uses a new line
+- Če je vaša vrstica širša preko priporočene dolžine vrstice (120 znakov), razmislite o spajanju vaše vrstice
+- Za bralnost je najboljše uporabiti operatorje spajanja nad operatorji dodeljevanja
+- Medtem ko ste znotraj originalnega področja spremenljivke, zamaknite kodo, ko spajanje uporabi novo vrstico
 
 
 {% highlight php %}
@@ -149,20 +149,20 @@ $a = 'Multi-line example'      // concatenation operator (.)
     . 'of what to do';
 {% endhighlight %}
 
-* [String Operators](http://php.net/manual/en/language.operators.string.php)
+* [Operatorji nizov](http://php.net/manual/en/language.operators.string.php)
 
-### String types
+### Tipi nizov
 
-String types are a constant feature within the PHP community, but hopefully this section will explain the
-differences between the string types and their benefits/uses.
+Tipi nizov so konstantna lastnost znotraj PHP skupnosti, vendar upajmo, da bo ta sekcija razložila
+razlike med tipi nizov in njenimi prednostmi/uporabami.
 
-#### Single quotes
+#### Enojni citati
 
-Single quotes are the simplest way to define a string and are often the quickest. Their speed stems from PHP not
-parsing the string (doesn't parse for variables). They're best suited for:
+Enojni citati so najenostavnejša pot za definiranje niza in so pogosto najhitrejši. Njihova hitrost izhaja iz PHP-ja,
+ki ne parsa niza (ne razčlenjuje za spremenljivke). Najboljše so uporabni za:
 
-- Strings that do not need to be parsed
-- Writing of a variable into plain text
+- Nize, ki ne potrebujejo razčlenjevanja
+- Pisanje spremenljivke v preprosti tekst
 
 {% highlight php %}
 <?php
@@ -175,16 +175,16 @@ echo 'This is my string, look at how pretty it is.';    // no need to parse a si
  */
 {% endhighlight %}
 
-* [Single quote](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.single)
+* [Enojni citat](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.single)
 
-#### Double quotes
+#### Dvojni citati
 
-Double quotes are the Swiss army knife of strings, but are slower due to the string being parsed. They're best
-suited for:
+Dvojni citati so švicarski vojaški nož za nize, vendar so počasnejši zaradi razčlenjevanja niza. Najboljše so
+uporabni za:
 
-- Escaped strings
-- Strings with multiple variables and plain text
-- Condensing multi-line concatenation, and improving readability
+- Zatekajoče nize (escaped)
+- Nizi z mnogimi spremenljivkami in preprostim tekstom
+- Zgoščevanje več vrstičnega spojevanja in izboljšanja bralnosti
 
 {% highlight php %}
 <?php
@@ -198,9 +198,9 @@ echo "phptherightway is $adjective.\n I love learning $code!"  // Instead of mul
                                                                // enables us to use a parsable string
 {% endhighlight %}
 
-While using double quotes that contain variables, it's often the case that the variable will be touching another
-character. This will result in PHP not parsing the variable due to the variable being camouflaged. To fix this problem,
-wrap the variable within a pair of curly brackets.
+Ko se uporablja dvojne citate, ki vsebujejo spremenljivke, je pogosti primer, da se bo spremenljivka dotikala drugega
+znaka. To bo imelo za posledico, da PHP ne bo razčlenil spremenljivke, ker je le-ta prikrita. Da se izognete temu problemu,
+zavijte spremenljivko znotraj para zavitih oklepajev.
 
 {% highlight php %}
 <?php
@@ -220,12 +220,12 @@ $juice = array('apple', 'orange', 'plum');
 echo "I drank some juice made of {$juice[1]}s";   // $juice[1] will be parsed
 {% endhighlight %}
 
-* [Double quotes](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double)
+* [Dvojni citati](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double)
 
-#### Nowdoc syntax
+#### Nowdoc sintaksa
 
-Nowdoc syntax was introduced in 5.3 and internally behaves the same way as single quotes except it's suited toward the
-use of multi-line strings without the need for concatenating.
+Nowdoc sintaksa je bila predstavljena v 5.3 in se interno obnaša na podoben način kot enojni citati, razen ko je primernejše
+uporabiti več vrstične nize brez potrebe po spojevanju.
 
 {% highlight php %}
 <?php
@@ -246,12 +246,12 @@ EOD;                        // closing 'EOD' must be on it's own line, and to th
  */
 {% endhighlight %}
 
-* [Nowdoc syntax](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.nowdoc)
+* [Nowdoc sintaksa](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.nowdoc)
 
-#### Heredoc syntax
+#### Heredoc sintaksa
 
-Heredoc syntax internally behaves the same way as double quotes except it's suited toward the use of multi-line
-strings without the need for concatenating.
+Heredoc sintaksa se interno obnaša na enak način kot dvojni citati razen, da je primernejša za uporabo
+več vrstičnih nizov brez potrebe po spojevanju.
 
 {% highlight php %}
 <?php
@@ -274,12 +274,12 @@ EOD;                        // closing 'EOD' must be on it's own line, and to th
  */
 {% endhighlight %}
 
-* [Heredoc syntax](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc)
+* [Heredoc sintaksa](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc)
 
-## Ternary operators
+## Trojni operatorji
 
-Ternary operators are a great way to condense code, but are often used in excess. While ternary operators can be
-stacked/nested, it is advised to use one per line for readability.
+Trojni operatorji so odlična pot za zgoščeno kodo, vendar so pogosto uporabljeni s presežkom. Medtem ko so lahko
+trojni operatorji zloženi/gnezdeni, je priporočljivo uporabiti enega na vrstico zaradi bralnosti.
 
 {% highlight php %}
 <?php
@@ -306,13 +306,13 @@ $a = 5;
 return ($a == 5) ? 'yay' : 'nope';    // this example will return 'yay'
 {% endhighlight %}
 
-* [Ternary operators](http://php.net/manual/en/language.operators.comparison.php)
+* [Trojni operatorji](http://php.net/manual/en/language.operators.comparison.php)
 
-## Variable declarations
+## Deklaracije spremenljivk
 
-At times, coders attempt to make their code "cleaner" by declaring predefined variables with a different name. What
-this does in reality is to double the memory consumption of said script. For the example below, let's say
-an example string of text contains 1MB worth of data, by copying the variable you've increased the scripts execution to
+V času, ko programerji poskušajo narediti njihovo kodo čistejšo z deklaracijo vnaprej definiranih spremenljivk z
+različnimi imeni. To pomeni, da je v realnosti potrebna poraba dvojnega spomina omenjene skripte. Za primer spodaj
+recimo, da primer niza teksta vsebuje podatke vrednih 1MB, s kopiranjem spremenljivke ste povečali izvajanje skripte za
 2MB.
 
 {% highlight php %}
@@ -320,9 +320,9 @@ an example string of text contains 1MB worth of data, by copying the variable yo
 $about = 'A very long string of text';    // uses 2MB memory
 echo $about;
 
-vs.
+proti
 
 echo 'A very long string of text';        // uses 1MB memory
 {% endhighlight %}
 
-* [Performance tips](https://developers.google.com/speed/articles/optimizing-php)
+* [Nasveti zmogljivosti](https://developers.google.com/speed/articles/optimizing-php)
