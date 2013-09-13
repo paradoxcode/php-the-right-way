@@ -19,6 +19,17 @@ obliki in odstrani potrebo po vzdrževanju komplicirane namestitve seznama koman
 Vagrant naredi skupne mape, ki se uporabljajo za deljenje vaše kode med vašim gostiteljem in vašo virtualno napravo, kar 
 pomeni, da lahko naredite in uredite vaše datoteke na vaši gostiteljski napravi in nato poženete kodo znotraj virtalne naprave.
 
+### Malo pomoči
+
+Če potrebujete malo pomoči za začetek uporabe Vagranta, sta na voljo dve storitvi, ki sta lahko uporabni:
+
+- [Rove][rove]: storitev, ki vam omogoča vnaprej genererati tipične Vagrant gradnje, PHP med opcijami na primer. Oskrbovanje
+  je narejeno s Chef-om.
+- [Puphpet][puphpet]: enostaven GUI, da nastavite virtualno napravo za PHP razvoj. **Močno osredotočeno na PHP**. Poleg
+  lokalnih virtualnih naprav (VM), je lahko tudi uporabljen za postavitev na odlačne storitve. Oskrbovanje je narejeno s Puppet-om.
+
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/
 [chef]: http://www.opscode.com/
+[rove]: http://rove.io/
+[puphpet]: https://puphpet.com/ 

@@ -1,19 +1,20 @@
 ---
 layout: page
-title: Design Patterns
+title: Načtrovalski vzorci
 ---
 
-# Design Patterns
+# Načrtovalski vzorci
 
-There are numerous ways to structure the code and project for you web application, and you can put as much or as little
-thought as you like into architecting. But it is usually a good idea to follow to common patterns because it will make
-your code easier to manage and easier for others to understand.
+Obstaja mnogo načinov za strukturiranje kode in projekta za vašo spletno aplikacijo in v to lahko vložite ogromno ali pa
+malo premisleka kot ga želite v arhitekturo. Vendar je ponavadi dobra ideja, da se sledi pogostim vzorcem, ker bo vašo
+kodo naredilo enostavnejšo za upravljanje in enostavnejšo drugim za razumevanje.
 
-* [Architectural pattern on Wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern)
-* [Software design pattern on Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+* [Arhitekturni vzorci na Wikipediji](https://en.wikipedia.org/wiki/Architectural_pattern)
+* [Načrtovalski vzorci programske opreme na Wikipediji](https://en.wikipedia.org/wiki/Software_design_pattern)
 
-## Factory
+## Tovarna
 
+Eden najpogosteje uporabljanih načrtovalskih vzorcev je 
 One of the most commonly used design patterns is the factory pattern. In this pattern, a class simply creates
 the object you want to use. Consider the following example of the factory pattern:
 
@@ -149,7 +150,7 @@ application, as the object using the shared or global resource requires no knowl
 
 * [Singleton pattern on Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 
-## Strategy
+## Streategija
 
 With the strategy pattern you encapsulate specific families of algorithms allowing the client class responsible for 
 instantiating a particular algorithm to have no knowledge of the actual implementation.

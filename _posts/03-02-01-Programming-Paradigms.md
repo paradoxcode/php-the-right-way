@@ -23,7 +23,7 @@ PHP podpira prvo razredne funkcije, kar pomeni, da je lahko funkcija dodeljena s
 vgrajene funkcije se lahko sklicujejo v spremenljivki in se jih kliče dinamično. Funkcije se lahko podaja kot argumente drugim
 funkcijam (lastnost višji red - higher-order funkcije) in funkcija lahko vrne tudi drugo funkcijo.
 
-Rekurzija, lastnost, ki dovoljuje funkciji, da kliče samo sebe, je podprta v jeziku, vendar večina PPH kode se osredotoča na
+Rekurzija, lastnost, ki dovoljuje funkciji, da kliče samo sebe, je podprta v jeziku, vendar večina PHP kode se osredotoča na
 iteracije.
 
 Nove anonimne funkcije (s podporo za zapiranje - closures) so prisotne od PHP 5.3 (2009).

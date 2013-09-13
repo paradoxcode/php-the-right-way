@@ -15,7 +15,7 @@ Druga možnost je [lastnoročno prevajanje][mac-compile], v tem primeru poskrbie
 Apple-ov nadomestek ["Command Line Tools for Xcode"][apple-developer], ki je na voljo za prenos iz Apple Mac Developer centra.
 
 Za popoln "vse v enem" paket, ki vsebuje PHP, Apache spletni strežnik in MySQL bazo, skupaj z lično kontrolnim grafičnim
-vmesnikom (GUI), poskusite [MAMP][mamp-downloads].
+vmesnikom (GUI), poskusite [MAMP][mamp-downloads] or [XAMPP][xampp].
 
 [mac-package-managers]: http://www.php.net/manual/en/install.macosx.packages.php
 [mac-compile]: http://www.php.net/manual/en/install.macosx.compile.php
@@ -23,3 +23,4 @@ vmesnikom (GUI), poskusite [MAMP][mamp-downloads].
 [apple-developer]: https://developer.apple.com/downloads
 [mamp-downloads]: http://www.mamp.info/en/downloads/index.html
 [php-osx-downloads]: http://php-osx.liip.ch/
+[xampp]: http://www.apachefriends.org/en/xampp.html
