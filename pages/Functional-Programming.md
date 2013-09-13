@@ -1,25 +1,25 @@
 ---
 layout: page
-title: Functional Programming in PHP
+title: Funkcijsko programiranje v PHP
 ---
 
-# Functional Programming in PHP
+# Funkcijsko programiranje v PHP
 
-PHP supports first-class functions, meaning that a function can be assigned to a variable. Both user-defined and built-in 
-functions can be referenced by a variable and invoked dynamically. Functions can be passed as arguments to other
-functions (a feature called higher-order functions) and a function can return other functions.
+PHP podpira prvo razredne funkcije, kar pomeni, da je funkcija lahko prirejena spremenljivki. Tako uporabniško definirane
+kot vgrajene funkcije se lahko sklicujejo na spremenljivko. Funkcije se lahko podaja kot argumente drugim funkcijam
+(lastnost imenovana funkcije višjega reda) in funkcija lahko vrne drugo funkcijo.
 
-Recursion, a feature that allows a function to call itself, is supported by the language, but most of the PHP code focus
-is on iteration.
+Rekurzija, lastnost, ki dovoljuje, da funkcija kliče samo sebe, je podprta s strani jezika, vendar največ osredotočanja
+PHP kode je na iteracije.
 
-Anonymous functions (with support for closures) have been present since PHP 5.3 (2009).
+Anonimne funkcije (s podporo za zaprtja - closures) so prisotne od PHP 5.3 (2009).
 
-PHP 5.4 added the ability to bind closures to an object's scope and also improved support for callables such that they
-can be used interchangeably with anonymous functions in almost all cases.
+PHP 5.4 je dodal zmožnost vezanja zaprtij na objektov prosto in tudi izboljšal podporo za klicajoče, tako da so
+lahko uporabljeni izmenično z anonimnimi funkcijami v skoraj vseh primerih.
 
-The most common usage of higher-order functions is when implementing a strategy pattern. The built-in `array_filter`
-function asks both for the input array (data) and a function (a strategy or a callback) used as a filter function on
-each array item.
+Najbolj pogost primer uporabe funkcij višjih redov je, ko se implementira strateški vzorec. Vgrajena `array_filter`
+funkcija sprašuje tako za vnosno polje (podatki) in funkcijo (strategija ali klicajoči), katera je uporabljena kot
+filtrirna funkcija na vsakem elementu polja.
 
 {% highlight php %}
 <?php
@@ -41,12 +41,12 @@ $output = array_filter($input, function($item) {
 print_r($output);
 {% endhighlight %}
 
-A closure is an anonymous function that can access variables imported from the outside scope without using any global
-variables. Theoretically, a closure is a function with some arguments closed (e.g. fixed) by the environment when it is 
-defined. Closures can work around variable scope restrictions in a clean way.
+Zaprtje je anonimna funkcija, ki lahko dostopa do spremenljivk uvoženih iz zunanjega prostora brez uporabe kakršnihkoli
+globalnih spremenljivk. Teoretično je zaprtje funkcija z nekaj zaprtimi argumenti (t.j. fiksiranimi) zaradi okolja, ko je
+definirana. Zaprtja lahko delajo okrog omejitev prostora spremenljivke na čisti način.
 
-In the next example we use closures to define a function returning a single filter function for `array_filter`, out of
-a family of filter functions.
+V naslednjem primeru bomo uporabili zaprtje za definicijo funkcije, ki vrne eno filtrirno funkcijo za `array_filter` izven
+družine filtrirnih funkcij.
 
 {% highlight php %}
 <?php
@@ -70,17 +70,17 @@ $output = array_filter($input, criteria_greater_than(3));
 print_r($output); // items > 3
 {% endhighlight %}
 
-Each filter function in the family accepts only elements greater than some minimum value. Single filter returned by 
-`criteria_greater_than` is a closure with `$min` argument closed by the value in the scope (given as an argument when 
-`criteria_greater_than` is called).
+Vsaka filtrirna funkcija v družini sprejme samo elemente večje od nekaterih najmanjših vrednosti. Enoten filter vrnjen
+od `criteria_grater_than` je zaprtje z `$min` argumentom zaprtim s strani vrednosti v prostoru (podanim kot argument ko
+je klican `criteria_greater_than`).
 
-Early binding is used by default for importing `$min` variable into the created function. For true closures with late
-binding one should use a reference when importing. Imagine a templating or input validation library, where closure is 
-defined to capture variables in scope and access them later when the anonymous function is evaluated.
+Zgodnje vezavanje je uporabljeno privzeto z uvozom `$min` spremenljivke v izdelano funkcijo. Za prava zaprtja z zakasnjeno
+vezavo bi le-ta morala biti sklic, ko se uvaža. Predstavljajte si predlogo ali knjižnico za vnosno preverjanje, kjer je
+zaprtje definirano za zajemanje spremenljivk v prostoru in dostopa do njih kasneje, ko se oceni anonimna funkcija.
 
-* [Read about Anonymous functions][anonymous-functions]
-* [More details in the Closures RFC][closures-rfc]
-* [Read about dynamically invoking functions with `call_user_func_array`][call-user-func-array]
+* [Preberite več o Anonimnih funkcijah][anonymous-functions]
+* [Več podrobnosti v Closures RFC][closures-rfc]
+* [Preberite o dinaminčne sklicevanju funkcij s  `call_user_func_array`][call-user-func-array]
 
 [anonymous-functions]: http://www.php.net/manual/en/functions.anonymous.php
 [call-user-func-array]: http://php.net/manual/en/function.call-user-func-array.php
