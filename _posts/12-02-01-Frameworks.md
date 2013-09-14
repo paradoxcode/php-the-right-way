@@ -7,7 +7,7 @@ isChild: true
 
 Namesto ponovnega odkrivanja kolesa, mnogi PHP razvijalci uporabljajo ogrodja, da zgradijo spletne aplikacije. Ogrodja abstraktirajo mnoge nizko nivojske skrbi in ponujajo ustrežljive vmesnike enostavne za uporabo, da se dokonča pogosta opravila.
 
-Ne potrebujete uporabljati ogrodja za vsak projekt. Včasih je preprosti PHP, pravilen način, vendar če pa potrebujete ogrodje potem so na voljo trije glavni tipi:
+Ne potrebujete uporabljati ogrodja za vsak projekt. Včasih je preprosti PHP pravilen način, vendar če pa potrebujete ogrodje potem so na voljo trije glavni tipi:
 
 * Mikro ogrodja
 * Celotna ogrodja

@@ -26,7 +26,7 @@ pomeni, da lahko naredite in uredite vaše datoteke na vaši gostiteljski naprav
 - [Rove][rove]: storitev, ki vam omogoča vnaprej genererati tipične Vagrant gradnje, PHP med opcijami na primer. Oskrbovanje
   je narejeno s Chef-om.
 - [Puphpet][puphpet]: enostaven GUI, da nastavite virtualno napravo za PHP razvoj. **Močno osredotočeno na PHP**. Poleg
-  lokalnih virtualnih naprav (VM), je lahko tudi uporabljen za postavitev na odlačne storitve. Oskrbovanje je narejeno s Puppet-om.
+  lokalnih virtualnih naprav (VM), je lahko tudi uporabljen za postavitev na oblačne storitve. Oskrbovanje je narejeno s Puppet-om.
 
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/

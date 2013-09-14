@@ -43,7 +43,7 @@ Pomagajte tej strani narediti najboljši vir za nove PHP programerje! [Prispevaj
 _PHP: The Right Way_ ima na voljo slike pasic, ki jih lahko uporabite na vaši spletni strani. Pokažite vašo podporo in obvestite PHP razvijalce, 
 kje lahko najdejo dobre informacije!
 
-[Poglejte si slike bannerjev][2]
+[Poglejte si slike pasic][2]
 
 [1]: https://github.com/paradoxcode/php-the-right-way/tree/gh-pages
 [2]: /banners.html

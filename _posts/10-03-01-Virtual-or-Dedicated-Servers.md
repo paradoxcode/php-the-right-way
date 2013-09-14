@@ -1,5 +1,5 @@
 ---
-title:   Virtualni ali nameski strežniki
+title:   Virtualni ali namenski strežniki
 isChild: true
 ---
 
@@ -9,7 +9,7 @@ isChild: true
 
 ### nginx in PHP-FPM
 
-PHP preko PHP-jevega vgrajenega FastCGI procesnega upravljalnika (FPM), gre skupaj res lepo z [nginx](http://nginx.org) strežnikom, ki je lahek, dobro zmogljiv spletni strežnik. Uporabi manj
+PHP preko PHP-jevega vgrajenega FastCGI procesnega upravljalnika (FPM), gre res lepo skupaj z [nginx](http://nginx.org) strežnikom, ki je lahek, dobro zmogljiv spletni strežnik. Uporabi manj
 spomina kot Apache in boljše ravna s trenutni zahtevki. To je še posebej pomembno na virtualnih strežnikih, ki nimajo na voljo veliko spomina.
 
 * [Preberite več o nginx](http://nginx.org)

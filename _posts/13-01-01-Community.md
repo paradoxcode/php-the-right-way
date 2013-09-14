@@ -5,8 +5,8 @@ isChild: false
 
 # Skupnost {#community_title}
 
-PHP skupnost je raznolika, kot je tudi velika in njeni člani so pripravljeni podpirati nove PHP programerje. Premislite o pridružitvi vaše lokalne PHP uporabniške skupine (PHP User Group - PUG)
-ali obiščite večje PHP konference, da se naučite več o najboljših praksah prikazanih tu. Lahko se priklopite tudi na IRC na #phpc kanal [irc.freenode.com][php-irc] in sledite [@phpc][phpc-twitter] twitter računu. Pojdite tja, spoznajte nove razvijalce, naučite se nove teme in predvsem si naredite nove prijatelje! Ostali viri skupnosti vključujejo Google+ PHP [Programmer community][php-programmers-gplus] in [StackOverflow][php-so].
+PHP skupnost je tako raznolika, kot je tudi velika in njeni člani so pripravljeni podpirati nove PHP programerje. Premislite o pridružitvi vaše lokalne PHP uporabniške skupine (PHP User Group - PUG)
+ali obiščite večje PHP konference, da se naučite več o najboljših praksah prikazanih tu. Lahko se priklopite tudi na IRC na #phpc kanal [irc.freenode.com][php-irc] in sledite [@phpc][phpc-twitter] twitter računu. Pojdite tja, spoznajte nove razvijalce, naučite se nove teme in predvsem si naredite nove prijatelje! Ostali viri skupnosti vključujejo Google+ PHP [programersko skupnost][php-programmers-gplus] in [StackOverflow][php-so].
 
 [Preberite uraden koledar PHP dogodkov][php-calendar]
 
@@ -18,7 +18,7 @@ ali obiščite večje PHP konference, da se naučite več o najboljših praksah 
 
 ## PHP konference
 
-PHP skupnost tudi gosti večje regionalne in nacionalne konference v mnogih državah po svetu. Dobro znani člani PHP skupnosti običajno govorijo na teh večjih dogodkih, tako da je to odlična priložnost,
+PHP skupnost gosti tudi večje regionalne in nacionalne konference v mnogih državah po svetu. Dobro znani člani PHP skupnosti običajno govorijo na teh večjih dogodkih, tako da je to odlična priložnost,
 da se naučite direktno od vodilnih v industriji.
 
 [Najdite PHP konferenco][php-conf]

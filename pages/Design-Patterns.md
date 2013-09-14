@@ -14,9 +14,8 @@ kodo naredilo enostavnejšo za upravljanje in enostavnejšo drugim za razumevanj
 
 ## Tovarna
 
-Eden najpogosteje uporabljanih načrtovalskih vzorcev je 
-One of the most commonly used design patterns is the factory pattern. In this pattern, a class simply creates
-the object you want to use. Consider the following example of the factory pattern:
+Eden najpogosteje uporabljanih načrtovalskih vzorcev je vzorec tovarne. V tem vzorcu razred enostavno naredi objekt,
+ki ga želite uporabiti. Premislite o sledečem primeru vzorca tovarne:
 
 {% highlight php %}
 <?php
@@ -51,11 +50,11 @@ $veyron = AutomobileFactory::create('Bugatti', 'Veyron');
 print_r($veyron->get_make_and_model()); // outputs "Bugatti Veyron"
 {% endhighlight %}
 
-This code uses a factory to create the Automobile object. There are two possible benefits to building your code this
-way, the first is that if you need to change, rename, or replace the Automobile class later on you can do so and you
-will only have to modify the code in the factory, instead of every place in your project that uses the Automobile
-class. The second possible benefit is that if creating the object is a complicated job you can do all of the work in
-the factory, instead of repeating it every time you want to create a new instance.
+Ta koda uporablja tovarno za izdelavo objekta Automobile. Na voljo sta dve možni prednosti za gradnjo vaše kode po
+tej poti. Prva je, da če potrebujete naknadno spremeniti, preimenovati ali zamenjati razred Automobile, lahko to storite
+in morali boste samo spremeniti kodo v tovarni, namesto na vsakem mestu v vašem projektu, ki uporablja razred Automobile.
+Druga možna prednost je, da če je izdelava objekta komplicirano opravilo, lahko vso delo opravite v tovarni, namesto
+ponavljanja vsakokrat, ko želite narediti novo instanco.
 
 Using the factory pattern isn't always necessary (or wise). The example code used here is so simple that a factory
 would simply be adding unneeded complexity. However if you are making a fairly large or complex project you may save
