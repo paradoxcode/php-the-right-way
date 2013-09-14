@@ -56,11 +56,11 @@ in morali boste samo spremeniti kodo v tovarni, namesto na vsakem mestu v vašem
 Druga možna prednost je, da če je izdelava objekta komplicirano opravilo, lahko vso delo opravite v tovarni, namesto
 ponavljanja vsakokrat, ko želite narediti novo instanco.
 
-Using the factory pattern isn't always necessary (or wise). The example code used here is so simple that a factory
-would simply be adding unneeded complexity. However if you are making a fairly large or complex project you may save
-yourself a lot of trouble down the road by using factories.
+Uporaba tovarniškega vzorca ni vedno potrebna (ali pametna). Primer kode uporabljene tu je tako enostavna, da bi bila
+tovarna enostavno dodajanje nepotrebne kompleksnosti. Vendar če izdelujete dokaj velik ali kompleksen projekt, si lahko
+prihranite precej težav na poti z uporabo tovarn.
 
-* [Factory pattern on Wikipedia](https://en.wikipedia.org/wiki/Factory_pattern)
+* [Tovarniški vzorec na Wikipediji](https://en.wikipedia.org/wiki/Factory_pattern)
 
 ## Singleton
 
