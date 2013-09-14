@@ -133,30 +133,30 @@ var_dump($anotherObj === SingletonChild::getInstance()); // bool(true)
 Koda zgoraj implementira enojni vzorec z uporabo [*statične* spremenljivke](http://php.net/language.variables.scope#language.variables.scope.static) in statične izdelovalne metode `getInstance()`.
 Upoštevajte sledeče:
 
-* Konstruktor [`__construct`](http://php.net/language.oop5.decon#object.construct) is declared as protected to prevent creating a new instance outside of the class via the `new` operator.
-* Magična metoda [`__clone`](http://php.net/language.oop5.cloning#object.clone) is declared as private to prevent cloning of an instance of the class via the [`clone`](http://php.net/language.oop5.cloning) operator.
-* Magična metoda [`__wakeup`](http://php.net/language.oop5.magic#object.wakeup) is declared as private to prevent unserializing of an instance of the class via the global function [`unserialize()`](http://php.net/function.unserialize).
-* A new instance is created via [late static binding](http://php.net/language.oop5.late-static-bindings) in the static creation method `getInstance()` with the keyword `static`. This allows the subclassing of the class `Singleton` in the example.
+* Konstruktor [`__construct`](http://php.net/language.oop5.decon#object.construct) je deklarirana kot 'protected', da prepreči novo instanco izven razreda preko operatorja `new`.
+* Magična metoda [`__clone`](http://php.net/language.oop5.cloning#object.clone) je deklarirana kot 'private', da prepreči kloniranje instance razreda preko operatorja [`clone`](http://php.net/language.oop5.cloning).
+* Magična metoda [`__wakeup`](http://php.net/language.oop5.magic#object.wakeup) je deklarirana kot 'private', da prepreči deserializacijo instance razreda preko globalne funkcije [`unserialize()`](http://php.net/function.unserialize).
+* Nova instanca je narejena preko t.i. ["late static binding"](http://php.net/language.oop5.late-static-bindings) v statični metodi izdelave `getInstance()` s ključno besedo `static`. To omogoča podrazredenje razreda `Singleton` v primeru.
 
-The singleton pattern is useful when we need to make sure we only have a single instance of a class for the entire
-request lifecycle in a web application. This typically occurs when we have global objects (such as a Configuration
-class) or a shared resource (such as an event queue).
+Enojni vzorec je uporaben, ko moramo zagotoviti, da imamo samo enojno instanco razreda za celoten cikel zahtevka v
+spletni aplikaciji. To se običajno zgodi, ko imamo globalne objekte (kot je razred 'Configuration') ali deljeni vir
+(kot je čakalna vrsta dogodkov).
 
-You should be wary when using the singleton pattern, as by its very nature it introduces global state into your
-application, reducing testability. In most cases, dependency injection can (and should) be used in place of a
-singleton class. Using dependency injection means that we do not introduce unnecessary coupling into the design of our
-application, as the object using the shared or global resource requires no knowledge of a concretely defined class.
+Morate paziti, ko uporabljate enojni vzorec, saj po svoji naravi uvede globalno stanje v vašo aplikacijo, kar zmanjša
+možnost testiranja. V večini primerov, injiciranje odvisnosti je lahko (in bi moralo) biti uporabljeno na mestu
+enojnega razreda. Uporaba injiciranja odvisnosti pomeni, da ne uvajamo nepotrebnih skupkov v načrt naše aplikacije,
+saj objekt, ki uporablja deljeni ali globalni vir, ne potrebuje znanja o konkretno definiranem razredu.
 
-* [Singleton pattern on Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
+* [Enojni razred na Wikipediji](https://en.wikipedia.org/wiki/Singleton_pattern)
 
 ## Strategija
 
-With the strategy pattern you encapsulate specific families of algorithms allowing the client class responsible for 
-instantiating a particular algorithm to have no knowledge of the actual implementation.
-There are several variations on the strategy pattern, the simplest of which is outlined below:
+S strateškim vzorcem zaobjamete specifične družine algoritmov, kar dovoljuje klientnem razredu, ki je odgovoren za
+instantizacijo določenega algoritma, da nima znanja aktualne implementacije. Na voljo je nekaj variacij o strateškem
+vzorcu, najenostavnejši je izpostavljen spodaj:
 
-This first code snippet outlines a family of algorithms; you may want a serialized array, some JSON or maybe 
-just an array of data:
+Ta prvi odrezek kode orisuje družino algoritmov; morda želite serializirano polje, nekaj JSON ali morda
+samo polje podatkov:
 {% highlight php %}
 <?php
 
@@ -190,16 +190,16 @@ class ArrayOutput implements OutputInterface
 }
 {% endhighlight %}
 
-By encapsulating the above algorithms you are making it nice and clear in your code that other developers can easily 
-add new output types without affecting the client code.
+Z zaobjemom zgornjega algoritma ga delate lepega in čistega v vaši kodi, da ostali razvijalci lahko enostavno
+dodajo nove izhodne tipe brez vplivanja na kodo klienta.
 
-You will see how each concrete 'output' class implements an OutputInterface - this serves two purposes, primarily it
-provides a simple contract which must be obeyed by any new concrete implementations. Secondly by implementing a common
-interface you will see in the next section that you can now utilise [Type Hinting](http://php.net/manual/en/language.oop5.typehinting.php) to ensure that the client which is utilising these behaviours is of the correct type in
-this case 'OutputInterface'.
+Videli boste, kako vsak konkreten 'output' razred izvede OutputInterface - to ima dvojen namen, primarno
+ponuja enostavno naročilo, katero mora biti obogano s strani katerekoli nove konkretne izvedbe. Drugič z
+implementacijo pogostega vmesnika boste videli v naslednji sekciji, da lahko sedaj uporabite t.i. [Type Hinting](http://php.net/manual/en/language.oop5.typehinting.php),
+da zagotovite da je klient, ki je uporabil ta vedenja, pravilnega tipa v tem primeru 'OutputInterface'.
 
-The next snippet of code outlines how a calling client class might use one of these algorithms and even better set the
-behaviour required at runtime:
+Naslednji odrezek kode opisuje, kako klic razreda klienta, lahko uporabi enega teh algoritmon ali celo boljše nastavi
+zahtevano vedenje pri izvajanju:
 {% highlight php %}
 <?php
 
@@ -219,9 +219,9 @@ class SomeClient
 }
 {% endhighlight %}
 
-The calling client class above has a private property which must be set at runtime and be of type 'OutputInterface'
-once this property is set a call to loadOutput() will call the load() method in the concrete class of the output type
-that has been set.
+Razred klienta, ki kliče zgoraj ima privatno lastnost, ki mora biti nastavljena pri izvajanju in biti tipa 'OutputInterface',
+ko je enkrat ta lastnost nastavljena, bo klic loadOutput() poklical metodo load() v konkretnem razredu izhodnega tipa, ki je bil
+nastavljen.
 {% highlight php %}
 <?php
 
@@ -237,28 +237,27 @@ $data = $client->loadOutput();
 
 {% endhighlight %}
 
-* [Strategy pattern on Wikipedia](http://en.wikipedia.org/wiki/Strategy_pattern)
+* [Streteški vzorec na Wikipediji](http://en.wikipedia.org/wiki/Strategy_pattern)
 
-## Front Controller
+## Sprednji krmilnik
 
-The front controller pattern is where you have a single entrance point for you web application (e.g. index.php) that
-handles all of the requests. This code is responsible for loading all of the dependencies, processing the request and
-sending the response to the browser. The front controller pattern can be beneficial because it encourages modular code
-and gives you a central place to hook in code that should be run for every request (such as input sanitization).
+Vzorec sprednjega krmilnika je, kjer imate enojno vstopno točko za vašo spletno aplikacijo (na primer index.php), ki
+ravna vse zahtevke. Ta koda je odgovorna za nalaganje vseh odvisnosti, ki obdelujejo zahtevek in pošiljajo odziv brskalniku.
+Vzorec sprednjega krmilnika je lahko koristen, ker spodbuja modularno kodo in vam ponuja centralni prostor za povezavo
+kode, ki bi morala biti gnana za vsak request (kot je čiščenje vnosa).
 
-* [Front Controller pattern on Wikipedia](https://en.wikipedia.org/wiki/Front_Controller_pattern)
+* [Vzorec sprednjega krmilnika na Wikipediji](https://en.wikipedia.org/wiki/Front_Controller_pattern)
 
-## Model-View-Controller
+## Model-pogled-krmilnik (MVC)
 
-The model-view-controller (MVC) pattern and its relatives HMVC and MVVM let you break up code into logical objects that
-serve very specific purposes. Models serve as a data access layer where data is fetched and returned in formats usable
-throughout your application. Controllers handle the request, process the data returned from models and load views to
-send in the response. And views are display templates (markup, xml, etc) that are sent in the response to the web
-browser.
+Vzorec mode-pogled-krmilnik (MVC - Model-View-Controller) in njegova sorodna HMVC in MVVM vam omogočata zlom kode v logične objekte, ki
+služijo zelo specifičnim razlogom. Modeli služijo kot plast podatkovnega dostopa, kjer so podatki pridobljeni in vrnjeni v obliki
+uporabni skozi vašo aplikacijo. Krmilniki ravnajo z zahtevkom, obdelujejo podatke vrnjene iz modela in nalagajo poglede, da
+pošljejo odziv. In pogledi so prikazane predloge (markup, xml itd), ki so poslani v odzivu spletnemu brskalniku.
 
-MVC is the most common architectural pattern used in the popular [PHP frameworks](https://github.com/codeguy/php-the-right-way/wiki/Frameworks).
+MVC je najbolj pogost arhitekturni vzorec uporabljen v popularnih [PHP ogrodjih](https://github.com/codeguy/php-the-right-way/wiki/Frameworks).
 
-Learn more about MVC and its relatives:
+Naučite se več o MVC in njegovih sorodnih vzorcih:
 
 * [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93View%E2%80%93Controller)
 * [HMVC](https://en.wikipedia.org/wiki/Hierarchical_model%E2%80%93view%E2%80%93controller)
