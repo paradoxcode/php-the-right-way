@@ -62,10 +62,10 @@ prihranite precej težav na poti z uporabo tovarn.
 
 * [Tovarniški vzorec na Wikipediji](https://en.wikipedia.org/wiki/Factory_pattern)
 
-## Singleton
+## Enojni vzorec (singleton)
 
-When designing web applications, it often makes sense conceptually and architecturally to allow access to one and
-only one instance of a particular class. The singleton pattern enables us to do this.
+Ko se načrtuje spletne aplikacije, je pogosto smiselno konceptualno in arhitekturno dovoliti dostop do ene in
+samo ene instance določenega razreda. Enojni vzorec nam omogoči narediti to.
 
 {% highlight php %}
 <?php
@@ -130,12 +130,12 @@ var_dump($anotherObj === Singleton::getInstance());      // bool(false)
 var_dump($anotherObj === SingletonChild::getInstance()); // bool(true)
 {% endhighlight %}
 
-The code above implements the singleton pattern using a [*static* variable](http://php.net/language.variables.scope#language.variables.scope.static) and the static creation method `getInstance()`.
-Note the following:
+Koda zgoraj implementira enojni vzorec z uporabo [*statične* spremenljivke](http://php.net/language.variables.scope#language.variables.scope.static) in statične izdelovalne metode `getInstance()`.
+Upoštevajte sledeče:
 
-* The constructor [`__construct`](http://php.net/language.oop5.decon#object.construct) is declared as protected to prevent creating a new instance outside of the class via the `new` operator.
-* The magic method [`__clone`](http://php.net/language.oop5.cloning#object.clone) is declared as private to prevent cloning of an instance of the class via the [`clone`](http://php.net/language.oop5.cloning) operator.
-* The magic method [`__wakeup`](http://php.net/language.oop5.magic#object.wakeup) is declared as private to prevent unserializing of an instance of the class via the global function [`unserialize()`](http://php.net/function.unserialize).
+* Konstruktor [`__construct`](http://php.net/language.oop5.decon#object.construct) is declared as protected to prevent creating a new instance outside of the class via the `new` operator.
+* Magična metoda [`__clone`](http://php.net/language.oop5.cloning#object.clone) is declared as private to prevent cloning of an instance of the class via the [`clone`](http://php.net/language.oop5.cloning) operator.
+* Magična metoda [`__wakeup`](http://php.net/language.oop5.magic#object.wakeup) is declared as private to prevent unserializing of an instance of the class via the global function [`unserialize()`](http://php.net/function.unserialize).
 * A new instance is created via [late static binding](http://php.net/language.oop5.late-static-bindings) in the static creation method `getInstance()` with the keyword `static`. This allows the subclassing of the class `Singleton` in the example.
 
 The singleton pattern is useful when we need to make sure we only have a single instance of a class for the entire
@@ -149,7 +149,7 @@ application, as the object using the shared or global resource requires no knowl
 
 * [Singleton pattern on Wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
 
-## Streategija
+## Strategija
 
 With the strategy pattern you encapsulate specific families of algorithms allowing the client class responsible for 
 instantiating a particular algorithm to have no knowledge of the actual implementation.
