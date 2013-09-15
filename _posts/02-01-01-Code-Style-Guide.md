@@ -5,7 +5,7 @@ isChild: false
 
 # Vodič kodnega stila  {#code_style_guide_title}
 
-PHP skupnost je velika in raznolika, sestavljena iz številnih knjižnic, ogrodij in komponent. Za PHP razvijalce je 
+PHP skupnost je velika in raznolika ter sestavljena iz številnih knjižnic, ogrodij in komponent. Za PHP razvijalce je 
 običajno, da izbirajo med mnogimi od le teh in jih kombinirajo v določenem projektu. Pomembno je, da se PHP koda oprijema 
 (kolikor je le mogoče) skupnega stila kodiranja, saj omogoča za razvijalce enostavnejše mešanje in ujemanje različnih 
 knjižnic za njihove projekte.
@@ -13,7 +13,7 @@ knjižnic za njihove projekte.
 [Framework Interop Group][fig] so predlagali in odobrili serijo stilskih priporočil, znanih kot [PSR-0][psr0], 
 [PSR-1][psr1] in [PSR-2][psr2]. Naj vas nenavadna imena ne zmedejo, ta priporočila so samo 
 skupek pravil, ki jih določeni projekti, kot so Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium itd. 
-pričenjajo privzemati. Lahko jih uporabite v vaših projektih ali nadaljujete z uporabo vaših osebnih stilov.
+pričenjajo privzemati. Lahko jih uporabite v vaših projektih, ali nadaljujete z uporabo vaših osebnih stilov.
 
 Idealno bi morali pisati PHP kodo, ki se oprijema znanih standardov. To je lahko kakršnakoli kombinacija PSR-jev, ali 
 enega izmed kodnih standardov izdelanih s strani PEAR ali Zend. To pomeni, da ostali razvijalci lahko enostavno berejo 
