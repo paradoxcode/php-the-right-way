@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Website Banners
-description: "Spread the word! Use these banner to let new PHP programmers know about PHP: The Right Way"
+title: Spletne pasice
+description: "Razširite besedo! Uporabite te pasice, da bodo PHP programerji spoznali 'PHP: The Right Way'"
 ---
 
-# Web Banners
+# Spletne pasice
 
-Spread the word with _PHP: The Right Way_ banner images! Show new PHP developers where to find good information.
+Razširite besedo s _PHP: The Right Way_ slikami spletnih pasic! Pokažite novim PHP razvijalcem, kje lahko najdejo dobre informacije.
 
 ## Button 1 (120x90)
 

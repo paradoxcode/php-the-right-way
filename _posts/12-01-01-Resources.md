@@ -3,7 +3,7 @@ title:   Viri
 isChild: false
 ---
 
-# Viri {#resources_title}
+# Viri {#viri_title}
 
 ## Iz izvora
 
