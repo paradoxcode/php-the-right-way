@@ -1,3 +1,8 @@
+---
+title:   Viri
+isChild: false
+---
+
 # Viri {#resources_title}
 
 ## Iz izvora
