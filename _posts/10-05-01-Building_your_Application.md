@@ -36,7 +36,7 @@ ali posodobitev spletne aplikacije in je lahko razširjen z dodatnimi opravili p
 
 [Capistrano](https://github.com/capistrano/capistrano/wiki) je sistem za *vmesne do napredne programerje*, da lahko izvajajo
 komande v strukturirani, ponovljivi poti na eni ali več oddaljenih naprav. Je pred-nastavljen za postavitev Ruby on Rails aplikacij,
-čeprav ljudje z njim **uspešno postavljajjo PHP sisteme**. Uspešna uporaba Capistrana zavisi na delovnem znanju Ruby-ja in Rake-a.
+čeprav ljudje z njim **uspešno postavljajo PHP sisteme**. Uspešna uporaba Capistrana zavisi na delovnem znanju Ruby-ja in Rake-a.
 
 Dave Gardner-jeva objava na blogu [PHP Deployment with Capistrano](http://www.davegardner.me.uk/blog/2012/02/13/php-deployment-with-capistrano/)
 je dobra začetna točka za PHP razvijalce, ki jih zanima Capistrano.
@@ -47,7 +47,7 @@ ki ne samo postavi vaše aplikacije, vendar lahko zgradi vaše celotno strežni�
 Chef viri za PHP razvijalce:
 
 * [Blog serija iz treh delov o postavitvi LAMP aplikacije s Chef, Vagrant, in EC2](http://www.jasongrimes.org/2012/06/managing-lamp-environments-with-chef-vagrant-and-ec2-1-of-3/)
-* [Chef recepti, ki namestijo in nastavitjo PHP 5.3 in PEAR paketni upravljalni sistem](https://github.com/opscode-cookbooks/php)
+* [Chef recepti, ki namestijo in nastavijo PHP 5.3 in PEAR paketni upravljalni sistem](https://github.com/opscode-cookbooks/php)
 
 Nadaljnje branje:
 

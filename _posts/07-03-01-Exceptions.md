@@ -11,7 +11,7 @@ okvara pri poizvedbi podatkovne baze, ali celo ko slikovnega stredstva ni mogoč
 izjemo na zaslon, kar pomeni, da takoj veste, kje se nahaja napaka.
 
 PHP sam po sebi ima precej pomanjkanja glede tega in klic `file_get_contents()` vam bo ponavadi vrnil `FALSE` in opozorilo.
-Mnoga starejša ogrodja kot je naprimer CodeIgniter bodo vrnila samo false vrednost, zapis sporočila v dnevnik in mogoče
+Mnoga starejša ogrodja kot je na primer CodeIgniter bodo vrnila samo false vrednost, zapis sporočila v dnevnik in mogoče
 vam omogočila uporabo metode kot je `$this->upload->get_error()`, da lahko vidite, kaj je šlo narobe. Problem tu je, da
 morate iskati napako in preverjati dokumentacijo, za katero napako metode gre za določen razred, namesto da se to naredi
 izjemno očitno.
@@ -59,7 +59,7 @@ To pomeni, da lahko dodate več catch blokov in upravljate z različnimi izjemam
 ustvarjanje <em>veliko</em> izjem po meri, nekaterim med njimi se lahko izognete z uporabo SPL izjem, ki so na voljo
 v [SPL razširitvi][splext]. 
 
-Če naprimer uporabite `__call()` magično metodo in je nato zahtevana napačna metoda, se namesto zagona standardne izjeme
+Če na primer uporabite `__call()` magično metodo in je nato zahtevana napačna metoda, se namesto zagona standardne izjeme
 `Exception`, ki je nejasna, ali ustvarjanja izjeme po meri samo za to, lahko samo zaženete `throw new BadFunctionCallException;`.
 
 * [Preberite o izjemah][exceptions]

@@ -1,18 +1,18 @@
 # Pozdravljeni
 
-Na spletu je ogromno zastarelih informacij, ki vodijo nove PHP uporabnike v napačno smer, 
-propagirajo slabe prakse in nezaščiteno kodo. PHP: The Right Way je hitra referenca enostavna 
-za branje popularnih PHP kodnih standardov, povezav k avtoriziranim vodičem po spletu in 
+Na spletu je ogromno zastarelih informacij, ki vodijo nove PHP uporabnike v napačno smer,
+propagirajo slabe prakse in nezaščiteno kodo. PHP: The Right Way je hitra referenca enostavna
+za branje popularnih PHP kodnih standardov, povezav k avtoriziranim vodičem po spletu in
 kar uporabniki, ki prispevajo kodo, smatrajo za najboljšo prakso ta trenutek.
 
-_Trenutno ni dogovorjene poti za uporabo PHP-ja_. Ta stran teži k predstavitvi nekaterih tem 
-novim PHP razvijalcem, ki jih ne odkrijejo, dokler ni že prepozno, ter nudi izkušenim 
-profesionalcem nove ideje na teh temah, ki so jih uporabljali že leta brez, da bi ponovno 
-premislili. Ta stran vam tudi ne bo narekovala, katera orodja naj uporabljate, 
-vendar namesto tega ponuja predloge za mnoge opcije, ko je možno razložiti razlike v pristopu 
+_Trenutno ni dogovorjene poti za uporabo PHP-ja_. Ta stran teži k predstavitvi nekaterih tem
+novim PHP razvijalcem, ki jih ne odkrijejo, dokler ni že prepozno, ter nudi izkušenim
+profesionalcem nove ideje na teh temah, ki so jih uporabljali že leta brez, da bi ponovno
+premislili. Ta stran vam tudi ne bo narekovala, katera orodja naj uporabljate,
+vendar namesto tega ponuja predloge za mnoge opcije, ko je možno razložiti razlike v pristopu
 in primerih uporabe.
 
-Gre za dokument, ki se vedno razvija in bo vedno posodabljan z več uporabnimi infomacijami 
+Gre za dokument, ki se vedno razvija in bo vedno posodabljan z več uporabnimi informacijami
 in primeri, ko bodo na voljo.
 
 ## Prevodi

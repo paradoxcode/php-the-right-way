@@ -12,7 +12,7 @@ elemente v podatkovno shrambo, ko naredite poizvedbo zanje, potem jih potegnite 
 Dobite lahko izjemno izboljšavo v zmogljivosti kot tudi zmanjšanje obremenitve na vaše strežnike podatkovne baze.
 
 Mnoge popularne rešitve predpomnilnikov ukazne kode, vam omogočajo tudi predpomnenje podatkov po meri. Tako, da je še večji razlog,
-da jih izkoristite. APCu, XCache in WinCache vsi ponunajo API-je, da shranite podatke iz vaše PHP kode v njihov spomin predpomnilnika.
+da jih izkoristite. APCu, XCache in WinCache vsi ponujajo API-je, da shranite podatke iz vaše PHP kode v njihov spomin predpomnilnika.
 
 Najobičajnejši uporabljani sistemi spominsko objektnega predpomnenja sta APCu in memcached. APCu je odlična izbira za objektno
 predpomnenje, vključuje enostaven API za dodajanje vaših podatkov v njihov spomin predpomnilnika in je zelo enostaven za
@@ -45,7 +45,7 @@ print_r($data);
 Upoštevajte, da pred PHP 5.5, APC ponuja tako predpomnilnik objektov kot tudi predpomnilnik ukazne kode. APCu je projekt,
 ki je prinesel APC-jev predpomnilnik objektov v PHP 5.5+, odkar ima PHP sedaj vgrajeni predpomnilnik ukazne kode (OPcache).
 
-Naučite se več o popularnih sistemih predpomnilkov objektov:
+Naučite se več o popularnih sistemih predpomnilnikov objektov:
 
 * [APCu](https://github.com/krakjoe/apcu)
 * [APC Functions](http://php.net/manual/en/ref.apc.php)

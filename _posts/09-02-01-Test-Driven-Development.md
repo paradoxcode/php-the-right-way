@@ -47,7 +47,7 @@ saj so uporabljeni mnogi enaki principi.
 
 ### Testiranje funkcionalnosti
 
-Včasih je poznano tudi kot testiranej sprejemljivosti, testiranje funkcionalnosti sestoji iz uporabe orodij za
+Včasih je poznano tudi kot testiranje sprejemljivosti, testiranje funkcionalnosti sestoji iz uporabe orodij za
 izdelavo avtomatskih testov, ki dejansko uporabljajo vašo aplikacijo namesto samo preverjanja, da se individualne
 enote kode obnašajo pravilno in da lahko individualne enote pravilno komunicirajo med seboj. Ta orodja običajno
 delujejo z uporabo pravih podatkov in simulirajo dejanske uporabnike aplikacije.

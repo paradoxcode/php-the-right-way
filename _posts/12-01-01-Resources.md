@@ -31,7 +31,7 @@ isChild: false
 * [PagodaBox](https://pagodabox.com/)
 * [AppFog](https://appfog.com/)
 * [Heroku](https://heroku.com)
-  (PHP podpora je nedokumentiraan vendar osnovana na stabilnem partnerstvu s Facebook-om [povezava](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
+  (PHP podpora je nedokumentirana vendar osnovana na stabilnem partnerstvu s Facebook-om [povezava](http://net.tutsplus.com/tutorials/php/quick-tip-deploy-php-to-heroku-in-seconds/))
 * [fortrabbit](http://fortrabbit.com/)
 * [Engine Yard Cloud](https://www.engineyard.com/products/cloud)
 * [Red Hat OpenShift Platform](http://www.redhat.com/products/cloud-computing/openshift/)

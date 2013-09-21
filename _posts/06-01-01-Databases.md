@@ -58,7 +58,7 @@ preprečuje potencialne SQL vstavljene napade.
 Morate se tudi zavedati, da povezave podatkovne base uporabljajo vire in se je že pogosto zgodilo, da so bili vsi viri
 zasedeni, če povezave niso bile implicitno zaprte, čeprav je to bolj običajno v drugih jezikih. Z uporabo PDO, lahko
 implicitno zaprete vaše povezave z uničenjem objekta in zagotovite, da so vse preostale reference nanj izbrisane,
-t.j. nastavljene na NULL. Če ne naredite tega explicitno, bo PHP avtomatsko zaprl povezavo, ko se skripta konča - 
+t.j. nastavljene na NULL. Če ne naredite tega eksplicitno, bo PHP avtomatsko zaprl povezavo, ko se skripta konča - 
 razen seveda, če uporabljate trajne povezave.
 
 * [Naučite se o PDO povezavah][5]

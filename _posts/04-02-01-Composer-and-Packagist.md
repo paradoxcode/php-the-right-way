@@ -5,7 +5,7 @@ isChild: true
 
 ## Composer in Packagist {#composer_and_packagist_title}
 
-Composer je **brilianten** upravljalnik odvnisnosti za PHP. Napišite vaše projektne odvisnosti v `composer.json` datoteko in z nekaj enostavnimi ukazi bo Composer avtomatsko prenesel odvnisnosti za vaš projekt in nastavil avtomatsko nalaganje (autoloading) za vas.
+Composer je **brilijanten** upravljalnik odvisnosti za PHP. Napišite vaše projektne odvisnosti v `composer.json` datoteko in z nekaj enostavnimi ukazi bo Composer avtomatsko prenesel odvisnosti za vaš projekt in nastavil avtomatsko nalaganje (autoloading) za vas.
 
 Na voljo je že ogromno PHP knjižnic, ki so kompatibilne s Composer-jem in pripravljene za uporabo v vašem projektu. Te "paketi" so našteti na [Packagist-u][1], uradnem repozitoriju za Composer-kompatibilne PHP knjižnice.
 
@@ -15,8 +15,8 @@ Composer lahko namestite lokalno (v vaš trenutni delovni direktorij; čeprav to
 
     curl -s https://getcomposer.org/installer | php
 
-To namesti `composer.phar` (A PHP binarni arhiv). To lahko poženete s `php` za upravljanje vaših projektnih odvisnosti. 
-This will download `composer.phar` (a PHP binary archive). You can run this with `php` to manage your project dependencies. <strong>Prosimo, upoštevajte:</strong> Če ste prenesli naloženo kodo direktno v interpreter, prosimo prvo preberite kodo na spletu, da ste prepričani, da je varna.
+To namesti `composer.phar` (A PHP binarni arhiv). To lahko poženete s `php` za upravljanje vaših projektnih odvisnosti.
+<strong>Prosimo, upoštevajte:</strong> Če ste prenesli naloženo kodo direktno v interpreter, prosimo prvo preberite kodo na spletu, da ste prepričani, da je varna.
 
 ### Kako namestiti Composer (ročno)
 
@@ -39,7 +39,7 @@ Ko v dokumentaciji naletite na ukaz kot je npr. `php composer.phar install`, ga 
 
     composer install
 
-### Kako definirati in namestiti odvistnosti
+### Kako definirati in namestiti odvisnosti
 
 Composer beleži odvisnosti vašega projekta v datoteki imenovani `composer.json`. Če želite, jo lahko upravljate ročno, ali uporabite sam Composer. Ukaz `php composer.phar require` doda odvisnost projekta in če nimate `composer.json` datoteke, bo kreirana. Spodaj je primer, ki doda [Twig][2] kot odvisnost v vaš projekt. Poženite jo v vašem vrhovnem direktoriju projekta, kjer ste prenesli `composer.phar`
 

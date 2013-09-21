@@ -46,7 +46,7 @@ razvijalcem da se povežejo v obnašanje razreda. Ruby razvijalci pogosto pravij
 kot `__call()` in `__callStatic()`.
 
 * [Preberite vse o magičnih metodah][magic-methods]
-* [Preberite o rekleksiji][reflection]
+* [Preberite o refleksiji][reflection]
 
 [namespaces]: http://php.net/manual/en/language.namespaces.php
 [overloading]: http://php.net/manual/en/language.oop5.overloading.php
