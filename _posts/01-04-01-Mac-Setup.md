@@ -14,7 +14,7 @@ s priporočenim [Liip php-osx][php-osx-downloads].
 Druga možnost je [lastnoročno prevajanje][mac-compile], v tem primeru poskrbie, da imate nameščen ali Xcode ali
 Apple-ov nadomestek ["Command Line Tools for Xcode"][apple-developer], ki je na voljo za prenos iz Apple Mac Developer centra.
 
-Za popoln "vse v enem" paket, ki vsebuje PHP, Apache spletni strežnik in MySQL bazo, skupaj z lično kontrolnim grafičnim
+Za popoln "vse v enem" paket, ki vsebuje PHP, Apache spletni strežnik in MySQL bazo, skupaj z ličnim kontrolnim grafičnim
 vmesnikom (GUI), poskusite [MAMP][mamp-downloads] ali [XAMPP][xampp].
 
 [mac-package-managers]: http://www.php.net/manual/en/install.macosx.packages.php
