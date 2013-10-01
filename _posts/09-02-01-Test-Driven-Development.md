@@ -57,3 +57,4 @@ delujejo z uporabo pravih podatkov in simulirajo dejanske uporabnike aplikacije.
 * [Selenium](http://seleniumhq.com)
 * [Mink](http://mink.behat.org)
 * [Codeception](http://codeception.com) je celotno testno ogrodje, ki vključuje sprejeta testna orodja
+* [Storyplayer](http://datasift.github.io/storyplayer) je celotno testno ogrodje, ki vključuje podporo za izdelavo in uničenje testnih okolij na zahtevo
