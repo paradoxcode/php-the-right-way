@@ -12,7 +12,7 @@ ali obiščite večje PHP konference, da se naučite več o najboljših praksah 
 
 ## PHP uporabniške skupine
 
-Če živite v večjem mestu, je verjetnost, da blizu obstaja PHP uporabniška skupina. Čeprav še ni na voljo uradnega PUG seznama, lahko enostavno najdete vašo lokalno PUG skupino na [Google][google] ali [Meetup.com][meetup]. Če živite v manjšem mestu, lahko da lokalna PUG ne obstaja. V tem primeru jo kar pričnite!
+Če živite v večjem mestu, je verjetnost, da blizu obstaja PHP uporabniška skupina. Čeprav še ni na voljo uradnega PUG seznama, lahko enostavno najdete vašo lokalno PUG skupino na [Google][google], [Meetup.com][meetup] ali [PHP.ug][php-ug]. Če živite v manjšem mestu, lahko da lokalna PUG ne obstaja. V tem primeru jo kar pričnite!
 
 [Preberite o uporabniških skupinah na PHP Wiki][php-wiki]
 
@@ -26,6 +26,7 @@ da se naučite direktno od vodilnih v industriji.
 [php-calendar]: http://www.php.net/cal.php
 [google]: https://www.google.com/search?q=php+user+group+near+me
 [meetup]: http://www.meetup.com/find/
+[php-ug]: http://php.ug
 [php-wiki]: https://wiki.php.net/usergroups
 [php-conf]: http://php.net/conferences/index.php
 [phpc-twitter]: https://twitter.com/phpc
