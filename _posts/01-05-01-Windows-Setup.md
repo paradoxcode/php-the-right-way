@@ -9,12 +9,12 @@ PHP za Windows je na voljo na več načinov. Lahko [prenesete binarne datoteke][
 namestitveni program. Namestitveni program ni več podprt in na voljo od PHP 5.3.0.
 
 Za učenje in lokalni razvoj lahko uporabite vgrajeni spletni strežnik s PHP 5.4+, tako da vam ni treba skrbeti za njegovo konfiguracijo. Če 
-želite "vse v enem", ki vključuje celoten spletni strežnik in tudi MySQL, potem orodja kot je [Web Platform Installer][wpi], 
-[Zend Server CE][zsce], [XAMPP][xampp] in [WAMP][wamp] pripomorejo k hitri namestitvi na Windows razvojno okolje. Tako bodo orodja 
+želite "vse v enem", ki vključuje celoten spletni strežnik in tudi MySQL, potem orodja, kot so [Web Platform Installer][wpi], 
+[Zend Server CE][zsce], [XAMPP][xampp] in [WAMP][wamp], pripomorejo k hitri namestitvi na Windows razvojno okolje. Tako bodo orodja 
 malenkost drugačna od produkcijskih, zato bodite previdni na razlike v razvojnih okoljih, če delate na Windows-u in nalagate na Linux.
 
 Če potrebujete zagnati vaš produkcijski sistem na Windows, potem vam bo IIS7 zagotovil najbolj stabilno in najboljše izvajanje. Lahko uporabite 
-[phpmanager][phpmanager] (GUI vtičnik za IIS7), ki enostavno skonfigurira in upravlja PHP. IIS7 vsebuje že vgrajen FastCGI in pripravljen 
+[phpmanager][phpmanager] (GUI vtičnik za IIS7), ki enostavno skonfigurira in upravlja PHP. IIS7 vsebuje že vgrajen FastCGI in je pripravljen 
 na uporabo, tako da potrebujete samo skonfigurirati PHP kot hendler. Za podporo in dodatne vire je na voljo [namensko področje na iis.net][php-iis] za 
 PHP.
 

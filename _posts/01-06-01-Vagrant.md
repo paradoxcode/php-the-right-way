@@ -17,7 +17,7 @@ obliki in odstrani potrebo po vzdrževanju komplicirane namestitve seznama koman
 škatlo in jo ponovno kreirate brez mnogih ročnih korakov, kar omogoča enostavno novo namestitev.
 
 Vagrant naredi skupne mape, ki se uporabljajo za deljenje vaše kode med vašim gostiteljem in vašo virtualno napravo, kar 
-pomeni, da lahko naredite in uredite vaše datoteke na vaši gostiteljski napravi in nato poženete kodo znotraj virtalne naprave.
+pomeni, da lahko naredite in uredite vaše datoteke na vaši gostiteljski napravi in nato poženete kodo znotraj virtualne naprave.
 
 ### Malo pomoči
 

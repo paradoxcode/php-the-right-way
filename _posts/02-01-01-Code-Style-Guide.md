@@ -33,7 +33,7 @@ Uporabite Fabien Potencier-jev [popravljalnik PHP kodnih standardov][phpcsfixer]
 da je usklajena s temi standardi in vam tako pomaga pred popravljanjem vsakega problema ročno.
 
 Angleščina je priporočljiva za vsa imena simbolov in infrastruktur kode. Komentarji so lahko napisani v kateremkoli jeziku, 
-ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delali s kodo.
+ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s kodo.
 
 [fig]: http://www.php-fig.org/
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md

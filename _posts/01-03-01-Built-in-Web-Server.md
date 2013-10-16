@@ -1,11 +1,11 @@
 ---
-title: Vgrajen spletni strežnik
+title: Vgrajeni spletni strežnik
 isChild: true
 ---
 
-## Vgrajen spletni strežnik {#builtin_web_server_title}
+## Vgrajeni spletni strežnik {#builtin_web_server_title}
 
-Lahko se pričnete učiti PHP brez težav namestitve in konfiguracije celotnega spletnega strežnika (potreben je PHP 5.4+). Za zagon strežnika, poženite naslednje iz komandne vrstice v vašem vrhnjem spletnem direktoriju:
+Lahko se pričnete učiti PHP brez težav namestitve in konfiguracije celotnega spletnega strežnika (potreben je PHP 5.4+). Za zagon strežnika poženite naslednje iz komandne vrstice v vašem vrhnjem spletnem direktoriju:
 
     > php -S localhost:8000
 
