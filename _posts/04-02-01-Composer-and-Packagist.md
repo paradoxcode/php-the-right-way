@@ -15,7 +15,7 @@ Composer lahko namestite lokalno (v vaš trenutni delovni direktorij; čeprav to
 
     curl -s https://getcomposer.org/installer | php
 
-To namesti `composer.phar` (A PHP binarni arhiv). To lahko poženete s `php` za upravljanje vaših projektnih odvisnosti.
+To namesti `composer.phar` (PHP binarni arhiv). To lahko poženete s `php` za upravljanje vaših projektnih odvisnosti.
 <strong>Prosimo, upoštevajte:</strong> Če ste prenesli naloženo kodo direktno v interpreter, prosimo prvo preberite kodo na spletu, da ste prepričani, da je varna.
 
 ### Kako namestiti Composer (ročno)
@@ -35,7 +35,7 @@ Ker ročna namestitev ne izvede nobenih od teh preverjanj, se morate odločiti a
 
 Pot `$HOME/local/bin` (ali direktorij po vaši izbiri) bi moral biti v vaši potni `$PATH` spremenljivki okolja. To bo omogočilo izvajanje ukaza `composer`.
 
-Ko v dokumentaciji naletite na ukaz kot je npr. `php composer.phar install`, ga lahko zamenjate in poženete sledeče:
+Ko v dokumentaciji naletite na ukaz, kot je npr. `php composer.phar install`, ga lahko zamenjate in poženete sledeče:
 
     composer install
 
@@ -62,11 +62,11 @@ Sedaj lahko uporabite odvisnosti vašega projekta in bodo avtomatsko naložene n
 
 Composer ustvari datoteko imenovano `composer.lock`, ki shrani točno verzijo za vsak paket, ki ga je prenesel, ko ste prvič pognali ukaz `php composer.phar install`. Če delite vaš projekt z drugimi razvijalci in je datoteka `composer.lock` del vaše distribucije, bodo ob ukazu `php composer.phar install` dobili točno enake verzije kot vi. Za posodobitev vaših odvisnosti poženite ukaz `php composer.phar update`.
 
-To je najbolj uporabno, ko definirate vaše verzije zahtev fleksibilno. Na primer zahtevana verzija ~1.8 pomeni "karkoli novejše od 1.8.0, vendar manj kot 2.0.x-dev". Lahko uporabite tudi `*` nadomestni kot pri `1.8.*`. Sedaj bo Composer ukaz `php composer.phar update` nadgradil vaše odvisnosti na najnovejše verzije, ki ustrezajo omejitvam, ki ste jih definirali.
+To je najbolj uporabno, ko definirate vaše verzije zahtev fleksibilno. Na primer zahtevana verzija ~1.8 pomeni "karkoli novejše od 1.8.0, vendar manj kot 2.0.x-dev". Lahko uporabite tudi nadomestni znak `*` kot pri `1.8.*`. Sedaj bo Composer ukaz `php composer.phar update` nadgradil vaše odvisnosti na najnovejše verzije, ki ustrezajo omejitvam, ki ste jih definirali.
 
 ### Preverjanje vaših odvisnosti za varnostnimi težavami
 
-[Security Advisories Checker][3] je spletni servis in orodje za ukazno vrstico (CLI), ki bo tako preučil vašo datoteko `composer.lock` kot vam tudi povela, če potrebujete kakšne posodobitve za vaše odvisnosti.
+[Security Advisories Checker][3] je spletni servis in orodje za ukazno vrstico (CLI), ki bo tako preučil vašo datoteko `composer.lock` kot vam tudi povedal, če potrebujete kakšne posodobitve za vaše odvisnosti.
 
 * [Naučite se o Composer-ju][4]
 

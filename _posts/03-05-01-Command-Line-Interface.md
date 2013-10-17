@@ -5,7 +5,7 @@ isChild: true
 
 ## CLI - vmesnik komandne vrstice {#command_line_interface_title}
 
-PHP je bil v osnovi narejen za ustvarjanje spletnih aplikacij, vendar je tudi uporaben za skriptiranje programov vmesnika komandne vrstice (CLI - command line interface). PHP programi za ukazno vrstico vam lahko pomagajo avtomatizirati pogoste naloge kot so testiranje, nalaganje in administriranje aplikacije.
+PHP je bil v osnovi narejen za ustvarjanje spletnih aplikacij, vendar je tudi uporaben za skriptiranje programov vmesnika komandne vrstice (CLI - command line interface). PHP programi za ukazno vrstico vam lahko pomagajo avtomatizirati pogoste naloge, kot so testiranje, nalaganje in administriranje aplikacije.
 
 CLI PHP programi so zmogljivi, ker lahko uporabite kodo vaše aplikacije direktno brez potrebe po ustvarjanju in zavarovanju spletnega GUI-ja zanjo. Bodite samo prepričani, da ne date vaše PHP CLI skripte v vaš javni spletni direktorij!
 
@@ -31,9 +31,9 @@ $name = $argv[1];
 echo "Hello, $name\n";
 {% endhighlight %}
 
-PHP priredi dve posebni spremenljivki, ki temeljita na podanih argumentih pri pogonu vaše skripte. [`$argc`][argc] je celo številska spremenljivka, ki vsebuje argument *count* in [`$argv`][argv] je spremenljivka tipa polje, ki vsebuje *vrednost* vsakega argumenta. Prvi argument je vedno ime vaše PHP skriptne datoteke, v tem primeru `hello.php`.
+PHP priredi dve posebni spremenljivki, ki temeljita na podanih argumentih pri pogonu vaše skripte. [`$argc`][argc] je celo številska spremenljivka, ki vsebuje argument *count*, in [`$argv`][argv] je spremenljivka tipa polje, ki vsebuje *vrednost* vsakega argumenta. Prvi argument je vedno ime vaše PHP skriptne datoteke, v tem primeru `hello.php`.
 
-Izraz `exit()` je uporabljen s številko različno od nič, da omogoči lupini vedeti, da je ukaz spodletel. Pogosto uporabljene exit kode je moč najti [tu][exit-codes]
+Izraz `exit()` je uporabljen s številko različno od nič, da omogoči lupini vedeti, da je ukaz spodletel. Pogosto uporabljene exit kode je moč najti [tu][exit-codes].
 
 Za pogon naše skripte zgoraj iz komandne vrstice:
 

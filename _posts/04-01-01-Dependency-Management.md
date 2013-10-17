@@ -5,7 +5,7 @@ isChild: false
 
 # Upravljanje odvisnosti {#dependency_management_title}
 
-Na izbiro je ogromno PHP knjižnic, ogrodij in komponent. Vaš projekt bo najverjetneje uporabil več njih - to so t.i. projektne odvisnosti. Do pred kratkim, PHP ni imel dobrega načina za upravljanje teh projektnih odvisnosti. Tudi če ste jih upravljali ročno, ste morali še vedno skrbeti za avtomatskimi nalagalniki (autoloaders). Ne več.
+Na izbiro je ogromno PHP knjižnic, ogrodij in komponent. Vaš projekt bo najverjetneje uporabil več njih - to so t.i. projektne odvisnosti. Do pred kratkim, PHP ni imel dobrega načina za upravljanje teh projektnih odvisnosti. Tudi če ste jih upravljali ročno, ste morali še vedno skrbeti za avtomatske nalagalnike (autoloaders). Ne več.
 
 Trenutno je za PHP na voljo več glavnih paketnih upravljalcev - Composer in PEAR. Kateri je pravi za vas? Odgovor je oba.
 
