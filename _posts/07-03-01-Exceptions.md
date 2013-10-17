@@ -6,17 +6,17 @@ isChild: true
 ## Izjeme {#exceptions_title}
 
 Izjeme (Exceptions) so standardni deli najbolj popularnih programskih jezikov, vendar so pogosto spregledani s strani PHP programerjev.
-Jeziki kot je Ruby so izjemno zapolnjeni s izjemami, tako da kadarkoli gre kaj narobe, kot npr. okvara zahtevka HTTP, ali
+Jeziki kot je Ruby so izjemno zapolnjeni z izjemami, tako da kadarkoli gre kaj narobe, kot npr. okvara zahtevka HTTP, ali
 okvara pri poizvedbi podatkovne baze, ali celo ko slikovnega stredstva ni mogoče najti, Ruby (ali uporabljeni gemi) bodo izpisali
 izjemo na zaslon, kar pomeni, da takoj veste, kje se nahaja napaka.
 
 PHP sam po sebi ima precej pomanjkanja glede tega in klic `file_get_contents()` vam bo ponavadi vrnil `FALSE` in opozorilo.
-Mnoga starejša ogrodja kot je na primer CodeIgniter bodo vrnila samo false vrednost, zapis sporočila v dnevnik in mogoče
-vam omogočila uporabo metode kot je `$this->upload->get_error()`, da lahko vidite, kaj je šlo narobe. Problem tu je, da
+Mnoga starejša ogrodja, kot je na primer CodeIgniter, bodo vrnila samo false vrednost, zapis sporočila v dnevnik in mogoče
+vam omogočila uporabo metode, kot je `$this->upload->get_error()`, da lahko vidite, kaj je šlo narobe. Problem tu je, da
 morate iskati napako in preverjati dokumentacijo, za katero napako metode gre za določen razred, namesto da se to naredi
 izjemno očitno.
 
-Naslednji problem je ko razredi avtomatsko vržejo napako na zaslon in zapustijo proces. Ko naredite to, ustavite drugega
+Naslednji problem je, ko razredi avtomatsko vržejo napako na zaslon in zapustijo proces. Ko naredite to, ustavite drugega
 razvijalca, da bi lahko dinamično ravnal s to napako. Izjeme bi morale biti zagnane, da opozorijo razvijalca pred napako.
 Nato le-ta lahko izbere, kako bo ravnal v tem primeru. Primer:
 
@@ -69,6 +69,6 @@ v [SPL razširitvi][splext].
 
 [exceptions]: http://php.net/manual/en/language.exceptions.php
 [splexe]: http://php.net/manual/en/spl.exceptions.php
-[splext]: /#standard_php_library
+[splext]: /#standardna_php_knjižnica
 [exception-best-practices53]: http://ralphschindler.com/2010/09/15/exception-best-practices-in-php-5-3
 [nesting-exceptions-in-php]: http://www.brandonsavage.net/exceptional-php-nesting-exceptions-in-php/

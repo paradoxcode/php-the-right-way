@@ -5,8 +5,8 @@ isChild: true
 
 ## Predpomnenje objektov {#object_caching_title}
 
-Pride čas, ko je koristno predpomniti individualne objekte v vašo kodo, kot je s podatki, ki so prepomembni,
-da bi jih dobili ali klicali podatkovno bazo, kjer se rezultat verjetno ne bo spremenil. Lahko uporabite programsko
+Pride čas, ko je koristno predpomniti individualne objekte v vašo kodo, kot so podatki, ki so prepomembni,
+da bi jih dobili iz ali klicali v podatkovno bazo, kjer se rezultat verjetno ne bo spremenil. Lahko uporabite programsko
 opremo za predpomnenje objektov, da shrani te dele podatkov v spomin pri izjemno hitrih kasnejših klicih. Če shranite te
 elemente v podatkovno shrambo, ko naredite poizvedbo zanje, potem jih potegnite direktno iz predpomnilnika za le-te zahtevke.
 Dobite lahko izjemno izboljšavo v zmogljivosti kot tudi zmanjšanje obremenitve na vaše strežnike podatkovne baze.
@@ -20,7 +20,7 @@ nastaviti in uporabiti. Ena realna omejitev APCu-ja je, da je vezan na strežnik
 nameščen kot ločena storitev in se do nje lahko dostopa čez omrežje, kar pomeni, da lahko shranite objekte v hiper-hitro podatkovno
 shrambo v centralni lokaciji in mnoge različne sisteme lahko potegnete iz nje.
 
-Upoštevajte, da ko poganjate PHP kot (Fast-)CGI aplikacijo znotraj vašega spletnega strežnika, vsak PHP proces bo imel namesto tega svoj
+Upoštevajte, da ko poganjate PHP kot (Fast-)CGI aplikacijo znotraj vašega spletnega strežnika, bo imel vsak PHP proces namesto tega svoj
 predpomnilnik, to pomeni, da APCu podatki ne bodo deljeni med vašimi delovnimi procesi. V teh primerih je namesto tega dobro premisliti o uporabi
 memcached predpomnilnika, saj ni vezan na PHP procese.
 

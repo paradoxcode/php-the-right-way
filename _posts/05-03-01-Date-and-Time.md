@@ -9,8 +9,8 @@ PHP ima razred DateTime, ki pomaga, ko berete, pišete, primerjate ali računate
 mnogo funkcij, ki se nanašajo na datum in čas poleg DateTime razreda, vendar le-ta ponuja ličen objektno orientiran
 vmesnik za večino najpogostejših primerov uporabe. Omogoča ravnanje s časovnimi območji, vendar to je izven te kratke predstavitve.
 
-Za pričetek dela z DateTime, pretvorimo izvorni niz datuma in časa v objekt s tovarniško metodo `createFromFormat()`
-ali pa uporabimo `new \DateTime` da dobimo trenutno datum in čas. Uporabite metodo `format()` za pretvorbo DateTime nazaj
+Za pričetek dela z DateTime, pretvorimo izvorni niz datuma in časa v objekt s tovarniško metodo `createFromFormat()`,
+ali pa uporabimo `new \DateTime`, da dobimo trenutno datum in čas. Uporabite metodo `format()` za pretvorbo DateTime nazaj
 v niz za izpis.
 {% highlight php %}
 <?php
@@ -20,9 +20,9 @@ $start = \DateTime::createFromFormat('d. m. Y', $raw);
 echo 'Start date: ' . $start->format('m/d/Y') . "\n";
 {% endhighlight %}
 
-Računanje z DateTime je možno s pomočjo razreda DateInterval. DateTime ima metode kot so `add()` in `sub()`, ki
+Računanje z DateTime je možno s pomočjo razreda DateInterval. DateTime ima metode, kot so `add()` in `sub()`, ki
 sprejmejo DateInterval kot argument. Ne pišite kode, ki pričakuje enako število sekund v vsakem dnevu, saj bosta tako
-poletni čas in spreminjanje časovnih območij pokvarile to predpostavko. Namesto tega uporabite intervale datumov. Za izračun
+poletni čas in spreminjanje časovnih območij pokvarila to predpostavko. Namesto tega uporabite intervale datumov. Za izračun
 sprememb datuma uporabite metodo `diff()`. Vrnila bo nov DateInterval, ki je izjemno enostaven za prikaz.
 {% highlight php %}
 <?php
@@ -43,7 +43,7 @@ if ($start < $end) {
 }
 {% endhighlight %}
 
-Zadnji primer demonstrira razred DatePeriod. Uporabljen je za iteracijo nad ponavljajočih se dogodkih. Vzame lahko dva
+Zadnji primer demonstrira razred DatePeriod. Uporabljen je za iteracijo nad ponavljajočimi se dogodki. Vzame lahko dva
 DateTime objekta, začetek in konec ter interval za katerega vrne vse vmesne dogodke.
 {% highlight php %}
 <?php

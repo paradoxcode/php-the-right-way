@@ -5,7 +5,7 @@ isChild: true
 
 ## Gradnja in postavitev vaše aplikacije {#build_title}
 
-Če ugotovite, da delate ročne spremembe podatkovne baze ali poganjate vaše teste ročno preden posodabljate vaše datoteke
+Če ugotovite, da delate ročne spremembe podatkovne baze ali poganjate vaše teste ročno, preden posodabljate vaše datoteke
 (ročno), ponovno premislite! Z vsakim dodatnim ročnim opravilom potrebnim za postavitev nove verzije vaše aplikacije,
 se možnosti za potencialno usodno napako povečajo. Ali če imate opravka z enostavno posodobitvijo, podrobnim procesom gradnje
 ali celo strategijo zvezne integracije, je [avtomatizacija gradnje](http://en.wikipedia.org/wiki/Build_automation) vaš

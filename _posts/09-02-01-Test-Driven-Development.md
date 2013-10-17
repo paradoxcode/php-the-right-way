@@ -9,25 +9,25 @@ Vir [Wikipedia](http://en.wikipedia.org/wiki/Test-driven_development):
 
 > Test-driven development (TDD) is a software development process that relies on the repetition of a very short development cycle: first the developer writes a failing automated test case that defines a desired improvement or new function, then produces code to pass that test and finally refactors the new code to acceptable standards. Kent Beck, who is credited with having developed or 'rediscovered' the technique, stated in 2003 that TDD encourages simple designs and inspires confidence
 
-Obstaja več različnih tipov testiranja, ki ga lahko izvedete za vašo aplikacijo
+Obstaja več različnih tipov testiranja, ki ga lahko izvedete za vašo aplikacijo.
 
 ### Testiranje enot
 
 Testiranje enot (Unit Testing) je programerski pristop, da se zagotovi funkcijam, razredom in metodam, da delujejo kot
 pričakovano od trenutka, ko jih zgradite skozi celotno pot razvojnega cikla. S preverjanjem
-vrednosti, ki vstopajo in izstopajo različnih funkcij in metod, lahko zagotovite, da notranja logika
+vrednosti, ki vstopajo in izstopajo, različnih funkcij in metod lahko zagotovite, da notranja logika
 deluje pravilno. Z uporabo injiciranja odvisnosti in gradnjo modelnih razredov in nastavkov lahko preverite, da so odvisnosti
 pravilno uporabljene za še boljšo pokritost testiranja.
 
 Ko izdelate razred ali funkcijo, bi morali narediti test enote za vsako obnašanje, ki ga mora imeti. Na zelo osnovnem nivoju bi se
-morali prepričati, da pride do napake, ko pošljete napačne argumente in se prepričati, da deluje, če pošljete pravilne.
+morali prepričati, da pride do napake, ko pošljete napačne argumente, in se prepričati, da deluje, če pošljete pravilne.
 To bo pomagalo, da ko naredite spremembe temu razredu ali funkciji kasneje v razvojnem ciklu,
 bo stara funkcionalnost še vedno delovala kot pričakovano. Edina alternativa temu bi bila `var_dump()`
 v test.php, kar ni nikoli v redu za gradnjo aplikacije - male ali velike.
 
 Drug primer uporabe za teste enot je prispevanje odprti kodi. Če lahko napišete test, ki pokaže nedelujočo
 funkcionalnost (t.j. napako), potemo jo popravite in pokažite, da gre test skozi, saj bodo popravki tako veliko bolj
-sprejeti. Če poganjate projekt, ki sprejem poteg zahtevkov, potem bi morali predlagati to kot zahtevo.
+sprejeti. Če poganjate projekt, ki sprejema poteg zahtevkov, potem bi morali predlagati to kot zahtevo.
 
 [PHPUnit](http://phpunit.de) je defakto testno ogrodje za pisanje testov enot za PHP aplikacije, vendar je na voljo tudi precej alternativ:
 

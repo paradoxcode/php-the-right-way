@@ -13,7 +13,7 @@ podatkovno bazo &mdash; in to lahko postane neumno.
 
 Kot dodatno upoštevanje glede originalnih gonilnikov, mysql razširitev za PHP ni več v aktivnem razvoju in uradni status od PHP 5.4.0 je
 "dolgoročna opustitev". To pomeni, da bo odstranjen znotraj nekaj naslednjih izdaj, do PHP 5.6 (ali karkoli pride po 5.5) bo vsekakor odstranjeno.
-Če uporabljate `mysql_connect()` in `mysql_query()` v vaših aplikacijah se boste v srečali s prepisovanjem, torej je najboljša opcija zamenjava mysql uporabe
+Če uporabljate `mysql_connect()` in `mysql_query()` v vaših aplikacijah, se boste v srečali s prepisovanjem, torej je najboljša opcija zamenjava mysql uporabe
 z mysqli ali PDO v vaših aplikacijah znotraj vašega razvojnega časovnega načrta, tako da se vam ne bo mudilo kasneje. _Če pričenjate od začetka potem vsekakor ne
 uporabite mysql razširitve: uporabite [MySQLi razširitev][mysqli], ali uporabite PDO._
 
@@ -22,7 +22,7 @@ uporabite mysql razširitve: uporabite [MySQLi razširitev][mysqli], ali uporabi
 ## PDO
 
 PDO je abstraktna knjižnica povezovanja podatkovne baze &mdash; vgrajen v PHP od 5.1.0 &mdash;, ki ponuja enoten vmesnik za komunikacijo z
-mnogimi različnimi podatkovnimi bazami. PDO ne bo prevajala vaših SQL poizvedb ali emuliral manjkajoče lastnosti. Je izključno za povezovanje
+mnogimi različnimi podatkovnimi bazami. PDO ne bo prevajal vaših SQL poizvedb ali emuliral manjkajočih lastnosti. Je izključno za povezovanje
 večih tipov podatkovnih baz z istim API-jem.
 
 Bolj pomembno, `PDO` vam dovoljuje varno vstavljanje tujih vhodov (npr. ID-ji) v vaše SQL poizvedbe brez skrbi pred podatkovno baznimi SQL vstavljenimi napadi.
@@ -55,7 +55,7 @@ preprečuje potencialne SQL vstavljene napade.
 
 * [Naučite se o PDO][1]
 
-Morate se tudi zavedati, da povezave podatkovne base uporabljajo vire in se je že pogosto zgodilo, da so bili vsi viri
+Morate se tudi zavedati, da povezave podatkovne baze uporabljajo vire in se je že pogosto zgodilo, da so bili vsi viri
 zasedeni, če povezave niso bile implicitno zaprte, čeprav je to bolj običajno v drugih jezikih. Z uporabo PDO, lahko
 implicitno zaprete vaše povezave z uničenjem objekta in zagotovite, da so vse preostale reference nanj izbrisane,
 t.j. nastavljene na NULL. Če ne naredite tega eksplicitno, bo PHP avtomatsko zaprl povezavo, ko se skripta konča - 
@@ -66,7 +66,7 @@ razen seveda, če uporabljate trajne povezave.
 ## Abstraktni nivoji
 
 Mnoga ogrodja ponujajo svoj lasten abstraktni nivo, ki se lahko ali ne naslanja na PDO. Le-te bodo pogosto emulirala lastnosti za
-en podatkovno bazni sistem, ko drugi manjka z zavitjem vaših poizvedb v PHP metodah. To omogoča dejansko abstrakcijo podatkovne baze
+en podatkovno bazni sistem, ko drugi manjka z zavitjem vaših poizvedb v PHP metodah. To omogoča dejansko abstrakcijo podatkovne baze.
 To bo seveda dodalo nekaj dodatne uporabe virov, vendar če gradite prenosno aplikacijo, ki potrebuje delovati z MySQL, PostgreSQL in
 SQLite potem je nekaj več uporabe virov vredno zaradi čistoče kode.
 

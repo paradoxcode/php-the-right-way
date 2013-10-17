@@ -10,6 +10,6 @@ dobro zgrajenim aplikacijam. Avtomatizirani testi so odlično orodje za zagotovi
 ne zlomi, ko delate spremembe ali dodajate nove funkcionalnosti in ne bi smelo biti ignorirano.
 
 Obstaja več različnih tipov testnih orodij (ali ogrodij), ki so na voljo za PHP, ki uporabljajo
-različne pristope - vsa stremijo k izogibanju ročnemu testiranju in potrebi po velikih
+različne pristope - vsa stremijo k izogibanju ročnega testiranja in potrebi po velikih
 ekipah za zagotavljanje kvalitete, samo da zagotovijo, da zadnje spremembe niso pokvarile trenutne
 funkcionalnosti.

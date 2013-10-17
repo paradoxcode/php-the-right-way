@@ -9,7 +9,7 @@ Na voljo sta dva različna tipa vedenjsko usmerjenega razvoja (BDD): SpecBDD in 
 medtem ko se StoryBdd osredotoča na poslovna ali lastnostna vedenja ali interakcije. PHP ima ogrodja za oba BDD tipa.
 
 Pri StoryBDD pišete zgodbe, ki upisujejo vedenje vaše aplikacije. Te zgodbe
-se nato lahko požene kot dejanske teste napram vaši aplikaciji. Uporabljeno ogrodje in PHP aplikacijah za StoryBDD
+se nato lahko požene kot dejanske teste napram vaši aplikaciji. Uporabljeno ogrodje v PHP aplikacijah za StoryBDD
 je Behat, ki je bil navdihnjen od Ruby-jevega [Cucumber](http://cukes.info) projekta in implementira Gherkin DSL
 za opisovanje lastnosti vedenja.
 

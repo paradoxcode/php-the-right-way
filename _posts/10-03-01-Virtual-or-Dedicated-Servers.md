@@ -24,7 +24,7 @@ istočasno.
 
 Apache ima nekaj možnih nastavitev za poganjanje PHP. Najbolj pogosta in enostavna za namestitev je [prefork MPM](httpd://httpd.apache.org/docs/2.4/mod/prefork.html) z mod_php5. Medtem ko ni
 najbolj spominsko učinkovit, je pa najbolj enostaven za delo in uporabo. To je verjetno najboljša izbira, če se ne želite poglabljati preveč globoko v aspekte strežniške administracije. Upoštevajte,
-da če uporabljate mod_php5 morate uporabiti prefork MPM.
+da če uporabljate mod_php5, morate uporabiti prefork MPM.
 
 Alternativno, če želite stisniti več zmogljivosti in stabilnosti iz Apache-ja, potem morate izkoristiti enak FPM sistem kot nginx in pognati [worker MPM](http://httpd.apache.org/docs/2.4/mod/worker.html) ali [event MPM](http://httpd.apache.org/docs/2.4/mod/event.html) z mod_fastcgi ali mod_fcgid. Ta nastavitev bo bistveno bolj spominsko učinkovita in bolj hitra, vendar je potrebno več dela za vzpostavitev.
 

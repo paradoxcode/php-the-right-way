@@ -9,4 +9,4 @@ PaaS ponuja sistem in omrežje arhitekture potrebne za poganjanje PHP aplikacij 
 nastavitev za zagon PHP aplikacij ali PHP ogrodij.
 
 Nedavno je PaaS postala popularna metoda za postavitev, gostovanje in skaliranje PHP aplikacij vseh velikosti. Lahko
-najdete seznam [PHP PaaS "Platform as a Service" ponudnikov](#php_paas_providers) v naši [sekciji virov](#resources).
+najdete seznam [PHP PaaS "Platform as a Service" ponudnikov](#php_paas_ponudniki) v naši [sekciji virov](#viri).

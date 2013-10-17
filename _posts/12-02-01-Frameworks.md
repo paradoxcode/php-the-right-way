@@ -15,7 +15,7 @@ Ne potrebujete uporabljati ogrodja za vsak projekt. Včasih je preprosti PHP pra
 
 Mikro ogrodja so v osnovi ovoj za usmeritev HTTP zahtevka v povratni klic, kontroler, metodo itd. kot hitro je mogoče in včasih pridejo z nekaj dodatnimi knjižnicami, da pomagajo razvijanju, kot so osnovna ovijanja podatkovne baze in podobno. Uporabljeni so očitno za gradnjo oddaljenih HTTP storitev.
 
-Mnoga ogrodja dodajo veliko število lastnosti na, kar je na voljo v mikro ogrodju in ta so znana kot celotna ogrodja.
+Mnoga ogrodja dodajo veliko število lastnosti na tisto, kar je na voljo v mikro ogrodju in ta so znana kot celotna ogrodja.
 Ta pogosto pridejo v paketu z ORM-ji, paketi za preverjanje pristnosti itd.
 
 Komponentno osnovana ogrodja so zbirka specializiranih in samonamenskih knjižnic. Raznolika komponentno osnovana ogrodja se lahko uporabljajo skupaj, da se tvori mikro ali celotno ogrodje.
