@@ -6,7 +6,7 @@ title: Načtrovalski vzorci
 # Načrtovalski vzorci
 
 Obstaja mnogo načinov za strukturiranje kode in projekta za vašo spletno aplikacijo in v to lahko vložite ogromno ali pa
-malo premisleka kot ga želite v arhitekturo. Vendar je ponavadi dobra ideja, da se sledi pogostim vzorcem, ker bo vašo
+malo premisleka v arhitekturo. Vendar je ponavadi dobra ideja, da se sledi pogostim vzorcem, ker bo vašo
 kodo naredilo enostavnejšo za upravljanje in enostavnejšo drugim za razumevanje.
 
 * [Arhitekturni vzorci na Wikipediji](https://en.wikipedia.org/wiki/Architectural_pattern)
@@ -52,8 +52,8 @@ print_r($veyron->get_make_and_model()); // outputs "Bugatti Veyron"
 
 Ta koda uporablja tovarno za izdelavo objekta Automobile. Na voljo sta dve možni prednosti za gradnjo vaše kode po
 tej poti. Prva je, da če potrebujete naknadno spremeniti, preimenovati ali zamenjati razred Automobile, lahko to storite
-in morali boste samo spremeniti kodo v tovarni, namesto na vsakem mestu v vašem projektu, ki uporablja razred Automobile.
-Druga možna prednost je, da če je izdelava objekta komplicirano opravilo, lahko vso delo opravite v tovarni, namesto
+samo s spremembo kode v tovarni, namesto na vsakem mestu v vašem projektu, ki uporablja razred Automobile.
+Druga možna prednost je, da če je izdelava objekta komplicirano opravilo, lahko vso delo opravite v tovarni namesto
 ponavljanja vsakokrat, ko želite narediti novo instanco.
 
 Uporaba tovarniškega vzorca ni vedno potrebna (ali pametna). Primer kode uporabljene tu je tako enostavna, da bi bila
@@ -65,7 +65,7 @@ prihranite precej težav na poti z uporabo tovarn.
 ## Enojni vzorec (singleton)
 
 Ko se načrtuje spletne aplikacije, je pogosto smiselno konceptualno in arhitekturno dovoliti dostop do ene in
-samo ene instance določenega razreda. Enojni vzorec nam omogoči narediti to.
+samo ene instance določenega razreda. To nam omogoči narediti enojni vzorec.
 
 {% highlight php %}
 <?php
@@ -152,10 +152,10 @@ saj objekt, ki uporablja deljeni ali globalni vir, ne potrebuje znanja o konkret
 ## Strategija
 
 S strateškim vzorcem zaobjamete specifične družine algoritmov, kar dovoljuje klientnem razredu, ki je odgovoren za
-instantizacijo določenega algoritma, da nima znanja aktualne implementacije. Na voljo je nekaj variacij o strateškem
-vzorcu, najenostavnejši je izpostavljen spodaj:
+instantizacijo določenega algoritma, da nima znanja aktualne implementacije. Na voljo je nekaj variacij strateškega
+vzorca, najenostavnejši je izpostavljen spodaj:
 
-Ta prvi odrezek kode orisuje družino algoritmov; morda želite serializirano polje, nekaj JSON ali morda
+Prvi odrezek kode orisuje družino algoritmov; morda želite serializirano polje, nekaj JSON ali morda
 samo polje podatkov:
 {% highlight php %}
 <?php
@@ -194,11 +194,11 @@ Z zaobjemom zgornjega algoritma ga delate lepega in čistega v vaši kodi, da os
 dodajo nove izhodne tipe brez vplivanja na kodo klienta.
 
 Videli boste, kako vsak konkreten 'output' razred izvede OutputInterface - to ima dvojen namen, primarno
-ponuja enostavno naročilo, katero mora biti obogano s strani katerekoli nove konkretne izvedbe. Drugič z
+ponuja enostavno naročilo, katero mora biti ubogano s strani katerekoli nove konkretne izvedbe. Drugič, z
 implementacijo pogostega vmesnika boste videli v naslednji sekciji, da lahko sedaj uporabite t.i. [Type Hinting](http://php.net/manual/en/language.oop5.typehinting.php),
-da zagotovite da je klient, ki je uporabil ta vedenja, pravilnega tipa v tem primeru 'OutputInterface'.
+da zagotovite, da je klient, ki je uporabil ta vedenja, pravilnega tipa, v tem primeru 'OutputInterface'.
 
-Naslednji odrezek kode opisuje, kako klic razreda klienta, lahko uporabi enega teh algoritmon ali celo boljše nastavi
+Naslednji odrezek kode opisuje, kako klic razreda klienta lahko uporabi enega teh algoritmon ali celo boljše nastavi
 zahtevano vedenje pri izvajanju:
 {% highlight php %}
 <?php
