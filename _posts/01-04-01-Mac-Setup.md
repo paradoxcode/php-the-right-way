@@ -6,7 +6,7 @@ isChild: true
 ## Namestitev v Mac okolju  {#mac_setup_title}
 
 OSX sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Lion vsebuje 
-PHP 5.3.6 in Mountain Lion ima 5.3.10.
+PHP 5.3.6, Mountain Lion ima 5.3.10 in Mavericks ima 5.4.17.
 
 Posodobitev PHP-ja na OSX lahko namestite preko številnih [upravljalcev paketov][mac-package-managers] za Mac-a
 s priporočenim [Liip php-osx][php-osx-downloads].
