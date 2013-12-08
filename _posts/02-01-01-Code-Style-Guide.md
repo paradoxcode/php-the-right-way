@@ -25,6 +25,7 @@ tretje osebne kode.
 * [Preberite o PSR-2][psr2]
 * [Preberite o PEAR kodnih standardih][pear-cs]
 * [Preberite o Zend kodnih standardih][zend-cs]
+* [Preberite o Symfony kodnih standardih][symfony-cs]
 
 Lahko uporabite [PHP_CodeSniffer][phpcs], da preverite kodo proti katerimkoli izmed teh priporočil in vtičnike za tekstovne 
 urejevalnike, kot je [Sublime Text 2][st-cs], ki nudi realnočasovni odziv. 
@@ -41,6 +42,7 @@ ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s
 [psr2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 [pear-cs]: http://pear.php.net/manual/en/standards.php
 [zend-cs]: http://framework.zend.com/wiki/display/ZFDEV2/Coding+Standards
+[symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html
 [phpcs]: http://pear.php.net/package/PHP_CodeSniffer/
 [st-cs]: https://github.com/benmatselby/sublime-phpcs
 [phpcsfixer]: http://cs.sensiolabs.org/
