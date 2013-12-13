@@ -51,7 +51,7 @@ print_r($veyron->get_make_and_model()); // outputs "Bugatti Veyron"
 {% endhighlight %}
 
 Ta koda uporablja tovarno za izdelavo objekta Automobile. Na voljo sta dve možni prednosti za gradnjo vaše kode po
-tej poti. Prva je, da če potrebujete naknadno spremeniti, preimenovati ali zamenjati razred Automobile, lahko to storite
+tej poti; prva je, da če potrebujete naknadno spremeniti, preimenovati ali zamenjati razred Automobile, lahko to storite
 samo s spremembo kode v tovarni, namesto na vsakem mestu v vašem projektu, ki uporablja razred Automobile.
 Druga možna prednost je, da če je izdelava objekta komplicirano opravilo, lahko vso delo opravite v tovarni namesto
 ponavljanja vsakokrat, ko želite narediti novo instanco.
@@ -250,9 +250,9 @@ kode, ki bi morala biti gnana za vsak request (kot je čiščenje vnosa).
 
 ## Model-pogled-krmilnik (MVC)
 
-Vzorec mode-pogled-krmilnik (MVC - Model-View-Controller) in njegova sorodna HMVC in MVVM vam omogočata zlom kode v logične objekte, ki
+Vzorec model-pogled-krmilnik (MVC - Model-View-Controller) in njegova sorodna HMVC in MVVM vam omogočata zlom kode v logične objekte, ki
 služijo zelo specifičnim razlogom. Modeli služijo kot plast podatkovnega dostopa, kjer so podatki pridobljeni in vrnjeni v obliki
-uporabni skozi vašo aplikacijo. Krmilniki ravnajo z zahtevkom, obdelujejo podatke vrnjene iz modela in nalagajo poglede, da
+uporabni skozi vašo aplikacijo. Krmilniki upravljajo zahtevek, obdelujejo podatke vrnjene iz modela in nalagajo poglede, da
 pošljejo odziv. In pogledi so prikazane predloge (markup, xml itd), ki so poslani v odzivu spletnemu brskalniku.
 
 MVC je najbolj pogost arhitekturni vzorec uporabljen v popularnih [PHP ogrodjih](https://github.com/codeguy/php-the-right-way/wiki/Frameworks).
