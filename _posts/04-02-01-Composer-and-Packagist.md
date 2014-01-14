@@ -39,15 +39,17 @@ Ko v dokumentaciji naletite na ukaz, kot je npr. `php composer.phar install`, ga
 
     composer install
 
+Ta sekcija predvideva, da ste namestili Composer globalno.
+
 ### Kako definirati in namestiti odvisnosti
 
-Composer beleži odvisnosti vašega projekta v datoteki imenovani `composer.json`. Če želite, jo lahko upravljate ročno, ali uporabite sam Composer. Ukaz `php composer.phar require` doda odvisnost projekta in če nimate `composer.json` datoteke, bo kreirana. Spodaj je primer, ki doda [Twig][2] kot odvisnost v vaš projekt. Poženite jo v vašem vrhovnem direktoriju projekta, kjer ste prenesli `composer.phar`
+Composer beleži odvisnosti vašega projekta v datoteki imenovani `composer.json`. Če želite, jo lahko upravljate ročno, ali uporabite sam Composer. Ukaz `composer require` doda odvisnost projekta in če nimate `composer.json` datoteke, bo kreirana. Spodaj je primer, ki doda [Twig][2] kot odvisnost v vaš projekt.
 
-	php composer.phar require twig/twig:~1.8
+	composer require twig/twig:~1.8
 
-Alternativno, ukaz `php composer.phar init` vas bo vodil skozi ustvarjanje celotne datoteke `composer.json` za vaš projekt. Bodisi, ko enkrat ustvarite vašo `composer.json` datoteko lahko poveste Composer-ju, da prenese in namesti vaše odvisnosti v `vendors/` direktorij. To velja tudi za projekte, ki ste jih prenesli in že vsebujejo `composer.json` datoteko:
+Alternativno, ukaz `composer init` vas bo vodil skozi ustvarjanje celotne datoteke `composer.json` za vaš projekt. Bodisi, ko enkrat ustvarite vašo `composer.json` datoteko lahko poveste Composer-ju, da prenese in namesti vaše odvisnosti v `vendors/` direktorij. To velja tudi za projekte, ki ste jih prenesli in že vsebujejo `composer.json` datoteko:
 
-    php composer.phar install
+    composer install
 
 V nadaljevanju dodajte naslednjo vrstico v vašo glavno PHP datoteko aplikacije. To narekuje PHP-ju, da uporabi Composer-jev avtomatski nalagalnik (autoloader) za odvisnosti vašega projekta.
 
@@ -64,14 +66,19 @@ Composer ustvari datoteko imenovano `composer.lock`, ki shrani točno verzijo za
 
 To je najbolj uporabno, ko definirate vaše verzije zahtev fleksibilno. Na primer zahtevana verzija ~1.8 pomeni "karkoli novejše od 1.8.0, vendar manj kot 2.0.x-dev". Lahko uporabite tudi nadomestni znak `*` kot pri `1.8.*`. Sedaj bo Composer ukaz `php composer.phar update` nadgradil vaše odvisnosti na najnovejše verzije, ki ustrezajo omejitvam, ki ste jih definirali.
 
+### Obvestila posodobitev
+
+Da dobite obvestila o novih verzijah izdaj se lahko naročite na [VersionEye][3], spletno storitev, ki nadzira vaše GitHub in BitBucket račune za `composer.json` datotekami in pošilja e-pošto z novimi izdajami paketov.
+
 ### Preverjanje vaših odvisnosti za varnostnimi težavami
 
-[Security Advisories Checker][3] je spletni servis in orodje za ukazno vrstico (CLI), ki bo tako preučil vašo datoteko `composer.lock` kot vam tudi povedal, če potrebujete kakšne posodobitve za vaše odvisnosti.
+[Security Advisories Checker][4] je spletni servis in orodje za ukazno vrstico (CLI), ki bo tako preučil vašo datoteko `composer.lock` kot vam tudi povedal, če potrebujete kakšne posodobitve za vaše odvisnosti.
 
-* [Naučite se o Composer-ju][4]
+* [Naučite se o Composer-ju][5]
 
 [1]: http://packagist.org/
 [2]: http://twig.sensiolabs.org
-[3]: https://security.sensiolabs.org/
-[4]: http://getcomposer.org/doc/00-intro.md
+[3]: https://www.versioneye.com/
+[4]: https://security.sensiolabs.org/
+[5]: http://getcomposer.org/doc/00-intro.md
 
