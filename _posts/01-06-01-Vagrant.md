@@ -21,15 +21,17 @@ pomeni, da lahko naredite in uredite vaše datoteke na vaši gostiteljski naprav
 
 ### Malo pomoči
 
-Če potrebujete malo pomoči za začetek uporabe Vagranta, sta na voljo dve storitvi, ki sta lahko uporabni:
+Če potrebujete malo pomoči za začetek uporabe Vagranta, so na voljo tri storitve, ki so lahko uporabne:
 
 - [Rove][rove]: storitev, ki vam omogoča vnaprej genererati tipične Vagrant gradnje, PHP med opcijami na primer. Oskrbovanje
   je narejeno s Chef-om.
 - [Puphpet][puphpet]: enostaven GUI, da nastavite virtualno napravo za PHP razvoj. **Močno osredotočeno na PHP**. Poleg
   lokalnih virtualnih naprav (VM), je lahko tudi uporabljen za postavitev na oblačne storitve. Oskrbovanje je narejeno s Puppet-om.
+- [Protobox][protobox]: je nivo nad vagrant-om in spletni GUI za nastavitev virtualnih naprav za spletni razvoj. En YAML dokument krmili vse, kar je nameščeno na virtualni napravi.
 
 [vagrant]: http://vagrantup.com/
 [puppet]: http://www.puppetlabs.com/
 [chef]: http://www.opscode.com/
 [rove]: http://rove.io/
-[puphpet]: https://puphpet.com/ 
+[puphpet]: https://puphpet.com/
+[protobox]: http://getprotobox.com/
