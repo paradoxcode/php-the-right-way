@@ -10,8 +10,8 @@ običajno, da izbirajo med mnogimi od le teh in jih kombinirajo v določenem pro
 (kolikor je le mogoče) skupnega stila kodiranja, saj omogoča za razvijalce enostavnejše mešanje in ujemanje različnih 
 knjižnic za njihove projekte.
 
-[Framework Interop Group][fig] so predlagali in odobrili serijo stilskih priporočil, znanih kot [PSR-0][psr0], 
-[PSR-1][psr1] in [PSR-2][psr2]. Naj vas nenavadna imena ne zmedejo, ta priporočila so samo 
+[Framework Interop Group][fig] so predlagali in odobrili serijo stilskih priporočil. Vsa niso vezana na kodne stile, vendar
+tista ki so, so [PSR-0][psr0], [PSR-1][psr1], [PSR-2][psr2] in [PSR-4][psr4]. Ta priporočila so samo 
 skupek pravil, ki jih določeni projekti, kot so Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium itd. 
 pričenjajo privzemati. Lahko jih uporabite v vaših projektih, ali nadaljujete z uporabo vaših osebnih stilov.
 
@@ -23,6 +23,7 @@ tretje osebne kode.
 * [Preberite o PSR-0][psr0]
 * [Preberite o PSR-1][psr1]
 * [Preberite o PSR-2][psr2]
+* [Preberite o PSR-4][psr4]
 * [Preberite o PEAR kodnih standardih][pear-cs]
 * [Preberite o Zend kodnih standardih][zend-cs]
 * [Preberite o Symfony kodnih standardih][symfony-cs]
@@ -40,6 +41,7 @@ ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [psr1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
 [psr2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
+[psr4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
 [pear-cs]: http://pear.php.net/manual/en/standards.php
 [zend-cs]: http://framework.zend.com/wiki/display/ZFDEV2/Coding+Standards
 [symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html

@@ -70,7 +70,7 @@ en podatkovno bazni sistem, ko drugi manjka z zavitjem vaših poizvedb v PHP met
 To bo seveda dodalo nekaj dodatne uporabe virov, vendar če gradite prenosno aplikacijo, ki potrebuje delovati z MySQL, PostgreSQL in
 SQLite potem je nekaj več uporabe virov vredno zaradi čistoče kode.
 
-Nekaj abstraktnih nivojev je bilo že vgrajenih v PSR-0 standard imenskih prostorov, tako da je možno namestiti v katerokoli aplikacijo kot:
+Nekaj abstraktnih nivojev je bilo že zgrajenih z uporabo [PSR-0][psr0] ali [PSR-4][psr4] standardov imenskih prostorov, tako da jih je možno namestiti v katerokoli aplikacijo želite:
 
 * [Aura SQL][6]
 * [Doctrine2 DBAL][2]
@@ -89,3 +89,5 @@ Nekaj abstraktnih nivojev je bilo že vgrajenih v PSR-0 standard imenskih prosto
 [mysql]: http://php.net/mysql
 [mysqli]: http://php.net/mysqli
 [pgsql]: http://php.net/pgsql
+[psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
+[psr4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
