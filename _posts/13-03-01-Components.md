@@ -24,3 +24,4 @@ samo dodaten repozitorij za ponovno uporabne komponente:
 * [Aura](http://auraphp.github.com/)
 * [FuelPHP](https://github.com/fuelphp)
 * [Symfony komponente](http://symfony.com/doc/current/components/index.html)
+* [The League of Extraordinary Packages](http://thephpleague.com/)
