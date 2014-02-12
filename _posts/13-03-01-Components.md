@@ -22,6 +22,5 @@ samo dodaten repozitorij za ponovno uporabne komponente:
   [fuelval]: https://github.com/fuelphp/validation
 
 * [Aura](http://auraphp.github.com/)
-* [FuelPHP (2.0 only)](https://github.com/fuelphp)
-* [Laravelove "Illuminate komponente"](https://github.com/illuminate)
+* [FuelPHP](https://github.com/fuelphp)
 * [Symfony komponente](http://symfony.com/doc/current/components/index.html)
