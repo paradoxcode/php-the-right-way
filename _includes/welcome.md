@@ -21,7 +21,7 @@ _PHP: The Right Way_ je (oz. bo kmalu) preveden v mnoge različne jezike:
 
 * [English](http://www.phptherightway.com)
 * Catalan (Link broken... we're looking into it)
-* [Chinese](http://wulijun.github.com/php-the-right-way)
+* [Chinese (Simplified)](http://wulijun.github.com/php-the-right-way)
 * [Japanese](http://ja.phptherightway.com)
 * [Korean](http://wafe.github.io/php-the-right-way/)
 * [Italian](http://it.phptherightway.com/)
