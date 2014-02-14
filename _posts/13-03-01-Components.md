@@ -23,5 +23,9 @@ samo dodaten repozitorij za ponovno uporabne komponente:
 
 * [Aura](http://auraphp.github.com/)
 * [FuelPHP](https://github.com/fuelphp)
+* [Laravel's Eloquent ORM](https://github.com/illuminate/database)
 * [Symfony komponente](http://symfony.com/doc/current/components/index.html)
 * [The League of Extraordinary Packages](http://thephpleague.com/)
+
+_Laravelove [Illuminate komponente](https://github.com/illuminate) bodo sčasoma postale bolj nevezane v ogrodju Laravel.
+Za sedaj je tu zabeležena samo Laravelova Eloquent ORM komponenta._
