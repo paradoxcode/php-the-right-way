@@ -11,9 +11,8 @@ Originalni gonilniki so odlični, če uporabljate samo ENO podatkovno bazo v va�
 ali se potrebujete povezati na Oracle podatkovno bazo, potem ne boste mogli uporabiti istih gonilnikov. Naučiti se boste morali popolnoma nov API za vsako
 podatkovno bazo &mdash; in to lahko postane neumno.
 
-Kot dodatno upoštevanje glede originalnih gonilnikov, mysql razširitev za PHP ni več v aktivnem razvoju in uradni status od PHP 5.4.0 je
-"dolgoročna opustitev". To pomeni, da bo odstranjen znotraj nekaj naslednjih izdaj, do PHP 5.6 (ali karkoli pride po 5.5) bo vsekakor odstranjeno.
-Če uporabljate `mysql_connect()` in `mysql_query()` v vaših aplikacijah, se boste v srečali s prepisovanjem, torej je najboljša opcija zamenjava mysql uporabe
+Kot dodatno upoštevanje glede originalnih gonilnikov, mysql razširitev za PHP ni več v aktivnem razvoju in je uradno opuščena od PHP 5.5.0, kar pomeni, da bo
+odstranjena znotraj nekaj naslednjih izdaj. Če uporabljate `mysql_connect()` in `mysql_query()` v vaših aplikacijah, se boste v srečali s prepisovanjem, torej je najboljša opcija zamenjava mysql uporabe
 z mysqli ali PDO v vaših aplikacijah znotraj vašega razvojnega časovnega načrta, tako da se vam ne bo mudilo kasneje. _Če pričenjate od začetka potem vsekakor ne
 uporabite mysql razširitve: uporabite [MySQLi razširitev][mysqli], ali uporabite PDO._
 
