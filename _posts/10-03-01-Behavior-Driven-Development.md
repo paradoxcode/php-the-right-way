@@ -1,6 +1,7 @@
 ---
 title:   Vedenjsko usmerjen razvoj
 isChild: true
+anchor: behavior_driven_development
 ---
 
 ## Vedenjsko usmerjen razvoj {#behavior_driven_development_title}

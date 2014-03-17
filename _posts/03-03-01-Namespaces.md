@@ -1,6 +1,7 @@
 ---
 title:   Imenski prostori
 isChild: true
+anchor: namespaces
 ---
 
 ## Imenski prostori - Namespaces {#namespaces_title}

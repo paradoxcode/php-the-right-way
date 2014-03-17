@@ -1,6 +1,7 @@
 ---
 title:   Izjeme
 isChild: true
+anchor: exceptions
 ---
 
 ## Izjeme {#exceptions_title}

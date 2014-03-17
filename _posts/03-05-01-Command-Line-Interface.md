@@ -1,6 +1,7 @@
 ---
 title:   CLI - vmesnik komandne vrstice
 isChild: true
+anchor: command_line_interface
 ---
 
 ## CLI - vmesnik komandne vrstice {#command_line_interface_title}

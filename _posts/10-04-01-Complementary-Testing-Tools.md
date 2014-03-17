@@ -1,6 +1,7 @@
 ---
 title:   Dopolnilna testna orodja
 isChild: true
+anchor: complementary_testing_tools
 ---
 
 ## Dopolnilna testna orodja {#complementary_testing_tools_title}

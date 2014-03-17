@@ -1,6 +1,7 @@
 ---
 title:   Testno gnani razvoj
 isChild: true
+anchor: test_driven_development
 ---
 
 ## Testno gnani razvoj {#test_driven_development_title}

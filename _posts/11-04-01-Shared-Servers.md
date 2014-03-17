@@ -1,6 +1,7 @@
 ---
 title:   Skupni strežniki
 isChild: true
+anchor: shared_servers
 ---
 
 ## Skupni strežniki {#shared_servers_title}

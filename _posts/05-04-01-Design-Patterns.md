@@ -1,6 +1,7 @@
 ---
 title:   Načrtovalski vzorci
 isChild: true
+anchor: design_patterns
 ---
 
 ## Načrtovalski vzorci {#design_patterns_title}

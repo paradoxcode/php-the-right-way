@@ -1,5 +1,6 @@
 ---
 title: Injiciranje odvisnosti
+anchor: dependency_injection
 ---
 
 # Injiciranje odvisnosti {#dependency_injection_title}

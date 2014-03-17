@@ -1,5 +1,6 @@
 ---
 title: Podatkovne baze
+anchor: databases
 ---
 
 # Podatkovne baze {#databases_title}

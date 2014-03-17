@@ -1,9 +1,10 @@
 ---
 title:   Gradnja in postavitev vaše aplikacije
 isChild: true
+anchor: building_and_deploying_your_application
 ---
 
-## Gradnja in postavitev vaše aplikacije {#build_title}
+## Gradnja in postavitev vaše aplikacije {#building_and_deploying_your_application_title}
 
 Če ugotovite, da delate ročne spremembe podatkovne baze ali poganjate vaše teste ročno, preden posodabljate vaše datoteke
 (ročno), ponovno premislite! Z vsakim dodatnim ročnim opravilom potrebnim za postavitev nove verzije vaše aplikacije,

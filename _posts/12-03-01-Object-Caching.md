@@ -1,6 +1,7 @@
 ---
 title:   Predpomnenje objektov
 isChild: true
+anchor: object_caching
 ---
 
 ## Predpomnenje objektov {#object_caching_title}

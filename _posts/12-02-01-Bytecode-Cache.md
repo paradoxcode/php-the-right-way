@@ -1,6 +1,7 @@
 ---
 title:   Predpomnilnik ukazne kode
 isChild: true
+anchor: bytecode_cache
 ---
 
 ## Predpomnilnik ukazne kode {#bytecode_cache_title}

@@ -1,9 +1,10 @@
 ---
 title:   Viri
 isChild: false
+anchor: resources
 ---
 
-# Viri {#viri_title}
+# Viri {#resources_title}
 
 ## Iz izvora
 

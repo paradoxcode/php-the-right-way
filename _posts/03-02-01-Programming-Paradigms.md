@@ -1,6 +1,7 @@
 ---
 title:   Programske paradigme
 isChild: true
+anchor: programming_paradigms
 ---
 
 ## Programske paradigme {#programming_paradigms_title}

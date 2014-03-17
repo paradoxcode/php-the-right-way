@@ -1,6 +1,7 @@
 ---
 title:   Datum in čas
 isChild: true
+anchor: date_and_time
 ---
 
 ## Datum in čas {#date_and_time_title}

@@ -1,6 +1,7 @@
 ---
 title:   Nadaljnje branje
 isChild: true
+anchor: further_reading
 ---
 
 ## Nadaljnje branje {#further_reading_title}

@@ -1,6 +1,7 @@
 ---
 title:   Standardna PHP knjižnica
 isChild: true
+anchor: standard_php_library
 ---
 
 ## Standardna PHP knjižnica {#standard_php_library_title}

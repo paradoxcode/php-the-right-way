@@ -1,6 +1,7 @@
 ---
 title:   Skupnost
 isChild: false
+anchor: community
 ---
 
 # Skupnost {#community_title}
