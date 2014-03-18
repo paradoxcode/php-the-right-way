@@ -25,6 +25,7 @@ samo dodaten repozitorij za ponovno uporabne komponente:
 * [Aura](http://auraphp.github.com/)
 * [FuelPHP](https://github.com/fuelphp)
 * [Hoa Project](https://github.com/hoaproject)
+* [Orno](https://github.com/orno)
 * [Symfony komponente](http://symfony.com/doc/current/components/index.html)
 * [The League of Extraordinary Packages](http://thephpleague.com/)
 * Laravel Illuminate komponente
