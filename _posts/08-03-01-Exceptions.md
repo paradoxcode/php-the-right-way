@@ -61,7 +61,7 @@ ustvarjanje <em>veliko</em> izjem po meri, nekaterim med njimi se lahko izognete
 v [SPL razširitvi][splext]. 
 
 Če na primer uporabite `__call()` magično metodo in je nato zahtevana napačna metoda, se namesto zagona standardne izjeme
-`Exception`, ki je nejasna, ali ustvarjanja izjeme po meri samo za to, lahko samo zaženete `throw new BadFunctionCallException;`.
+`Exception`, ki je nejasna, ali ustvarjanja izjeme po meri samo za to, lahko samo zaženete `throw new BadMethodCallException;`.
 
 * [Preberite o izjemah][exceptions]
 * [Preberite o SPL izjemah][splexe]
