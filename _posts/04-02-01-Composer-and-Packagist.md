@@ -19,6 +19,10 @@ Composer lahko namestite lokalno (v vaš trenutni delovni direktorij; čeprav to
 To namesti `composer.phar` (PHP binarni arhiv). To lahko poženete s `php` za upravljanje vaših projektnih odvisnosti.
 <strong>Prosimo, upoštevajte:</strong> Če ste prenesli naloženo kodo direktno v interpreter, prosimo prvo preberite kodo na spletu, da ste prepričani, da je varna.
 
+#### Namestitev na Windows
+
+Za Windows uporabnike je najenostavnejši način za pričetek uporaba namestitvenega programa [ComposerSetup][6], ki izvede globalno namestitev in nastavi vašo `$PATH`, da lahko samo pokličete `composer` iz kateregakoli direktorija v vaši ukazni vrstici.
+
 ### Kako namestiti Composer (ročno)
 
 Ročna namestitev Composer-ja je napredna tehnika, čeprav obstajajo različni razlogi, zakaj bi razvijalec raje uporabil sledečo metodo proti uporabi interaktivne namestitvene rutine. Interaktivna namestitev preveri vašo PHP namestitev za zagotovitev, da:
@@ -82,4 +86,5 @@ Da dobite obvestila o novih verzijah izdaj se lahko naročite na [VersionEye][3]
 [3]: https://www.versioneye.com/
 [4]: https://security.sensiolabs.org/
 [5]: http://getcomposer.org/doc/00-intro.md
+[6]: https://getcomposer.org/Composer-Setup.exe
 
