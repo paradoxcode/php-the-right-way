@@ -28,6 +28,7 @@ _PHP: The Right Way_ je (oz. bo kmalu) preveden v mnoge različne jezike:
 * [Italian](http://it.phptherightway.com/)
 * [Polish](http://pl.phptherightway.com/)
 * [Portuguese](http://br.phptherightway.com/)
+* [Romanian](https://bgui.github.io/php-the-right-way/)
 * [Russian](http://getjump.github.io/ru-php-the-right-way)
 * [Spanish](http://phpdevenezuela.github.io/php-the-right-way/)
 * [Ukrainian](http://iflista.github.com/php-the-right-way/)
