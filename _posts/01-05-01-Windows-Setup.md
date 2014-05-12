@@ -11,7 +11,7 @@ namestitveni program. Namestitveni program ni več podprt in na voljo od PHP 5.3
 
 Za učenje in lokalni razvoj lahko uporabite vgrajeni spletni strežnik s PHP 5.4+, tako da vam ni treba skrbeti za njegovo konfiguracijo. Če 
 želite "vse v enem", ki vključuje celoten spletni strežnik in tudi MySQL, potem orodja, kot so [Web Platform Installer][wpi], 
-[Zend Server CE][zsce], [XAMPP][xampp] in [WAMP][wamp], pripomorejo k hitri namestitvi na Windows razvojno okolje. Tako bodo orodja 
+[Zend Server CE][zsce], [XAMPP][xampp], [EasyPHP][easyphp] in [WAMP][wamp], pripomorejo k hitri namestitvi na Windows razvojno okolje. Tako bodo orodja 
 malenkost drugačna od produkcijskih, zato bodite previdni na razlike v razvojnih okoljih, če delate na Windows-u in nalagate na Linux.
 
 Če potrebujete zagnati vaš produkcijski sistem na Windows, potem vam bo IIS7 zagotovil najbolj stabilno in najboljše izvajanje. Lahko uporabite 
@@ -24,5 +24,6 @@ PHP.
 [wpi]: http://www.microsoft.com/web/downloads/platform.aspx
 [zsce]: http://www.zend.com/en/products/server-ce/
 [xampp]: http://www.apachefriends.org/en/xampp.html
+[easyphp]: http://www.easyphp.org/
 [wamp]: http://www.wampserver.com/
 [php-iis]: http://php.iis.net/
