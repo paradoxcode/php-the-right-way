@@ -6,7 +6,7 @@ description: "Enostavno branju, hitra referenca za PHP najboljše prakse, spreje
 {% capture welcome_content %}{% include welcome.md %}{% endcapture %}
 {{ welcome_content|markdownify }}
 
-{% capture backtotop %}[Nazaj na vrh](#top){.top}{% endcapture %}
+{% capture backtotop %}[Nazaj na vrh](#top){:.top}{% endcapture %}
 {% for post in site.posts reversed %}
     {% if post.isChild != true and loop.first != true %}
     {{ backtotop|markdownify }}
