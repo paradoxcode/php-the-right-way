@@ -26,7 +26,7 @@ if (strpos('testing', 'test')) {    // 'test' is found at position 0, which is i
     // code...
 }
 
-vs.
+// proti
 
 if (strpos('testing', 'test') !== false) {    // true, as strict comparison was made (0 !== false)
     // code...
@@ -55,7 +55,7 @@ function test($a)
     }
 }
 
-vs.
+// proti
 
 function test($a)
 {
@@ -142,7 +142,7 @@ $a  = 'Multi-line example';    // concatenating assignment operator (.=)
 $a .= "\n";
 $a .= 'of what not to do';
 
-vs.
+// proti
 
 $a = 'Multi-line example'      // concatenation operator (.)
     . "\n"                     // indenting new lines
@@ -192,7 +192,7 @@ echo 'phptherightway is ' . $adjective . '.'     // a single quotes example that
     . "\n"                                       // variables and escaped string
     . 'I love learning' . $code . '!';
 
-vs.
+// proti
 
 echo "phptherightway is $adjective.\n I love learning $code!"  // Instead of multiple concatenating, double quotes
                                                                // enables us to use a parsable string
@@ -207,7 +207,7 @@ zavijte spremenljivko znotraj para zavitih oklepajev.
 $juice = 'plum';
 echo "I drank some juice made of $juices";    // $juice cannot be parsed
 
-vs.
+// proti
 
 $juice = 'plum';
 echo "I drank some juice made of {$juice}s";    // $juice will be parsed
@@ -285,11 +285,12 @@ trojni operatorji zloženi/gnezdeni, je priporočljivo uporabiti enega na vrstic
 <?php
 $a = 5;
 echo ($a == 5) ? 'yay' : 'nay';
+{% endhighlight %}
 
-vs.
+V primerjavi je tu primer, ki žrtvuje vse oblike bralnosti za zmanjšanje števila vrstic.
 
-// nested ternary
-$b = 10;
+{% highlight php %}
+<?php
 echo ($a) ? ($a == 5) ? 'yay' : 'nay' : ($b == 10) ? 'excessive' : ':(';    // excess nesting, sacrificing readability
 {% endhighlight %}
 
@@ -300,10 +301,61 @@ To 'return' a value with ternary operators use the correct syntax.
 $a = 5;
 echo ($a == 5) ? return true : return false;    // this example will output an error
 
-vs.
+// proti
 
 $a = 5;
 return ($a == 5) ? 'yay' : 'nope';    // this example will return 'yay'
+{% endhighlight %}
+
+Pozoren je treba biti, da ne potrebujete uporabljati trojnih operatorjev za vračanje logičnih vrednosti. Primer tega bi bil.
+
+{% highlight php %}
+<?php
+$a = 3;
+
+return ($a == 3) ? true : false; // Will return true or false if $a == 3
+
+// proti
+
+$a = 3;
+
+return $a == 3; // Will return true or false if $a == 3
+{% endhighlight %}
+
+To lahko rečemo tudi za vse operacije (===, !==, !=, == itd.).
+
+#### Uporaba oklepajev s trojnimi operatorji za oblikovanje in funkcijo
+
+Ko se uporablja trojni operator, lahko oklepaji igrajo svojo vlogo za izboljšanje bralnosti kode in tudi vključitev zvez znotraj blokov izrazov. Primer, ko ni nobene zahteve po uporabi oklepajev, je:
+
+{% highlight php %}
+<?php
+$a = 3;
+
+return ($a == 3) ? "yay" : "nope"; // return yay or nope if $a == 3
+
+// proti
+
+<?php
+$a = 3;
+
+return $a == 3 ? "yay" : "nope"; // return yay or nope if $a == 3
+{% endhighlight %}
+
+Oklepaji nam tudi omogočajo zmožnost izdelave zvez znotraj blokov stavkov, kjer bo blok preverjen kot celota. Kot ta primer spodaj, ki bo vrnil true če oba ($a == 3 in $b == 4) sta true in $c == 5 je tudi true.
+
+{% highlight php %}
+<?php
+
+return ($a == 3 && $b == 4) && $c == 5;
+{% endhighlight %}
+
+Drug primer je skupek kode spodaj, ki bo vrnil true, če ($a != 3 AND $b != 4) OR $c == 5.
+
+{% highlight php %}
+<?php
+
+return ($a != 3 && $b != 4) || $c == 5;
 {% endhighlight %}
 
 * [Trojni operatorji](http://php.net/manual/en/language.operators.comparison.php)
@@ -320,7 +372,7 @@ recimo, da primer niza teksta vsebuje podatke vrednih 1MB, s kopiranjem spremenl
 $about = 'A very long string of text';    // uses 2MB memory
 echo $about;
 
-proti
+// proti
 
 echo 'A very long string of text';        // uses 1MB memory
 {% endhighlight %}
