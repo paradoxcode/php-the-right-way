@@ -57,7 +57,7 @@ $pdo = new PDO('sqlite:/path/db/users.db');
 $pdo->query("SELECT name FROM users WHERE id = " . $_GET['id']); // <-- NO!
 {% endhighlight %}
 
-To je grozna koda. Vstavljate izvorni parameter poizvedbe v SQL poizvedbo. Tako dopustite možen izjemno hiter napad z uporabo prakse imenovane [SQL injiciranje].
+To je grozna koda. Vstavljate izvorni parameter poizvedbe v SQL poizvedbo. Tako dopustite možen izjemno hiter napad z uporabo prakse imenovane [SQL injiciranje](http://wiki.hashphp.org/Validation).
 Samo predstavljajte si, če bi napadalec poslal sledeči iznajdljivi `id` parameter s klicom preko URL-ja kot je
 `http://domain.com/?id=1%3BDELETE+FROM+users`. To bo nastavil `$_GET['id']` spremenljivko na `1;DELETE FROM users`
 kar bo izbrisalo vse vaše uporabnike! Namesto tega bi morali očistiti ID vnos z uporabo PDO veznih parametrov.
