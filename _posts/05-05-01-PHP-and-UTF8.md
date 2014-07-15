@@ -1,13 +1,13 @@
 ---
-title: PHP in UTF-8
+title: Delo z UTF-8
 isChild: true
 anchor: php_and_utf8
 ---
 
-## PHP in UTF-8 {#php_and_utf8_title}
+## Delo z UTF-8 {#php_and_utf8_title}
 
 _To sekcijo je prvotno napisal [Alex Cabal](https://alexcabal.com/) na
-[PHP Best Practices](https://phpbestpractices.org/#utf-8) in je sedaj deljena tu_.
+[PHP Best Practices](https://phpbestpractices.org/#utf-8) in je uporabljena kot osnova za naš lasten UTF-8 nasvet_.
 
 ### Tu ni ene vrstice. Bodite previdni, pozorni na podrobnosti in skladni.
 
@@ -19,9 +19,8 @@ bomo na kratek, praktičen povzetek.
 
 Osnovne operacije nizov, kot sta združevanje dveh nizov in dodeljevanje nizov spremenljivkam, ne potrebujejo ničesar,
 posebnega za UTF-8. Vendar večina funkcij nizov, kot sta `strpos()` in `strlen()`, ne potrebujeta posebnih premislekov. Te
-funkcije imajo pogosto `mb_*` nadomestke: na primer `mb_strpos()` in `mb_strlen()`. Skupaj so te nadomestne
-funkcije klicane večbajtne funkcije nizov. Večbajtne funkcije nizov so posebej načrtovane za
-operacije na Unicode nizih.
+funkcije imajo pogosto `mb_*` nadomestke: na primer `mb_strpos()` in `mb_strlen()`. Ti `mb_*` nizi so na voljo
+za vas preko [razširitve multibyte niza] in so posebej načrtovane za operiranje na Unicode nizih.
 
 Uporabljati morate `mb_*` funkcije kadarkoli izvajate operacije na Unicode nizih. Na primer, če uporabljate `substr()` na
 UTF-8 nizu, je precejšnja verjetnost, da bo rezultat vključeval popačene polovične znake. Pravilna funkcija za uporabo
@@ -33,17 +32,22 @@ zelo verjetno popačen med naslednjim procesiranjem.
 Ne vse funkcije nizov imajo `mb_*` nadomestek. Če določene ni na voljo, za kar želite narediti, potem lahko nimate
 sreče.
 
-Dodatno bi morali uporabljati `mb_internal_encoding()` funkcijo na vrhu vsake PHP skripte, ki jo napišete (ali na
+Uporabljati bi morali `mb_internal_encoding()` funkcijo na vrhu vsake PHP skripte, ki jo napišete (ali na
 vrhu vaše globalne include skripte), in `mb_http_output()` funkcijo ravno za njo, če vaša skripta izpisuje
 brskalniku. Izrecno definiranje kodiranja vašega niza v vsaki skripti vam bo prihranilo veliko glavobolov tekom
 poti.
 
-Končno mnogo PHP funkcij, ki operirajo na nizih imajo opcijske parametre, ki vam omogočajo specifikacijo kodiranja
+Dodatno mnogo PHP funkcij, ki operirajo na nizih imajo opcijske parametre, ki vam omogočajo specifikacijo kodiranja
 znakov. Vedno bi morali eksplicitno navesti UTF-8, ko imate možnost. Na primer, `htmlentites()` ima
-opcijo za kodiranje znakov in bi morali vedno določiti UTF-8, če imate opravka s takimi nizi.
+opcijo za kodiranje znakov in bi morali vedno določiti UTF-8, če imate opravka s takimi nizi. Bodite pozorni, da
+od PHP 5.4.0 je UTF-8 privzeto kodiranje za `htmlentities()` in  `htmlspecialchars()`.
 
-Pomnite, da je od PHP 5.4.0, UTF-8 privzeto kodiranje za `htmlentites()` in `htmlspecialchars()`.
+Končno, če gradite distribuirano aplikacijo in ne morete biti prepričani, da bo razširitev `mbstring`
+omogočena, potem premislite o uporabi [patchwork/utf8] Composer paketa. Ta
+bo uporabil `mbstring`, če je na voljo in se vrnil na ne UTF-8 funkcije, če ni.
 
+[razširitve multybyte niza]: http://php.net/manual/en/book.mbstring.php
+[patchwork/utf8]: https://packagist.org/packages/patchwork/utf8
 
 ### UTF-8 na nivoju podatkovne baze
 
@@ -59,8 +63,8 @@ nadaljnje branje spodaj zakaj.
 
 ### UTF-8 na nivoju brskalnika
 
-Uporabite `mb_http_output()` funkcijo za zagotovitev, da vaša PHP skripta izpisuje UTF-8 nize v vaš brskalnik. V vašem HTML-ju
-vključite [charset `<meta>` značko](http://htmlpurifier.org/docs/enduser-utf8.html) v `<head>` znački vaše strani.
+Uporabite `mb_http_output()` funkcijo za zagotovitev, da vaša PHP skripta izpisuje UTF-8 nize v vaš brskalnik.
+Brskalniku bo nato povedano s strani odziva HTTP, da ta stran bi morala biti smatrana kot UTF-8. Zgodovinski pristop za to je bil vključit [charset `<meta>` značko](http://htmlpurifier.org/docs/enduser-utf8.html) v značko `<head>` vaše strani. Ta pristop je povsem veljaven, vendar nastavitev charset-a v `Content-Type` glavi je dejansko [veliko hitrejši](https://developers.google.com/speed/docs/best-practices/rendering#SpecifyCharsetEarly).
 
 {% highlight php %}
 <?php
@@ -104,10 +108,11 @@ $handle->execute();
  
 // Store the result into an object that we'll output later in our HTML
 $result = $handle->fetchAll(\PDO::FETCH_OBJ);
+
+header('Content-Type: text/html; charset=utf-8');
 ?><!doctype html>
 <html>
     <head>
-        <meta charset="UTF-8" />
         <title>UTF-8 test page</title>
     </head>
     <body>
