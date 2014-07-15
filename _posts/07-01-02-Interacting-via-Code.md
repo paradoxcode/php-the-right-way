@@ -27,7 +27,7 @@ Premislite o najbolj osnovnem koraku:
 
 {% highlight php %}
 <?php
-functon getAllSomethings($db) {
+function getAllSomethings($db) {
 	return $db->query('SELECT * FROM table');
 }
 
@@ -71,7 +71,7 @@ class Foo()
 		$this->db = $db;
 	}
 
-	public functon getAllFoos() {
+	public function getAllFoos() {
 		return $this->db->query('SELECT * FROM table');
 	}
 }
