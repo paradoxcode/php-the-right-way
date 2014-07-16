@@ -28,7 +28,7 @@ Premislite o najbolj osnovnem koraku:
 {% highlight php %}
 <?php
 function getAllSomethings($db) {
-	return $db->query('SELECT * FROM table');
+    return $db->query('SELECT * FROM table');
 }
 
 foreach (getAllFoos() as $row) {
@@ -64,16 +64,16 @@ include 'views/foo-list.php';
 <?php
 class Foo()
 {
-	protected $db;
+    protected $db;
 
-	public function __construct(PDO $db)
-	{
-		$this->db = $db;
-	}
+    public function __construct(PDO $db)
+    {
+        $this->db = $db;
+    }
 
-	public function getAllFoos() {
-		return $this->db->query('SELECT * FROM table');
-	}
+    public function getAllFoos() {
+        return $this->db->query('SELECT * FROM table');
+    }
 }
 {% endhighlight %}
 
