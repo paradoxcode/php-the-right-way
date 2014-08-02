@@ -4,7 +4,7 @@ title: Interakcija s podatkovnimi bazami
 anchor: databases_interacting
 ---
 
-## Interakcija s podatkovnimi bazami
+## Interakcija s podatkovnimi bazami {#databases_interacting_title}
 
 Ko se razvijalci prvič pričnejo učiti PHP, pogosto končajo z mešanjem njihovih interakcij s podatkovnimi bazami z njihovo
 predstavitveno logiko, z uporabo kode, ki izgleda nekako tako:

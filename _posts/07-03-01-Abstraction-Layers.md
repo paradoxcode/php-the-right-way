@@ -4,7 +4,7 @@ title: Plasti abstrakcije
 anchor: databases_abstraction_layers
 ---
 
-## Plasti abstrakcije
+## Plasti abstrakcije {#databases_abstraction_layers_title}
 
 Mnoga ogrodja ponujajo svojo lastno plast abstrakcije, ki lahko ali pa ne sedi na vrhu PDO. Te bodo pogosto posnemale lastnosti za
 sistem ene podatkovne baze, ki manjka iz druge z ovitjem poizvedb v PHP metodah, kar vam da dejansko abstrakcijo podatkovne baze namesto samo abstrakcije povezave, ki jo
