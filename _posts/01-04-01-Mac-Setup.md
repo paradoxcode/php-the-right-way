@@ -12,7 +12,7 @@ PHP 5.3.6, Mountain Lion ima 5.3.10 in Mavericks ima 5.4.17.
 Posodobitev PHP-ja na OSX lahko namestite preko številnih [upravljalcev paketov][mac-package-managers] za Mac-a
 s priporočenim [Liip php-osx][php-osx-downloads].
 
-Druga možnost je [lastnoročno prevajanje][mac-compile], v tem primeru poskrbie, da imate nameščen ali Xcode ali
+Lahko ga tudi [prevedete lastnoročno][mac-compile], če to naredite, poskrbie, da imate nameščen ali Xcode ali
 Apple-ov nadomestek ["Command Line Tools for Xcode"][apple-developer], ki je na voljo za prenos iz Apple Mac Developer centra.
 
 Za popoln "vse v enem" paket, ki vsebuje PHP, Apache spletni strežnik in MySQL bazo, skupaj z ličnim kontrolnim grafičnim
