@@ -17,13 +17,48 @@ ogrodij, knjižnice kot je [Plates](http://platephp.com/) ali [Aura.View](https:
 z osnovnimi PHP predlogami enostavnejše s ponujanjem moderne funkcionalnosti predlog, kot je dedovanje, postavitve in
 razširitve.
 
-Primer osnovne PHP predloge (uporaba knjižnice [Plates](http://platephp.com):
+### Enostaven primer osnovne PHP predloge
+
+Uporaba knjižnice [Plates](http://platephp.com):
 
 {% highlight php %}
+<?php // user_profile.php ?>
+
 <?php $this->insert('header', ['title' => 'User Profile']) ?>
 
 <h1>User Profile</h1>
 <p>Hello, <?=$this->escape($name)?></p>
 
-<?php $this->insert('footer') ?>
+<?php $this->insert('footer'i) ?>
+{% endhighlight %}
+
+### Primer osnovne PHP predloge z uporabo dedovanja
+
+Uporaba knjižnice [Plates](http://platesphp.com/).
+
+{% highlight php %}
+<?php // template.php ?>
+
+<html>
+<head>
+    <title><?=$title?></title>
+</head>
+<body>
+
+<main>
+    <?=$this->section('content')?>
+</main>
+
+</body>
+</html>
+{% endhighlight %}
+
+{% highlight php %}
+<?php // user_profile.php ?>
+
+<?php $this->layout('template', ['title' => 'User Profile']) ?>
+
+<h1>User Profile</h1>
+<p>Hello, <?=$this->escape($name)?></p>
+
 {% endhighlight %}

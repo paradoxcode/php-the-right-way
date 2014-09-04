@@ -14,8 +14,8 @@ na kodi klientne strani (oblikovanje).
 
 Predloge tudi izboljšajo organizacijo kode predstavitve. Predloge so običajno postavljene v folder "views", vsaka
 definirana znotraj ene datoteke. Ta pristop spodbuja ponovno uporabo kode, kjer so večji bloki kode razbiti v manjše
-ponovno uporabne dele. Na primer, glava in noga vaše strani je lahko definirana vsaka kot predloga, ki je nato vključena
-pred in za vsako predlogo strani.
+ponovno uporabne dele, pogosto imenovani partials - deli. Na primer, glava in noga vaše strani sta lahko definirani vsaka kot predloga,
+ki je nato vključena pred in za vsako predlogo strani.
 
 Končno, odvisno od knjižnice, ki jo uporabljate, predloge lahko ponujajo več varnosti z avtomatičnim čiščenjem uporabniško generirane
 vsebine. Nekatere knjižnice celo ponujajo peskovnik, kjer oblikovalci predlog dobijo samo dostop do dovoljenega seznama
