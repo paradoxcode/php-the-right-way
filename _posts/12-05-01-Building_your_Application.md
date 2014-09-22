@@ -49,6 +49,7 @@ Chef viri za PHP razvijalce:
 
 * [Blog serija iz treh delov o postavitvi LAMP aplikacije s Chef, Vagrant, in EC2](http://www.jasongrimes.org/2012/06/managing-lamp-environments-with-chef-vagrant-and-ec2-1-of-3/)
 * [Chef recepti, ki namestijo in nastavijo PHP 5.3 in PEAR paketni upravljalni sistem](https://github.com/opscode-cookbooks/php)
+* [Chef serija video vodičev Opscode, izdelovalca chef-a](https://www.youtube.com/playlist?list=PLrmstJpucjzWKt1eWLv88ZFY4R1jW8amR)
 
 Nadaljnje branje:
 
