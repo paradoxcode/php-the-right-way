@@ -6,22 +6,40 @@ anchor: mac_setup
 
 ## Namestitev v Mac okolju  {#mac_setup_title}
 
-OS&nbsp;X sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Lion vsebuje 
-PHP 5.3.6, Mountain Lion ima 5.3.10 in Mavericks ima 5.4.17.
+OS X sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Mountain Lion vsebuje 
+PHP 5.3.10, Mavericks ima 5.4.17 in Yosemite ima 5.5.9, vendar z izzidom PHP 5.6 to pogostokrat ni dovolj.
 
-Posodobitev PHP-ja na OS&nbsp;X lahko namestite preko številnih [upravljalcev paketov][mac-package-managers] za Mac-a
-s priporočenim [Liip php-osx][php-osx-downloads].
+Obstoja veliko načinov za namestitev PHP na OS X.
 
-Lahko ga tudi [prevedete lastnoročno][mac-compile], če to naredite, poskrbie, da imate nameščen ali Xcode ali
-Apple-ov nadomestek ["Command Line Tools for Xcode"][apple-developer], ki je na voljo za prenos iz Apple Mac Developer centra.
+### Namestitev PHP preko Homebrew
 
-Za popoln "vse v enem" paket, ki vsebuje PHP, Apache spletni strežnik in MySQL bazo, skupaj z ličnim kontrolnim grafičnim
-vmesnikom (GUI), poskusite [MAMP][mamp-downloads] ali [XAMPP][xampp].
+[Homebrew](http://brew.sh/) je močan paketni urejevalnik za OS X, ki vam lahko pomaga namestiti PHP in
+različne razširitve enostavno. [Homebrew PHP] je repozitorij, ki vsebuje PHP povezane 'formulae' za Homebrew,
+in vam bo omogočil namestiti PHP.
 
-[mac-package-managers]: http://www.php.net/manual/en/install.macosx.packages.php
+Na tej točki, lahko namestite `php53`, `php54`, `php55` ali `php56` z uporabo ukaza `brew install`
+in preklapljanje med njimi s spreminjanjem vaše spremenljivke `PATH`.
+
+### Namestitev PHP preko phpbrew
+
+[phpbrew] je orodje za namestitev in upravljanje različnih PHP verzij. To je lahko res uporabno, če dve
+različni aplikaciji/projekta zahtevata različni verziji PHP in ne uporabljate virtualne naprave.
+
+### Prevajanje iz izvorne kode
+
+Druga opcija. ki vam da kontrolo nad verzijo PHP-ja, ki ga nameščate, je [da ga sami prevedete][mac-compile].
+V tem primeru zagotovite, da imate nameščen ali Xcode ali Apple-ov nadomestek ["Command Line Tools for XCode"],
+ki ga je moč prenesti iz Apple Developer Centra.
+
+### All-in-One Installers
+
+Rešitve napisane zgoraj v glavnem upravljajo sam PHP in ne podpirajo stvari kot je Apache, Nginx ali SQL server. "Vse-v-enem" rešitve kot je [MAMP][mamp-downloads] in [XAMPP][xampp] bodo namestile ostale dele programske opreme za vas in jo skupaj povezale, vendar enostavnost namestitve pride z pomanjkanjem fleksibilnosti.
+
+[Homebrew]: http://brew.sh/
+[Homebrew PHP]: https://github.com/Homebrew/homebrew-php#installation
 [mac-compile]: http://www.php.net/manual/en/install.macosx.compile.php
 [xcode-gcc-substitution]: https://github.com/kennethreitz/osx-gcc-installer
-[apple-developer]: https://developer.apple.com/downloads
+["Command Line Tools for XCode"]: https://developer.apple.com/downloads
 [mamp-downloads]: http://www.mamp.info/en/downloads/
-[php-osx-downloads]: http://php-osx.liip.ch/
+[phpbrew]: https://github.com/phpbrew/phpbrew
 [xampp]: http://www.apachefriends.org/en/xampp.html
