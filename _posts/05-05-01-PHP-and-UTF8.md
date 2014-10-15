@@ -109,7 +109,7 @@ $handle->execute();
 // Store the result into an object that we'll output later in our HTML
 $result = $handle->fetchAll(\PDO::FETCH_OBJ);
 
-header('Content-Type: text/html; charset=utf-8');
+header('Content-Type: text/html; charset=UTF-8');
 ?><!doctype html>
 <html>
     <head>
