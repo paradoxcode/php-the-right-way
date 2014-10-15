@@ -153,16 +153,17 @@ $a = 'Multi-line example'      // concatenation operator (.)
 
 ### Tipi nizov
 
-Tipi nizov so konstantna lastnost znotraj PHP skupnosti, vendar upajmo, da bo ta sekcija razložila
-razlike med tipi nizov in njenimi prednostmi/uporabami.
+Nizi so serija znakov, ki bi morali biti precej enostavni. Tako povedano je na voljo več različnih tipov
+nizov in ponujajo malenkost drugačno sintakso z malenkost različnimi obnašanji.
 
 #### Enojni citati
 
-Enojni citati so najenostavnejša pot za definiranje niza in so pogosto najhitrejši. Njihova hitrost izhaja iz PHP-ja,
-ki ne parsa niza (ne razčlenjuje za spremenljivke). Najboljše so uporabni za:
+Enojni citati so uporabljeni za označevanje "dobesednih nizov". Dobesedni nizi ne poskušajo prevajati posebnih znakov
+ali spremenljivk.
 
-- Nize, ki ne potrebujejo razčlenjevanja
-- Pisanje spremenljivke v preprosti tekst
+Če uporabljate enojne citate, bi lahko vnesli ime spremenljivke v niz kot je: `'stome $thing'` in videli
+bi točen izpis `some $thing`. Če uporabljate dvojne citate, ki bi poskušali oceniti ime spremenljivke `$thing`
+in pokazati napake, če ni najdena nobena spremenljivka.
 
 {% highlight php %}
 <?php
@@ -179,12 +180,8 @@ echo 'This is my string, look at how pretty it is.';    // no need to parse a si
 
 #### Dvojni citati
 
-Dvojni citati so švicarski vojaški nož za nize, vendar so počasnejši zaradi razčlenjevanja niza. Najboljše so
-uporabni za:
-
-- Zatekajoče nize (escaped)
-- Nizi z mnogimi spremenljivkami in preprostim tekstom
-- Zgoščevanje več vrstičnega spojevanja in izboljšanja bralnosti
+Dvojni citati so švicarski nož nizov. Ne bodo sami prevedli spremenljivk kot je omenjeno zgoraj, vendar vse vrste
+posebnih znakov, kot je `\n` za novo vrstico, `\t` za tabulator itd.
 
 {% highlight php %}
 <?php
@@ -198,9 +195,18 @@ echo "phptherightway is $adjective.\n I love learning $code!"  // Instead of mul
                                                                // enables us to use a parsable string
 {% endhighlight %}
 
-Ko se uporablja dvojne citate, ki vsebujejo spremenljivke, je pogosti primer, da se bo spremenljivka dotikala drugega
-znaka. To bo imelo za posledico, da PHP ne bo razčlenil spremenljivke, ker je le-ta prikrita. Da se izognete temu problemu,
-zavijte spremenljivko znotraj para zavitih oklepajev.
+Dvojni citati lahko vsebujjejo spremnljivke, to se imenuje "interpolacija".
+
+{% highlight php %}
+<?php
+$juice = 'plum';
+echo "I like $juice juice"; // Output: I like plum juice
+{% endhighlight %}
+
+Ko se uporablja interpolacijo, je pogosti primer, da se bo spremenljivka dotikala drugega znaka.
+Tu bo prišlo do nekaj zmede, kaj je ime spremenljivke in kaj je dobesedni znak.
+
+Da se to odpravi, se ovije spremenljivko znotraj zavitih oklepajev.
 
 {% highlight php %}
 <?php
@@ -275,6 +281,24 @@ EOD;                        // closing 'EOD' must be on it's own line, and to th
 {% endhighlight %}
 
 * [Heredoc sintaksa](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc)
+
+### Kaj je hitreje?
+
+Naokoli obstoja mit, da enojni citati so frakcijsko hitrejši kot dvojni nizi. To v
+osnovi ni res.
+
+Če definirate enojni niz in ne poskušate združevati vrednosti ali česarkoli kompliciranega, potem bodo ali enojni ali
+dvojni nizi v celoti identični. In noben ni hitrejši.
+
+Če združujete več nizov kateregakoli tipa ali interpolirate vrednosti v dvojno citirane nize, potem so lahko rezultati
+različni. Če delate z majhnim številom vrednosti, potem je združevanje do potankosti hitrejše. Z veliko vrednosti je interpolacija
+do potankosti hitrejša.
+
+Ne glede na to, kaj delate z nizi, noben tip ne bo nikoli imel opaznejšega vpliva na vašo aplikacijo.
+Če poskušate prepisati kodo, da uporablja enega ali drugega, je vedno vaja v jalovosti, torej se izogibajte tem mikro-optimizacijam razen če res
+razumete pomen in vpliv teh razlik.
+
+[Ovrženje mita izboljšav zmogljivosti enojnih citatov]: http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html
 
 ## Trojni operatorji
 
