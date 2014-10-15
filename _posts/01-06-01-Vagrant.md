@@ -22,7 +22,7 @@ pomeni, da lahko naredite in uredite vaše datoteke na vaši gostiteljski naprav
 
 ### Malo pomoči
 
-Če potrebujete malo pomoči za začetek uporabe Vagranta, so na voljo tri storitve, ki so lahko uporabne:
+Če potrebujete malo pomoči za začetek uporabe Vagranta, je na voljo nekaj storitev, ki so lahko uporabne:
 
 - [Rove][rove]: storitev, ki vam omogoča vnaprej genererati tipične Vagrant gradnje, PHP med opcijami na primer. Oskrbovanje
   je narejeno s Chef-om.
