@@ -18,14 +18,14 @@ Razširitev [mysql] za PHP ni več v aktivnem razvoju in je [uradno opuščena o
 odstranjena znotraj nekaj naslednjih izdaj. Če uporabljate katerekoli funkcije, ki se začnejo z `mysql_*`
 kot sta `mysql_connect()` in `mysql_query()` v vaših aplikacijah, potem le te enostavno ne bodo na voljo v kasnejših verzijah PHP. To pomeni, da se boste v srečali s prepisovanjem, torej je najboljša opcija zamenjava mysql uporabe
 z [mysqli] ali [PDO] v vaših aplikacijah znotraj vašega razvojnega časovnega načrta, tako da se vam ne bo mudilo kasneje. **Če pričenjate od začetka potem vsekakor ne
-uporabite [mysql] razširitve: uporabite [MySQLi razširitev][mysqli], ali uporabite PDO.**
+uporabite [mysql] razširitve: uporabite [MySQLi razširitev][mysqli], ali uporabite [PDO].**
 
 * [PHP: Izbira API-ja za MySQL](http://php.net/manual/en/mysqlinfo.api.choosing.php)
 * [PDO Tutorial for MySQL Developers](http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers)
 
 ## PDO razširitev
 
-PDO je abstraktna knjižnica povezovanja podatkovne baze &mdash; vgrajen v PHP od 5.1.0 &mdash;, ki ponuja enoten vmesnik za komunikacijo z
+[PDO] je abstraktna knjižnica povezovanja podatkovne baze &mdash; vgrajen v PHP od 5.1.0 &mdash;, ki ponuja enoten vmesnik za komunikacijo z
 mnogimi različnimi podatkovnimi bazami. Na primer lahko uporabite v osnovi identično kodo za vmesnik z MySQL ali SQLite:
 
 {% highlight php %}
