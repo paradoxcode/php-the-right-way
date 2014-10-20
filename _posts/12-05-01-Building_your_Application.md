@@ -54,7 +54,6 @@ Chef viri za PHP razvijalce:
 Nadaljnje branje:
 
 * [Avtomatizacija vašega projekta z Apache Ant](http://net.tutsplus.com/tutorials/other/automate-your-projects-with-apache-ant/)
-* [Maven](http://maven.apache.org/), ogrodje za gradnjo osnovan na Ant in [kako ga uporabljati s PHP](http://www.php-maven.org/)
 
 ### Zvezna integracija
 
