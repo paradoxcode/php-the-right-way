@@ -21,18 +21,18 @@ ki ga želite uporabiti. Premislite o sledečem primeru vzorca tovarne:
 <?php
 class Automobile
 {
-    private $vehicle_make;
-    private $vehicle_model;
+    private $vehicleMake;
+    private $vehicleModel;
 
     public function __construct($make, $model)
     {
-        $this->vehicle_make = $make;
-        $this->vehicle_model = $model;
+        $this->vehicleMake = $make;
+        $this->vehicleModel = $model;
     }
 
-    public function get_make_and_model()
+    public function getMakeAndModel()
     {
-        return $this->vehicle_make . ' ' . $this->vehicle_model;
+        return $this->vehicleMake . ' ' . $this->vehicleModel;
     }
 }
 
@@ -47,7 +47,7 @@ class AutomobileFactory
 // have the factory create the Automobile object
 $veyron = AutomobileFactory::create('Bugatti', 'Veyron');
 
-print_r($veyron->get_make_and_model()); // outputs "Bugatti Veyron"
+print_r($veyron->getMakeAndModel()); // outputs "Bugatti Veyron"
 {% endhighlight %}
 
 Ta koda uporablja tovarno za izdelavo objekta Automobile. Na voljo sta dve možni prednosti za gradnjo vaše kode po
