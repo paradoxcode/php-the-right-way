@@ -15,6 +15,7 @@ predstavitveno logiko, z uporabo kode, ki izgleda nekako tako:
 foreach ($db->query('SELECT * FROM table') as $row) {
     echo "<li>".$row['field1']." - ".$row['field1']."</li>";
 }
+?>
 </ul>
 {% endhighlight %}
 
