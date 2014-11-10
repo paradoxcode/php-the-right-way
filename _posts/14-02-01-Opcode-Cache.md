@@ -1,12 +1,12 @@
 ---
 title:   Predpomnilnik ukazne kode
 isChild: true
-anchor: bytecode_cache
+anchor: opcode_cache
 ---
 
-## Predpomnilnik ukazne kode {#bytecode_cache_title}
+## Predpomnilnik ukazne kode {#opcode_cache_title}
 
-Ko se PHP datoteka izvede, se pod pokrovom najprej prevede v ukazno kodo - bytecode (znano tudi kot opcode) in samo takrat se ukazna koda izvede.
+Ko se PHP datoteka izvede, se pod pokrovom najprej prevede v ukazno kodo - opcode in samo takrat se ukazna koda izvede.
 Če PHP datoteka ni modificirana, bo ukazna koda vedno enaka. To pomeni, da je korak prevajanja zapravljanje CPU virov.
 
 Tu je pomemben pa predpomnilnik ukazne kode. Preprečuje dodatna prevajanja s shranitvijo ukazne kode v spomin in jo ponovno uporabi pri zaporednih klicih.
@@ -22,5 +22,6 @@ Preberite več o predpomnilnikih ukazne kode:
 * [XCache](http://xcache.lighttpd.net/)
 * [Zend Optimizer+](http://www.zend.com/products/server/) (del Zend Server paketa)
 * [WinCache](http://www.iis.net/download/wincacheforphp) (razširitev za MS Windows Server)
+* [seznam pohitritev PHP na Wikipediji](http://en.wikipedia.org/wiki/List_of_PHP_accelerators)
 
 [opcache-book]: http://php.net/manual/en/book.opcache.php
