@@ -22,5 +22,5 @@ To ogrodje je navdihnjeno od [Rspec projekta](http://rspec.info/) za Ruby.
 
 * [Behat](http://behat.org/), StoryBDD ogrodje za PHP, navdihnjeno od Ruby-jevega [Cucumber](http://cukes.info/) projekta;
 * [PHPSpec](http://www.phpspec.net/), SpecBDD ogrodje za PHP, navdihnjeno od Ruby-jevega [RSpec](http://rspec.info/) projekta;
-* [Codeception](http://www.codeception.com) je celotno testno ogrodje, ki uporablja BDD principe.
+* [Codeception](http://codeception.com) je celotno testno ogrodje, ki uporablja BDD principe.
 

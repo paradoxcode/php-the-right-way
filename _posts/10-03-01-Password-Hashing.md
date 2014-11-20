@@ -23,7 +23,7 @@ Spodaj bomo zgostili niz in nato preverili zgostitev proti novemu nizu. Ker sta 
 
 {% highlight php %}
 <?php
-                      
+
 require 'password.php';
 
 $passwordHash = password_hash('secret-password', PASSWORD_DEFAULT);
