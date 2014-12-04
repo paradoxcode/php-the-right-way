@@ -401,4 +401,4 @@ echo $about;
 echo 'A very long string of text';        // uses 1MB memory
 {% endhighlight %}
 
-* [Nasveti zmogljivosti](https://developers.google.com/speed/articles/optimizing-php)
+* [Nasveti zmogljivosti](http://web.archive.org/web/20140625191431/https://developers.google.com/speed/articles/optimizing-php)
