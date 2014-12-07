@@ -29,6 +29,7 @@ uporabite [mysql] razširitve: uporabite [MySQLi razširitev][mysqli], ali upora
 mnogimi različnimi podatkovnimi bazami. Na primer lahko uporabite v osnovi identično kodo za vmesnik z MySQL ali SQLite:
 
 {% highlight php %}
+<?php
 // PDO + MySQL
 $pdo = new PDO('mysql:host=example.com;dbname=database', 'user', 'password');
 $statement = $pdo->query("SELECT some\_field FROM some\_table");
@@ -78,7 +79,7 @@ preprečuje potencialne SQL vstavljene napade.
 Morate se tudi zavedati, da povezave podatkovne baze uporabljajo vire in se je že pogosto zgodilo, da so bili vsi viri
 zasedeni, če povezave niso bile implicitno zaprte, čeprav je to bolj običajno v drugih jezikih. Z uporabo PDO, lahko
 implicitno zaprete vaše povezave z uničenjem objekta in zagotovite, da so vse preostale reference nanj izbrisane,
-t.j. nastavljene na NULL. Če ne naredite tega eksplicitno, bo PHP avtomatsko zaprl povezavo, ko se skripta konča - 
+t.j. nastavljene na NULL. Če ne naredite tega eksplicitno, bo PHP avtomatsko zaprl povezavo, ko se skripta konča -
 razen seveda, če uporabljate trajne povezave.
 
 * [Izvedite več o PDO povezavah]
