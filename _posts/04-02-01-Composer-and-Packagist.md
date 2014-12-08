@@ -52,7 +52,7 @@ Composer beleži odvisnosti vašega projekta v datoteki imenovani `composer.json
 
 	composer require twig/twig:~1.8
 
-Alternativno, ukaz `composer init` vas bo vodil skozi ustvarjanje celotne datoteke `composer.json` za vaš projekt. Bodisi, ko enkrat ustvarite vašo `composer.json` datoteko lahko poveste Composer-ju, da prenese in namesti vaše odvisnosti v `vendors/` direktorij. To velja tudi za projekte, ki ste jih prenesli in že vsebujejo `composer.json` datoteko:
+Alternativno, ukaz `composer init` vas bo vodil skozi ustvarjanje celotne datoteke `composer.json` za vaš projekt. Bodisi, ko enkrat ustvarite vašo `composer.json` datoteko lahko poveste Composer-ju, da prenese in namesti vaše odvisnosti v `vendor/` direktorij. To velja tudi za projekte, ki ste jih prenesli in že vsebujejo `composer.json` datoteko:
 
     composer install
 
@@ -87,4 +87,3 @@ Da dobite obvestila o novih verzijah izdaj se lahko naročite na [VersionEye][3]
 [4]: https://security.sensiolabs.org/
 [5]: http://getcomposer.org/doc/00-intro.md
 [6]: https://getcomposer.org/Composer-Setup.exe
-
