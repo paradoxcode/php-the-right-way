@@ -10,4 +10,4 @@ Standardna PHP knjižnica (SPL - Standard PHP Library) je zapakirana v PHP in po
 
 * [Preberite o SPL][spl]
 
-[spl]: http://php.net/manual/en/book.spl.php 
+[spl]: http://php.net/book.spl

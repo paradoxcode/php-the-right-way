@@ -196,7 +196,7 @@ dodajo nove izhodne tipe brez vplivanja na kodo klienta.
 
 Videli boste, kako vsak konkreten 'output' razred izvede OutputInterface - to ima dvojen namen, primarno
 ponuja enostavno naročilo, katero mora biti ubogano s strani katerekoli nove konkretne izvedbe. Drugič, z
-implementacijo pogostega vmesnika boste videli v naslednji sekciji, da lahko sedaj uporabite t.i. [Type Hinting](http://php.net/manual/en/language.oop5.typehinting.php),
+implementacijo pogostega vmesnika boste videli v naslednji sekciji, da lahko sedaj uporabite t.i. [Type Hinting](http://php.net/language.oop5.typehinting),
 da zagotovite, da je klient, ki je uporabil ta vedenja, pravilnega tipa, v tem primeru 'OutputInterface'.
 
 Naslednji odrezek kode opisuje, kako klic razreda klienta lahko uporabi enega teh algoritmon ali celo boljše nastavi

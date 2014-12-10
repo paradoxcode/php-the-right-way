@@ -6,13 +6,13 @@ anchor: programming_paradigms
 
 ## Programske paradigme {#programming_paradigms_title}
 
-PHP je fleksibilen, dinamičen jezik, ki podpira celo vrsto programskih tehnik. Tekom let se je izjemno razvijal, 
-še posebej z dodatkom objektno orientiranega modela v PHP 5.0 (2004), anonimnih funkcij in imenskih prostorov (namespaces) 
+PHP je fleksibilen, dinamičen jezik, ki podpira celo vrsto programskih tehnik. Tekom let se je izjemno razvijal,
+še posebej z dodatkom objektno orientiranega modela v PHP 5.0 (2004), anonimnih funkcij in imenskih prostorov (namespaces)
 v PHP 5.3 (2009) ter t.i. traits-ov v PHP 5.4 (2012).
 
 ### Objektno orientirano programiranje
 
-PHP ima celoten nabor lastnosti objektnega programiranja, katere vključujejo podporo za razrede (classes), abstraktne razrede, 
+PHP ima celoten nabor lastnosti objektnega programiranja, katere vključujejo podporo za razrede (classes), abstraktne razrede,
 vmesnike (interfaces), dedovanje, konstruktorje, kloniranje, izjeme in še več.
 
 * [Preberite o PHP objektnem programiranju][oop]
@@ -49,14 +49,14 @@ kot `__call()` in `__callStatic()`.
 * [Preberite vse o magičnih metodah][magic-methods]
 * [Preberite o refleksiji][reflection]
 
-[namespaces]: http://php.net/manual/en/language.namespaces.php
-[overloading]: http://php.net/manual/en/language.oop5.overloading.php
-[oop]: http://www.php.net/manual/en/language.oop5.php
-[anonymous-functions]: http://www.php.net/manual/en/functions.anonymous.php
-[closure-class]: http://php.net/manual/en/class.closure.php
-[callables]: http://php.net/manual/en/language.types.callable.php
-[magic-methods]: http://php.net/manual/en/language.oop5.magic.php
-[reflection]: http://www.php.net/manual/en/intro.reflection.php
+[namespaces]: http://php.net/language.namespaces
+[overloading]: http://php.net/language.oop5.overloading
+[oop]: http://php.net/language.oop5
+[anonymous-functions]: http://php.net/functions.anonymous
+[closure-class]: http://php.net/class.closure
+[callables]: http://php.net/language.types.callable
+[magic-methods]: http://php.net/language.oop5.magic
+[reflection]: http://www.php.net/intro.reflection
 [traits]: http://www.php.net/traits
-[call-user-func-array]: http://php.net/manual/en/function.call-user-func-array.php
+[call-user-func-array]: http://php.net/function.call-user-func-array
 [closures-rfc]: https://wiki.php.net/rfc/closures

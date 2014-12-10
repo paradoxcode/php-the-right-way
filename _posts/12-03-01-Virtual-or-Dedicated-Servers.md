@@ -14,7 +14,7 @@ PHP preko PHP-jevega vgrajenega FastCGI procesnega upravljalnika (FPM), gre res 
 spomina kot Apache in boljše ravna s trenutni zahtevki. To je še posebej pomembno na virtualnih strežnikih, ki nimajo na voljo veliko spomina.
 
 * [Preberite več o nginx](http://nginx.org)
-* [Preberite več o PHP-FPM](http://php.net/manual/en/install.fpm.php)
+* [Preberite več o PHP-FPM](http://php.net/install.fpm)
 * [Preberite več o varni nastavitvi nginx in PHP-FPM](https://nealpoole.com/blog/2011/04/setting-up-php-fastcgi-and-nginx-dont-trust-the-tutorials-check-your-configuration/)
 
 ### Apache in PHP

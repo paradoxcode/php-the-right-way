@@ -68,8 +68,8 @@ v [SPL razširitvi][splext].
 * [Gnezdenje izjem v PHP][nesting-exceptions-in-php]
 * [Najboljše prakse izjem v PHP 5.3][exception-best-practices53]
 
-[exceptions]: http://php.net/manual/en/language.exceptions.php
-[splexe]: http://php.net/manual/en/spl.exceptions.php
+[exceptions]: http://php.net/language.exceptions
+[splexe]: http://php.net/spl.exceptions
 [splext]: /#standardna_php_knjižnica
 [exception-best-practices53]: http://ralphschindler.com/2010/09/15/exception-best-practices-in-php-5-3
 [nesting-exceptions-in-php]: http://www.brandonsavage.net/exceptional-php-nesting-exceptions-in-php/

@@ -12,4 +12,4 @@ S PHP 5.4 ali novejšim, se lahko začnete učiti PHP brez namestitve ali konfig
 
 * [Spoznajte vgrajeni spletni strežnik v komandni vrstici][cli-server]
 
-[cli-server]: http://www.php.net/manual/en/features.commandline.webserver.php
+[cli-server]: http://php.net/manual/features.commandline.webserver

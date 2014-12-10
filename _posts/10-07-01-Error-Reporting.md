@@ -19,7 +19,7 @@ Za prikaz vsake možne napake med <strong>razvojem</strong>, nastavite sledeče 
     error_reporting = -1
     log_errors = On
 
-> Podajanje vrednosti `-1` bo prikazalo vsako možno napako, tudi če so novi nivoji ali konstante dodani v prihodnjih PHP verzijah. `E_ALL` konstanta se tudi obnaša na tak način od PHP 5.4. - [php.net](http://php.net/manual/function.error-reporting.php)
+> Podajanje vrednosti `-1` bo prikazalo vsako možno napako, tudi če so novi nivoji ali konstante dodani v prihodnjih PHP verzijah. `E_ALL` konstanta se tudi obnaša na tak način od PHP 5.4. - [php.net](http://php.net/function.error-reporting)
 
 `E_STRICT` konstanta nivoja napak je bila predstavljena v 5.3.0 in ni
 del `E_ALL`, čeprav je postala del `E_ALL` v 5.4.0. Kaj to pomeni?
@@ -44,7 +44,7 @@ Da skrijete napake v vašem <strong>produkcijskem</strong> okolju, nastavite va�
 S temi nastavitvami v produkciji, bodo napake še vedno zabeležene v dnevnike napak za spletni strežnik, vendar ne bodo
 prikazane uporabniku. Za več informacij na teh nastavitvah, si oglejte PHP priročnik:
 
-* [error_reporting](http://php.net/manual/errorfunc.configuration.php#ini.error-reporting)
-* [display_errors](http://php.net/manual/errorfunc.configuration.php#ini.display-errors)
-* [display_startup_errors](http://php.net/manual/errorfunc.configuration.php#ini.display-startup-errors)
-* [log_errors](http://php.net/manual/errorfunc.configuration.php#ini.log-errors)
+* [error_reporting](http://php.net/errorfunc.configuration#ini.error-reporting)
+* [display_errors](http://php.net/errorfunc.configuration#ini.display-errors)
+* [display_startup_errors](http://php.net/errorfunc.configuration#ini.display-startup-errors)
+* [log_errors](http://php.net/errorfunc.configuration#ini.log-errors)

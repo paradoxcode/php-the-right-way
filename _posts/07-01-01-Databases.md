@@ -20,7 +20,7 @@ kot sta `mysql_connect()` in `mysql_query()` v vaših aplikacijah, potem le te e
 z [mysqli] ali [PDO] v vaših aplikacijah znotraj vašega razvojnega časovnega načrta, tako da se vam ne bo mudilo kasneje. **Če pričenjate od začetka potem vsekakor ne
 uporabite [mysql] razširitve: uporabite [MySQLi razširitev][mysqli], ali uporabite [PDO].**
 
-* [PHP: Izbira API-ja za MySQL](http://php.net/manual/en/mysqlinfo.api.choosing.php)
+* [PHP: Izbira API-ja za MySQL](http://php.net/mysqlinfo.api.choosing)
 * [PDO Tutorial for MySQL Developers](http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers)
 
 ## PDO razširitev
@@ -84,9 +84,9 @@ razen seveda, če uporabljate trajne povezave.
 
 * [Izvedite več o PDO povezavah]
 
-[Izvedite več o PDO]: http://www.php.net/manual/en/book.pdo.php
-[Izvedite več o PDO povezavah]: http://php.net/manual/en/pdo.connections.php
-[uradno opuščena od PHP 5.5.0]: http://php.net/manual/en/migration55.deprecated.php
+[Izvedite več o PDO]: http://www.php.net/book.pdo
+[Izvedite več o PDO povezavah]: http://php.net/pdo.connections
+[uradno opuščena od PHP 5.5.0]: http://php.net/migration55.deprecated
 [SQL injiciranje]: http://wiki.hashphp.org/Validation
 
 [pdo]: http://php.net/pdo

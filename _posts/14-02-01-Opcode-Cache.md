@@ -18,10 +18,10 @@ za prejšnje različice.
 Preberite več o predpomnilnikih ukazne kode:
 
 * [OPcache][opcache-book] (vgrajen od PHP 5.5)
-* [APC](http://php.net/manual/en/book.apc.php) (PHP 5.4 in prejšnji)
+* [APC](http://php.net/book.apc) (PHP 5.4 in prejšnji)
 * [XCache](http://xcache.lighttpd.net/)
 * [Zend Optimizer+](http://www.zend.com/products/server/) (del Zend Server paketa)
 * [WinCache](http://www.iis.net/download/wincacheforphp) (razširitev za MS Windows Server)
 * [seznam pohitritev PHP na Wikipediji](http://en.wikipedia.org/wiki/List_of_PHP_accelerators)
 
-[opcache-book]: http://php.net/manual/en/book.opcache.php
+[opcache-book]: http://php.net/book.opcache

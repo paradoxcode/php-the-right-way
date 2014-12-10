@@ -6,7 +6,7 @@ anchor: mac_setup
 
 ## Namestitev v Mac okolju  {#mac_setup_title}
 
-OS X sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Mountain Lion vsebuje 
+OS X sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Mountain Lion vsebuje
 PHP 5.3.10, Mavericks ima 5.4.17 in Yosemite ima 5.5.9, vendar z izzidom PHP 5.6 to pogostokrat ni dovolj.
 
 Obstoja veliko načinov za namestitev PHP na OS X.
@@ -37,7 +37,7 @@ Rešitve napisane zgoraj v glavnem upravljajo sam PHP in ne podpirajo stvari kot
 
 [Homebrew]: http://brew.sh/
 [Homebrew PHP]: https://github.com/Homebrew/homebrew-php#installation
-[mac-compile]: http://www.php.net/manual/en/install.macosx.compile.php
+[mac-compile]: http://php.net/manual/install.macosx.compile
 [xcode-gcc-substitution]: https://github.com/kennethreitz/osx-gcc-installer
 ["Command Line Tools for XCode"]: https://developer.apple.com/downloads
 [mamp-downloads]: http://www.mamp.info/en/downloads/

@@ -60,5 +60,5 @@ foreach ($periodIterator as $date) {
 * [Preberite o DateTime][datetime]
 * [Preberite o oblikovanju datuma][dateformat] (sprejete opcije niza oblikovanja datuma)
 
-[datetime]: http://www.php.net/manual/book.datetime.php
-[dateformat]: http://www.php.net/manual/function.date.php
+[datetime]: http://php.net/book.datetime
+[dateformat]: http://php.net/function.date

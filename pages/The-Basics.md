@@ -33,8 +33,8 @@ if (strpos('testing', 'test') !== false) {    // true, as strict comparison was 
 }
 {% endhighlight %}
 
-* [Primerjalni operatorji](http://php.net/manual/en/language.operators.comparison.php)
-* [Primerjalna tabela](http://php.net/manual/en/types.comparisons.php)
+* [Primerjalni operatorji](http://php.net/language.operators.comparison)
+* [Primerjalna tabela](http://php.net/types.comparisons)
 
 ## Pogojni stavki
 
@@ -66,7 +66,7 @@ function test($a)
 }
 {% endhighlight %}
 
-* [If stavki](http://php.net/manual/en/control-structures.if.php)
+* [If stavki](http://php.net/control-structures.if)
 
 ### Switch stavki
 
@@ -99,7 +99,7 @@ function test($a)
 }
 {% endhighlight %}
 
-* [Switch stavki](http://php.net/manual/en/control-structures.switch.php)
+* [Switch stavki](http://php.net/control-structures.switch)
 * [PHP switch](http://phpswitch.com/)
 
 ## Globalni imenski prostor
@@ -124,8 +124,8 @@ function array()
 }
 {% endhighlight %}
 
-* [Globalni prostor](http://php.net/manual/en/language.namespaces.global.php)
-* [Globalna pravila](http://php.net/manual/en/userlandnaming.rules.php)
+* [Globalni prostor](http://php.net/language.namespaces.global)
+* [Globalna pravila](http://php.net/userlandnaming.rules)
 
 ## Nizi
 
@@ -149,7 +149,7 @@ $a = 'Multi-line example'      // concatenation operator (.)
     . 'of what to do';
 {% endhighlight %}
 
-* [Operatorji nizov](http://php.net/manual/en/language.operators.string.php)
+* [Operatorji nizov](http://php.net/language.operators.string)
 
 ### Tipi nizov
 
@@ -176,7 +176,7 @@ echo 'This is my string, look at how pretty it is.';    // no need to parse a si
  */
 {% endhighlight %}
 
-* [Enojni citat](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.single)
+* [Enojni citat](http://php.net/language.types.string#language.types.string.syntax.single)
 
 #### Dvojni citati
 
@@ -226,7 +226,7 @@ $juice = array('apple', 'orange', 'plum');
 echo "I drank some juice made of {$juice[1]}s";   // $juice[1] will be parsed
 {% endhighlight %}
 
-* [Dvojni citati](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.double)
+* [Dvojni citati](http://php.net/language.types.string#language.types.string.syntax.double)
 
 #### Nowdoc sintaksa
 
@@ -252,7 +252,7 @@ EOD;                        // closing 'EOD' must be on it's own line, and to th
  */
 {% endhighlight %}
 
-* [Nowdoc sintaksa](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.nowdoc)
+* [Nowdoc sintaksa](http://php.net/language.types.string#language.types.string.syntax.nowdoc)
 
 #### Heredoc sintaksa
 
@@ -280,7 +280,7 @@ EOD;                        // closing 'EOD' must be on it's own line, and to th
  */
 {% endhighlight %}
 
-* [Heredoc sintaksa](http://www.php.net/manual/en/language.types.string.php#language.types.string.syntax.heredoc)
+* [Heredoc sintaksa](http://php.net/language.types.string#language.types.string.syntax.heredoc)
 
 ### Kaj je hitreje?
 
@@ -382,7 +382,7 @@ Drug primer je skupek kode spodaj, ki bo vrnil true, če ($a != 3 AND $b != 4) O
 return ($a != 3 && $b != 4) || $c == 5;
 {% endhighlight %}
 
-* [Trojni operatorji](http://php.net/manual/en/language.operators.comparison.php)
+* [Trojni operatorji](http://php.net/language.operators.comparison)
 
 ## Deklaracije spremenljivk
 

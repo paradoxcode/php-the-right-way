@@ -46,7 +46,7 @@ Končno, če gradite distribuirano aplikacijo in ne morete biti prepričani, da 
 omogočena, potem premislite o uporabi [patchwork/utf8] Composer paketa. Ta
 bo uporabil `mbstring`, če je na voljo in se vrnil na ne UTF-8 funkcije, če ni.
 
-[razširitve multybyte niza]: http://php.net/manual/en/book.mbstring.php
+[razširitve multybyte niza]: http://php.net/book.mbstring
 [patchwork/utf8]: https://packagist.org/packages/patchwork/utf8
 
 ### UTF-8 na nivoju podatkovne baze
@@ -127,19 +127,19 @@ header('Content-Type: text/html; charset=UTF-8');
 
 ### Nadaljnje branje
 
-* [PHP priročnik: operacije nizov](http://php.net/manual/en/language.operators.string.php)
-* [PHP priročnik: funkcije nizov](http://php.net/manual/en/ref.strings.php)
-    * [`strpos()`](http://php.net/manual/en/function.strpos.php)
-    * [`strlen()`](http://php.net/manual/en/function.strlen.php)
-    * [`substr()`](http://php.net/manual/en/function.substr.php)
-* [PHP priročnik: večbajtne funkcije nizov](http://php.net/manual/en/ref.mbstring.php)
-    * [`mb_strpos()`](http://php.net/manual/en/function.mb-strpos.php)
-    * [`mb_strlen()`](http://php.net/manual/en/function.mb-strlen.php)
-    * [`mb_substr()`](http://php.net/manual/en/function.mb-substr.php)
-    * [`mb_internal_encoding()`](http://php.net/manual/en/function.mb-internal-encoding.php)
-    * [`mb_http_output()`](http://php.net/manual/en/function.mb-http-output.php)
-    * [`htmlentities()`](http://php.net/manual/en/function.htmlentities.php)
-    * [`htmlspecialchars()`](http://www.php.net/manual/en/function.htmlspecialchars.php)
+* [PHP priročnik: operacije nizov](http://php.net/language.operators.string)
+* [PHP priročnik: funkcije nizov](http://php.net/ref.strings)
+    * [`strpos()`](http://php.net/function.strpos)
+    * [`strlen()`](http://php.net/function.strlen)
+    * [`substr()`](http://php.net/function.substr)
+* [PHP priročnik: večbajtne funkcije nizov](http://php.net/ref.mbstring)
+    * [`mb_strpos()`](http://php.net/function.mb-strpos)
+    * [`mb_strlen()`](http://php.net/function.mb-strlen)
+    * [`mb_substr()`](http://php.net/function.mb-substr)
+    * [`mb_internal_encoding()`](http://php.net/function.mb-internal-encoding)
+    * [`mb_http_output()`](http://php.net/function.mb-http-output)
+    * [`htmlentities()`](http://php.net/function.htmlentities)
+    * [`htmlspecialchars()`](http://php.net/function.htmlspecialchars)
 * [PHP UTF-8 plonkec](http://blog.loftdigital.com/blog/php-utf-8-cheatsheet)
 * [Stack Overflow: Kateri faktorji narejo PHP nekompatibilnega z Unicode?](http://stackoverflow.com/questions/571694/what-factors-make-php-unicode-incompatible)
 * [Stack Overflow: Najboljše prakse v PHP in MySQL z mednarodnimi nizi](http://stackoverflow.com/questions/140728/best-practices-in-php-and-mysql-with-international-strings)

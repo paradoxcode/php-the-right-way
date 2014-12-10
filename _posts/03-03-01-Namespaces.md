@@ -30,6 +30,6 @@ paket potem vsekakor želite preveriti PSR-4.
 * [Preberite o PSR-0][psr0]
 * [Preberite o PSR-4][psr4]
 
-[namespaces]: http://php.net/manual/en/language.namespaces.php
+[namespaces]: http://php.net/language.namespaces
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [psr4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
