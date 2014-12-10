@@ -11,12 +11,12 @@ mnogo funkcij, ki se nanašajo na datum in čas poleg DateTime razreda, vendar l
 vmesnik za večino najpogostejših primerov uporabe. Omogoča ravnanje s časovnimi območji, vendar to je izven te kratke predstavitve.
 
 Za pričetek dela z DateTime, pretvorimo izvorni niz datuma in časa v objekt s tovarniško metodo `createFromFormat()`,
-ali pa uporabimo `new \DateTime`, da dobimo trenutno datum in čas. Uporabite metodo `format()` za pretvorbo DateTime nazaj
+ali pa uporabimo `new DateTime`, da dobimo trenutno datum in čas. Uporabite metodo `format()` za pretvorbo DateTime nazaj
 v niz za izpis.
 {% highlight php %}
 <?php
 $raw = '22. 11. 1968';
-$start = \DateTime::createFromFormat('d. m. Y', $raw);
+$start = DateTime::createFromFormat('d. m. Y', $raw);
 
 echo 'Start date: ' . $start->format('Y-m-d') . "\n";
 {% endhighlight %}
@@ -29,7 +29,7 @@ sprememb datuma uporabite metodo `diff()`. Vrnila bo nov DateInterval, ki je izj
 <?php
 // create a copy of $start and add one month and 6 days
 $end = clone $start;
-$end->add(new \DateInterval('P1M6D'));
+$end->add(new DateInterval('P1M6D'));
 
 $diff = $end->diff($start);
 echo 'Difference: ' . $diff->format('%m month, %d days (total: %a days)') . "\n";
@@ -49,8 +49,8 @@ DateTime objekta, začetek in konec ter interval za katerega vrne vse vmesne dog
 {% highlight php %}
 <?php
 // output all thursdays between $start and $end
-$periodInterval = \DateInterval::createFromDateString('first thursday');
-$periodIterator = new \DatePeriod($start, $periodInterval, $end, \DatePeriod::EXCLUDE_START_DATE);
+$periodInterval = DateInterval::createFromDateString('first thursday');
+$periodIterator = new DatePeriod($start, $periodInterval, $end, \DatePeriod::EXCLUDE_START_DATE);
 foreach ($periodIterator as $date) {
     // output each date in the period
     echo $date->format('Y-m-d') . ' ';
