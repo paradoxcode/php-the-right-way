@@ -12,7 +12,7 @@ CLI PHP programi so zmogljivi, ker lahko uporabite kodo vaše aplikacije direktn
 
 Poskusite pognati PHP iz komandne vrstice:
 
-{% highlight bash %}
+{% highlight console %}
 > php -i
 {% endhighlight %}
 
@@ -38,7 +38,7 @@ Izraz `exit()` je uporabljen s številko različno od nič, da omogoči lupini v
 
 Za pogon naše skripte zgoraj iz komandne vrstice:
 
-{% highlight bash %}
+{% highlight console %}
 > php hello.php
 Usage: php hello.php [name]
 > php hello.php world

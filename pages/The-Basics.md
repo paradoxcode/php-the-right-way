@@ -360,7 +360,6 @@ return ($a == 3) ? "yay" : "nope"; // return yay or nope if $a == 3
 
 // proti
 
-<?php
 $a = 3;
 
 return $a == 3 ? "yay" : "nope"; // return yay or nope if $a == 3

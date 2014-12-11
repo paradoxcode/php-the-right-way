@@ -14,10 +14,12 @@ povzroči izpis teh sporočil, morate nastaviti vaš razvojni strežnik drugače
 
 Za prikaz vsake možne napake med <strong>razvojem</strong>, nastavite sledeče v vaši `php.ini` datoteki:
 
-    display_errors = On
-    display_startup_errors = On
-    error_reporting = -1
-    log_errors = On
+{% highlight ini %}
+display_errors = On
+display_startup_errors = On
+error_reporting = -1
+log_errors = On
+{% endhighlight %}
 
 > Podajanje vrednosti `-1` bo prikazalo vsako možno napako, tudi če so novi nivoji ali konstante dodani v prihodnjih PHP verzijah. `E_ALL` konstanta se tudi obnaša na tak način od PHP 5.4. - [php.net](http://php.net/function.error-reporting)
 
@@ -36,10 +38,12 @@ uporabiti ali `-1` ali `E_ALL | E_STRICT`.
 
 Da skrijete napake v vašem <strong>produkcijskem</strong> okolju, nastavite vašo `php.ini` datoteko kot:
 
-    display_errors = Off
-    display_startup_errors = Off
-    error_reporting = E_ALL
-    log_errors = On
+{% highlight ini %}
+display_errors = Off
+display_startup_errors = Off
+error_reporting = E_ALL
+log_errors = On
+{% endhighlight %}
 
 S temi nastavitvami v produkciji, bodo napake še vedno zabeležene v dnevnike napak za spletni strežnik, vendar ne bodo
 prikazane uporabniku. Za več informacij na teh nastavitvah, si oglejte PHP priročnik:

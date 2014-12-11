@@ -8,7 +8,9 @@ anchor: builtin_web_server
 
 S PHP 5.4 ali novejšim, se lahko začnete učiti PHP brez namestitve ali konfiguracije celotnega spletnega strežnika. Za zagon strežnika poženite naslednje iz komandne vrstice v vašem vrhnjem spletnem direktoriju:
 
-    > php -S localhost:8000
+{% highlight console %}
+> php -S localhost:8000
+{% endhighlight %}
 
 * [Spoznajte vgrajeni spletni strežnik v komandni vrstici][cli-server]
 

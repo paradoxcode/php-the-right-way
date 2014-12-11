@@ -203,7 +203,6 @@ Naslednji odrezek kode opisuje, kako klic razreda klienta lahko uporabi enega te
 zahtevano vedenje pri izvajanju:
 {% highlight php %}
 <?php
-
 class SomeClient
 {
     private $output;
@@ -225,7 +224,6 @@ ko je enkrat ta lastnost nastavljena, bo klic loadOutput() poklical metodo load(
 nastavljen.
 {% highlight php %}
 <?php
-
 $client = new SomeClient();
 
 // Want an array?

@@ -14,7 +14,9 @@ Na voljo je že ogromno PHP knjižnic, ki so kompatibilne s Composer-jem in prip
 
 Composer lahko namestite lokalno (v vaš trenutni delovni direktorij; čeprav to ni več priporočljivo) ali globalno (npr. /usr/local/bin). Ob predpostavki, da želite namestiti Composer lokalno, se Composer prenese v vaš projektni vrhovni direktorij:
 
-    curl -s https://getcomposer.org/installer | php
+{% highlight console %}
+curl -s https://getcomposer.org/installer | php
+{% endhighlight %}
 
 To namesti `composer.phar` (PHP binarni arhiv). To lahko poženete s `php` za upravljanje vaših projektnih odvisnosti.
 <strong>Prosimo, upoštevajte:</strong> Če ste prenesli naloženo kodo direktno v interpreter, prosimo prvo preberite kodo na spletu, da ste prepričani, da je varna.
@@ -35,14 +37,18 @@ Ročna namestitev Composer-ja je napredna tehnika, čeprav obstajajo različni r
 
 Ker ročna namestitev ne izvede nobenih od teh preverjanj, se morate odločiti ali je to ustrezno za vas. Tako je na voljo Composer tudi ročno:
 
-    curl -s https://getcomposer.org/composer.phar -o $HOME/local/bin/composer
-    chmod +x $HOME/local/bin/composer
+{% highlight console %}
+curl -s https://getcomposer.org/composer.phar -o $HOME/local/bin/composer
+chmod +x $HOME/local/bin/composer
+{% endhighlight %}
 
 Pot `$HOME/local/bin` (ali direktorij po vaši izbiri) bi moral biti v vaši potni `$PATH` spremenljivki okolja. To bo omogočilo izvajanje ukaza `composer`.
 
 Ko v dokumentaciji naletite na ukaz, kot je npr. `php composer.phar install`, ga lahko zamenjate in poženete sledeče:
 
-    composer install
+{% highlight console %}
+composer install
+{% endhighlight %}
 
 Ta sekcija predvideva, da ste namestili Composer globalno.
 
@@ -50,11 +56,15 @@ Ta sekcija predvideva, da ste namestili Composer globalno.
 
 Composer beleži odvisnosti vašega projekta v datoteki imenovani `composer.json`. Če želite, jo lahko upravljate ročno, ali uporabite sam Composer. Ukaz `composer require` doda odvisnost projekta in če nimate `composer.json` datoteke, bo kreirana. Spodaj je primer, ki doda [Twig][2] kot odvisnost v vaš projekt.
 
-	composer require twig/twig:~1.8
+{% highlight console %}
+composer require twig/twig:~1.8
+{% endhighlight %}
 
 Alternativno, ukaz `composer init` vas bo vodil skozi ustvarjanje celotne datoteke `composer.json` za vaš projekt. Bodisi, ko enkrat ustvarite vašo `composer.json` datoteko lahko poveste Composer-ju, da prenese in namesti vaše odvisnosti v `vendor/` direktorij. To velja tudi za projekte, ki ste jih prenesli in že vsebujejo `composer.json` datoteko:
 
-    composer install
+{% highlight console %}
+composer install
+{% endhighlight %}
 
 V nadaljevanju dodajte naslednjo vrstico v vašo glavno PHP datoteko aplikacije. To narekuje PHP-ju, da uporabi Composer-jev avtomatski nalagalnik (autoloader) za odvisnosti vašega projekta.
 
