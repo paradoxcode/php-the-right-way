@@ -70,17 +70,17 @@ Brskalniku bo nato povedano s strani odziva HTTP, da ta stran bi morala biti sma
 <?php
 // Tell PHP that we're using UTF-8 strings until the end of the script
 mb_internal_encoding('UTF-8');
- 
+
 // Tell PHP that we'll be outputting UTF-8 to the browser
 mb_http_output('UTF-8');
- 
+
 // Our UTF-8 test string
 $string = 'Êl síla erin lû e-govaned vîn.';
- 
+
 // Transform the string in some way with a multibyte function
 // Note how we cut the string at a non-Ascii character for demonstration purposes
 $string = mb_substr($string, 0, 15);
- 
+
 // Connect to a database to store the transformed string
 // See the PDO example in this document for more information
 // Note the `set names utf8mb4` commmand!
@@ -100,12 +100,12 @@ $handle = $link->prepare('insert into ElvishSentences (Id, Body) values (?, ?)')
 $handle->bindValue(1, 1, PDO::PARAM_INT);
 $handle->bindValue(2, $string);
 $handle->execute();
- 
+
 // Retrieve the string we just stored to prove it was stored correctly
 $handle = $link->prepare('select * from ElvishSentences where Id = ?');
 $handle->bindValue(1, 1, PDO::PARAM_INT);
 $handle->execute();
- 
+
 // Store the result into an object that we'll output later in our HTML
 $result = $handle->fetchAll(\PDO::FETCH_OBJ);
 
@@ -141,6 +141,7 @@ header('Content-Type: text/html; charset=UTF-8');
     * [`htmlentities()`](http://php.net/function.htmlentities)
     * [`htmlspecialchars()`](http://php.net/function.htmlspecialchars)
 * [PHP UTF-8 plonkec](http://blog.loftdigital.com/blog/php-utf-8-cheatsheet)
+* [Upravljanje UTF-8 s PHP](http://www.phpwact.org/php/i18n/utf-8)
 * [Stack Overflow: Kateri faktorji narejo PHP nekompatibilnega z Unicode?](http://stackoverflow.com/questions/571694/what-factors-make-php-unicode-incompatible)
 * [Stack Overflow: Najboljše prakse v PHP in MySQL z mednarodnimi nizi](http://stackoverflow.com/questions/140728/best-practices-in-php-and-mysql-with-international-strings)
 * [Kako podpirati celtni Unicode v MySQL podatkovnih bazah](http://mathiasbynens.be/notes/mysql-utf8mb4)
