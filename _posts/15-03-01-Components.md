@@ -22,7 +22,7 @@ samo dodaten repozitorij za ponovno uporabne komponente:
   [dm]: /#upravljanje_odvisnosti
   [fuelval]: https://github.com/fuelphp/validation
 
-* [Aura](http://auraphp.github.com/)
+* [Aura](http://auraphp.com/packages/v2)
 * [FuelPHP](https://github.com/fuelphp)
 * [Hoa Project](https://github.com/hoaproject)
 * [Orno](https://github.com/orno)
