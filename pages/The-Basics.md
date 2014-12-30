@@ -298,7 +298,7 @@ Ne glede na to, kaj delate z nizi, noben tip ne bo nikoli imel opaznejšega vpli
 Če poskušate prepisati kodo, da uporablja enega ali drugega, je vedno vaja v jalovosti, torej se izogibajte tem mikro-optimizacijam razen če res
 razumete pomen in vpliv teh razlik.
 
-[Ovrženje mita izboljšav zmogljivosti enojnih citatov]: http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html
+* [Ovrženje mita izboljšav zmogljivosti enojnih citatov](http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html)
 
 ## Trojni operatorji
 

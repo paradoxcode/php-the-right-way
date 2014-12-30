@@ -4,7 +4,7 @@ isChild: false
 anchor: code_style_guide
 ---
 
-# Vodič kodnega stila  {#code_style_guide_title}
+# Vodič kodnega stila {#code_style_guide_title}
 
 PHP skupnost je velika in raznolika ter sestavljena iz številnih knjižnic, ogrodij in komponent. Za PHP razvijalce je
 običajno, da izbirajo med mnogimi od le teh in jih kombinirajo v določenem projektu. Pomembno je, da se PHP koda oprijema

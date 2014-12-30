@@ -13,6 +13,7 @@ vmesnik za večino najpogostejših primerov uporabe. Omogoča ravnanje s časovn
 Za pričetek dela z DateTime, pretvorimo izvorni niz datuma in časa v objekt s tovarniško metodo `createFromFormat()`,
 ali pa uporabimo `new DateTime`, da dobimo trenutno datum in čas. Uporabite metodo `format()` za pretvorbo DateTime nazaj
 v niz za izpis.
+
 {% highlight php %}
 <?php
 $raw = '22. 11. 1968';
@@ -25,6 +26,7 @@ Računanje z DateTime je možno s pomočjo razreda DateInterval. DateTime ima me
 sprejmejo DateInterval kot argument. Ne pišite kode, ki pričakuje enako število sekund v vsakem dnevu, saj bosta tako
 poletni čas in spreminjanje časovnih območij pokvarila to predpostavko. Namesto tega uporabite intervale datumov. Za izračun
 sprememb datuma uporabite metodo `diff()`. Vrnila bo nov DateInterval, ki je izjemno enostaven za prikaz.
+
 {% highlight php %}
 <?php
 // create a copy of $start and add one month and 6 days
@@ -37,6 +39,7 @@ echo 'Difference: ' . $diff->format('%m month, %d days (total: %a days)') . "\n"
 {% endhighlight %}
 
 Na DateTime objektih lahko uporabite standardne primerjave:
+
 {% highlight php %}
 <?php
 if ($start < $end) {
@@ -46,6 +49,7 @@ if ($start < $end) {
 
 Zadnji primer demonstrira razred DatePeriod. Uporabljen je za iteracijo nad ponavljajočimi se dogodki. Vzame lahko dva
 DateTime objekta, začetek in konec ter interval za katerega vrne vse vmesne dogodke.
+
 {% highlight php %}
 <?php
 // output all thursdays between $start and $end
