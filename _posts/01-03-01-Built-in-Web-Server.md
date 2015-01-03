@@ -15,4 +15,5 @@ Za zagon strežnika poženite naslednje iz komandne vrstice v vašem vrhnjem spl
 
 * [Spoznajte vgrajeni spletni strežnik v komandni vrstici][cli-server]
 
+
 [cli-server]: http://php.net/manual/features.commandline.webserver

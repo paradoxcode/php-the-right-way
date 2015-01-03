@@ -20,6 +20,7 @@ uporabite [phpmanager][phpmanager] (GUI vtičnik za IIS7), ki enostavno skonfigu
 že vgrajen FastCGI in je pripravljen na uporabo, tako da potrebujete samo skonfigurirati PHP kot hendler. Za podporo in dodatne vire
 je na voljo [namensko področje na iis.net][php-iis] za PHP.
 
+
 [php-downloads]: http://windows.php.net
 [wpi]: http://www.microsoft.com/web/downloads/platform.aspx
 [zsce]: http://www.zend.com/en/products/server-ce/

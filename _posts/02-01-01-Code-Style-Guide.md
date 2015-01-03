@@ -41,6 +41,7 @@ kar pomeni bolj tekoče realno časovno urejanje v urejevalniku.
 Angleščina je priporočljiva za vsa imena simbolov in infrastruktur kode. Komentarji so lahko napisani v kateremkoli jeziku,
 ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s kodo.
 
+
 [fig]: http://www.php-fig.org/
 [psr0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [psr1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
