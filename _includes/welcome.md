@@ -17,7 +17,7 @@ in primeri, ko bodo na voljo.
 
 ## Prevodi
 
-_PHP: The Right Way_ je (oz. bo kmalu) preveden v mnoge različne jezike:
+_PHP: The Right Way_ je preveden v mnoge različne jezike:
 
 * [English](http://www.phptherightway.com)
 * [Bulgarian](http://bg.phptherightway.com/)
