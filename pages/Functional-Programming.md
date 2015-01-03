@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Funkcijsko programiranje v PHP
+sitemap: true
 ---
 
 # Funkcijsko programiranje v PHP

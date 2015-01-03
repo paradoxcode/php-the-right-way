@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Osnove
+sitemap: true
 ---
 
 # Osnove

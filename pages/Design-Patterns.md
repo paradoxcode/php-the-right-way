@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Načtrovalski vzorci
+sitemap: true
 ---
 
 # Načrtovalski vzorci
