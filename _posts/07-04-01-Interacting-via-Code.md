@@ -86,7 +86,8 @@ class Foo()
 {% endhighlight %}
 
 To je v bistvu enako, kar počne večina modernih ogrodij, vse to bolj ročno. Lahko
-ne boste potrebovali narediti vsega tega vsakokrat, vendar mešanje skupaj preveč predstavitvene logike in interakcij s podatkovno bazo je lahko pravi problem, če kadarkoli želite narediti [teste enot](/#unit-testing) za vašo aplikacijo.
+ne boste potrebovali narediti vsega tega vsakokrat, vendar mešanje skupaj preveč predstavitvene logike in interakcij s podatkovno bazo je lahko
+pravi problem, če kadarkoli želite narediti [teste enot](/#unit-testing) za vašo aplikacijo.
 
 [PHPBridge] ima odličen vir imenovan [Izdelava podatkovnega razreda - Data Class], ki pokriva precej podobno temo in je odličen
 za razvijalce, ki so se ravnokar navadili na koncept interakcije s podatkovno bazo.
