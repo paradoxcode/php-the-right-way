@@ -13,8 +13,8 @@ Obstoja veliko načinov za namestitev PHP na OS X.
 
 ### Namestitev PHP preko Homebrew
 
-[Homebrew](http://brew.sh/) je močan paketni urejevalnik za OS X, ki vam lahko pomaga namestiti PHP in različne
-razširitve enostavno. [Homebrew PHP] je repozitorij, ki vsebuje PHP povezane 'formulae' za Homebrew, in vam bo omogočil
+[Homebrew] je močan paketni urejevalnik za OS X, ki vam lahko pomaga namestiti PHP in različne razširitve enostavno.
+[Homebrew PHP] je repozitorij, ki vsebuje PHP povezane 'formulae' za Homebrew, in vam bo omogočil
 namestiti PHP.
 
 Na tej točki, lahko namestite `php53`, `php54`, `php55` ali `php56` z uporabo ukaza `brew install`
@@ -28,8 +28,8 @@ aplikaciji/projekta zahtevata različni verziji PHP in ne uporabljate virtualne 
 ### Prevajanje iz izvorne kode
 
 Druga opcija. ki vam da kontrolo nad verzijo PHP-ja, ki ga nameščate, je [da ga sami prevedete][mac-compile].
-V tem primeru zagotovite, da imate nameščen ali Xcode ali Apple-ov nadomestek ["Command Line Tools for XCode"],
-ki ga je moč prenesti iz Apple Developer Centra.
+V tem primeru zagotovite, da imate nameščen ali [Xcode][xcode-gcc-substitution] ali Apple-ov nadomestek
+["Command Line Tools for XCode"], ki ga je moč prenesti iz Apple Developer Centra.
 
 ### All-in-One Installers
 
@@ -39,9 +39,9 @@ vas in jo skupaj povezale, vendar enostavnost namestitve pride z pomanjkanjem fl
 
 [Homebrew]: http://brew.sh/
 [Homebrew PHP]: https://github.com/Homebrew/homebrew-php#installation
+[phpbrew]: https://github.com/phpbrew/phpbrew
 [mac-compile]: http://php.net/manual/install.macosx.compile
 [xcode-gcc-substitution]: https://github.com/kennethreitz/osx-gcc-installer
 ["Command Line Tools for XCode"]: https://developer.apple.com/downloads
 [mamp-downloads]: http://www.mamp.info/en/downloads/
-[phpbrew]: https://github.com/phpbrew/phpbrew
 [xampp]: http://www.apachefriends.org/en/xampp.html

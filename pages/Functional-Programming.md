@@ -83,5 +83,5 @@ zaprtje definirano za zajemanje spremenljivk v prostoru in dostopa do njih kasne
 * [Preberite o dinaminčne sklicevanju funkcij s  `call_user_func_array`][call-user-func-array]
 
 [anonymous-functions]: http://php.net/functions.anonymous
-[call-user-func-array]: http://php.net/function.call-user-func-array
 [closures-rfc]: https://wiki.php.net/rfc/closures
+[call-user-func-array]: http://php.net/function.call-user-func-array

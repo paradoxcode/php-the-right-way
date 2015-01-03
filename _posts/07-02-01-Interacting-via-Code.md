@@ -91,6 +91,7 @@ ne boste potrebovali narediti vsega tega vsakokrat, vendar mešanje skupaj preve
 [PHPBridge] ima odličen vir imenovan [Izdelava podatkovnega razreda - Data Class], ki pokriva precej podobno temo in je odličen
 za razvijalce, ki so se ravnokar navadili na koncept interakcije s podatkovno bazo.
 
+
 [MVC]: http://code.tutsplus.com/tutorials/mvc-for-noobs--net-10488
 [PHPBridge]: http://phpbridge.org/
 [Izdelava podatkovnega razreda - Creating a Data Class]: http://phpbridge.org/intro-to-php/creating_a_data_class

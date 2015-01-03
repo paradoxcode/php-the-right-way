@@ -48,15 +48,17 @@ kot `__call()` in `__callStatic()`.
 
 * [Preberite vse o magičnih metodah][magic-methods]
 * [Preberite o refleksiji][reflection]
+* [Preberite o t.i. overloading-u][overloading]
 
 [namespaces]: http://php.net/language.namespaces
 [overloading]: http://php.net/language.oop5.overloading
 [oop]: http://php.net/language.oop5
+[traits]: http://www.php.net/traits
 [anonymous-functions]: http://php.net/functions.anonymous
 [closure-class]: http://php.net/class.closure
+[closures-rfc]: https://wiki.php.net/rfc/closures
 [callables]: http://php.net/language.types.callable
+[call-user-func-array]: http://php.net/function.call-user-func-array
 [magic-methods]: http://php.net/language.oop5.magic
 [reflection]: http://www.php.net/intro.reflection
-[traits]: http://www.php.net/traits
-[call-user-func-array]: http://php.net/function.call-user-func-array
-[closures-rfc]: https://wiki.php.net/rfc/closures
+[overloading]: http://php.net/language.oop5.overloading

@@ -14,14 +14,14 @@ podatkovno bazo &mdash; in to lahko postane neumno.
 
 ## MySQL extension
 
-Razširitev [mysql] za PHP ni več v aktivnem razvoju in je [uradno opuščena od PHP 5.5.0], kar pomeni, da bo
+Razširitev [mysql] za PHP ni več v aktivnem razvoju in je [uradno opuščena od PHP 5.5.0][mysql_deprecated], kar pomeni, da bo
 odstranjena znotraj nekaj naslednjih izdaj. Če uporabljate katerekoli funkcije, ki se začnejo z `mysql_*`
 kot sta `mysql_connect()` in `mysql_query()` v vaših aplikacijah, potem le te enostavno ne bodo na voljo v kasnejših verzijah PHP. To pomeni, da se boste v srečali s prepisovanjem, torej je najboljša opcija zamenjava mysql uporabe
 z [mysqli] ali [PDO] v vaših aplikacijah znotraj vašega razvojnega časovnega načrta, tako da se vam ne bo mudilo kasneje. **Če pričenjate od začetka potem vsekakor ne
 uporabite [mysql] razširitve: uporabite [MySQLi razširitev][mysqli], ali uporabite [PDO].**
 
-* [PHP: Izbira API-ja za MySQL](http://php.net/mysqlinfo.api.choosing)
-* [PDO Tutorial for MySQL Developers](http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers)
+* [PHP: Izbira API-ja za MySQL][mysql_api]
+* [PDO Tutorial for MySQL Developers][pdo4mysql_devs]
 
 ## PDO razširitev
 
@@ -84,10 +84,12 @@ razen seveda, če uporabljate trajne povezave.
 
 * [Izvedite več o PDO povezavah]
 
+[mysql_deprecated]: http://php.net/migration55.deprecated
+[mysql_api]: http://php.net/mysqlinfo.api.choosing
+[pdo4mysql_devs]: http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers
+[SQL injiciranje]: http://wiki.hashphp.org/Validation
 [Izvedite več o PDO]: http://www.php.net/book.pdo
 [Izvedite več o PDO povezavah]: http://php.net/pdo.connections
-[uradno opuščena od PHP 5.5.0]: http://php.net/migration55.deprecated
-[SQL injiciranje]: http://wiki.hashphp.org/Validation
 
 [pdo]: http://php.net/pdo
 [mysql]: http://php.net/mysql
