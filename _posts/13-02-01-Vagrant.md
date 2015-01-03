@@ -5,7 +5,7 @@ anchor:  vagrant
 
 ## Vagrant {#vagrant_title}
 
-[Vagrant] vam pomaga graditi vaše virtualne naprave na vrhu znanih virtualnih okolj in bo nastavil
+[Vagrant] vam pomaga zgraditi vaše virtualne naprave na vrhu znanih virtualnih okolj in bo nastavil
 ta okolja na osnovi ene nastavitvene datoteke.
 Te naprave se lahko nastavi ročno ali pa lahko uporabite "provisioning" (rezervacijsko)
 programsko opremo, kot je [Puppet] ali [Chef], ki to naredi za vas. Rezerviranje osnovne škatle je odličen način
