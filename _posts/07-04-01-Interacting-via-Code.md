@@ -39,7 +39,7 @@ foreach (getAllFoos($db) as $row) {
 
 To je dober začetek. Dajte ta dva elementa v dve različni datoteki in imate nekoliko čisto ločitev.
 
-Izdelajte razred, kamor date to metodo in imate "Model". Izdelajte enostavno `.php` datoteko, kamor date predstavitveno logiko in imate "View", kar je zelo blizu [MVC] - skupni OOP arhitekturi za večino [ogrodij](/#frameworks_title).
+Izdelajte razred, kamor date to metodo in imate "Model". Izdelajte enostavno `.php` datoteko, kamor date predstavitveno logiko in imate "View", kar je zelo blizu [MVC] - skupni OOP arhitekturi za večino [ogrodij](/#frameworks).
 
 **foo.php**
 

@@ -4,7 +4,7 @@ isChild: true
 anchor:  compiled_templates
 ---
 
-## Prevedene predloge {#compiled_templates}
+## Prevedene predloge {#compiled_templates_title}
 
 Medtem ko se je PHP razvil v zrel, objektno orientiran jezik, se [ni veliko izboljšal][article_templating_engines] kot
 jezik predlog. Prevedene predloge, kot so [Twig] ali [Smarty]*, zapolnjujejo to praznino s ponujanjem nove sintakse, ki je
