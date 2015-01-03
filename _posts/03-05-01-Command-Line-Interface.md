@@ -8,7 +8,7 @@ anchor:  command_line_interface
 
 PHP je bil narejen za ustvarjanje spletnih aplikacij, vendar je tudi uporaben za skriptiranje programov vmesnika komandne vrstice (CLI - command line interface). PHP programi za ukazno vrstico lahko pomagajo avtomatizirati pogoste naloge, kot so testiranje, nalaganje in administriranje aplikacije.
 
-CLI PHP programi so zmogljivi, ker lahko uporabite kodo vaše aplikacije direktno brez potrebe po ustvarjanju in zavarovanju spletnega GUI-ja zanjo. Bodite samo prepričani, da ne date vaše PHP CLI skripte v vaš javni spletni direktorij!
+CLI PHP programi so zmogljivi, ker lahko uporabite kodo vaše aplikacije direktno brez potrebe po ustvarjanju in zavarovanju spletnega GUI-ja zanjo. Bodite samo prepričani, da **ne** date vaše PHP CLI skripte v vaš javni spletni direktorij!
 
 Poskusite pognati PHP iz komandne vrstice:
 
