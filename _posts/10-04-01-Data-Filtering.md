@@ -59,6 +59,7 @@ e-poštni naslov, telefonsko številko ali starost pri procesiranju registracijs
 
 [Poglejte si filtre preverjanja][3]
 
+
 [1]: http://php.net/book.filter
 [2]: http://php.net/filter.filters.sanitize
 [3]: http://php.net/filter.filters.validate

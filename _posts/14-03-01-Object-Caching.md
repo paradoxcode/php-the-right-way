@@ -46,7 +46,7 @@ print_r($data);
 Upoštevajte, da pred PHP 5.5, APC ponuja tako predpomnilnik objektov kot tudi predpomnilnik ukazne kode. APCu je projekt,
 ki je prinesel APC-jev predpomnilnik objektov v PHP 5.5+, odkar ima PHP sedaj vgrajeni predpomnilnik ukazne kode (OPcache).
 
-Naučite se več o popularnih sistemih predpomnilnikov objektov:
+### Naučite se več o popularnih sistemih predpomnilnikov objektov:
 
 * [APCu](https://github.com/krakjoe/apcu)
 * [APC Functions](http://php.net/ref.apc)

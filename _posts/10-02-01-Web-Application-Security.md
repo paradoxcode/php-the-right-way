@@ -13,5 +13,6 @@ in metod, da se lahko zaščitite pred napadalci. To je obvezno branje za varnos
 
 * [Preberite OWASP varnostni vodič][2]
 
+
 [1]: https://www.owasp.org/
 [2]: https://www.owasp.org/index.php/Guide_Table_of_Contents

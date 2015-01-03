@@ -37,9 +37,10 @@ if (password_verify('bad-password', $passwordHash)) {
 
 
 * [Naučite se o `password_hash`] [1]
-* [`password_compat` za PHP  >= 5.3.7 && < 5.5] [2]
+* [`password_compat` za PHP >= 5.3.7 && < 5.5] [2]
 * [Naučite se o zgoščevanju v zvezi s kriptografijo] [3]
 * [PHP `password_hash` RFC] [4]
+
 
 [1]: http://php.net/function.password-hash
 [2]: https://github.com/ircmaxell/password_compat

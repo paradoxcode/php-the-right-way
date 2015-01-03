@@ -11,16 +11,22 @@ medtem ko se StoryBdd osredotoča na poslovna ali lastnostna vedenja ali interak
 
 Pri StoryBDD pišete zgodbe, ki upisujejo vedenje vaše aplikacije. Te zgodbe
 se nato lahko požene kot dejanske teste napram vaši aplikaciji. Uporabljeno ogrodje v PHP aplikacijah za StoryBDD
-je Behat, ki je bil navdihnjen od Ruby-jevega [Cucumber](http://cukes.info) projekta in implementira Gherkin DSL
+je Behat, ki je bil navdihnjen od Ruby-jevega [Cucumber] projekta in implementira Gherkin DSL
 za opisovanje lastnosti vedenja.
 
 Pri SpecBDD pišete specifikacije, ki opisujejo, kako bi se vaša dejanska koda morala vesti. Namesto testiranja
-funkcije ali metode, opisujete, kako bi se funkcija ali metoda morala vesti. PHP ponuja PHPSpec ogrodje za ta namen.
-To ogrodje je navdihnjeno od [Rspec projekta](http://rspec.info/) za Ruby.
+funkcije ali metode, opisujete, kako bi se funkcija ali metoda morala vesti. PHP ponuja [PHPSpec] ogrodje za ta namen.
+To ogrodje je navdihnjeno od [Rspec projekta][RSpec] za Ruby.
 
 ### BDD Links
 
-* [Behat](http://behat.org/), StoryBDD ogrodje za PHP, navdihnjeno od Ruby-jevega [Cucumber](http://cukes.info/) projekta;
-* [PHPSpec](http://www.phpspec.net/), SpecBDD ogrodje za PHP, navdihnjeno od Ruby-jevega [RSpec](http://rspec.info/) projekta;
-* [Codeception](http://codeception.com) je celotno testno ogrodje, ki uporablja BDD principe.
+* [Behat], StoryBDD ogrodje za PHP, navdihnjeno od Ruby-jevega [Cucumber] projekta;
+* [PHPSpec], SpecBDD ogrodje za PHP, navdihnjeno od Ruby-jevega [RSpec] projekta;
+* [Codeception] je celotno testno ogrodje, ki uporablja BDD principe.
 
+
+[Behat]: http://behat.org/
+[Cucumber]: http://cukes.info/
+[PHPSpec]: http://www.phpspec.net/
+[RSpec]: http://rspec.info/
+[Codeception]: http://codeception.com/

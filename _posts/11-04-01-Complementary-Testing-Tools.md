@@ -11,6 +11,14 @@ za kateregakoli izbranih prednostnih pristopov.
 
 ### Povezave orodij
 
-* [Selenium](http://seleniumhq.org/) je brskalniško avtomatizacijsko orodje, ki je lahko integrirano s [PHPUnit](http://phpunit.de/manual/current/en/selenium.html)
-* [Mockery](https://github.com/padraic/mockery) je Mock Object Framework, ki je lahko integrirano s [PHPUnit](http://phpunit.de/) ali [PHPSpec](http://www.phpspec.net/)
-* [Prophecy](https://github.com/phpspec/prophecy) je precej mnenjsko, vendar zelo močno in fleksibilno PHP objektno mocking ogrodje. Integrirano je s [PHPSpec](http://www.phpspec.net/) in je lahko uporabljeno s [PHPUnit](http://phpunit.de/).
+* [Selenium] je brskalniško avtomatizacijsko orodje, ki je lahko [integrirano s PHPUnit]
+* [Mockery] je Mock Object Framework, ki je lahko integrirano s [PHPUnit] ali [PHPSpec]
+* [Prophecy] je precej mnenjsko, vendar zelo močno in fleksibilno PHP objektno mocking ogrodje. Integrirano je s [PHPSpec] in je lahko uporabljeno s [PHPUnit].
+
+
+[Selenium]: http://seleniumhq.org/
+[integrirano s PHPUnit]: http://phpunit.de/manual/current/en/selenium.html
+[Mockery]: https://github.com/padraic/mockery
+[PHPUnit]: http://phpunit.de/
+[PHPSpec]: http://www.phpspec.net/
+[Prophecy]: https://github.com/phpspec/prophecy

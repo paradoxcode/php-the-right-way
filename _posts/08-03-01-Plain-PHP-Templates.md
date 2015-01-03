@@ -13,13 +13,13 @@ urejevalniki kode že imajo vgrajeno označevanje sintakse PHP in avtomatsko zak
 kakor hitre možno, saj ni potrebne nobene faze prevajanja.
 
 Vsako moderno PHP ogrodje vključuje neko vrsto sistema predlog, večina od teh uporabljajo privzeto osnovni PHP. Zunaj
-ogrodij, knjižnice kot je [Plates](http://platephp.com/) ali [Aura.View](https://github.com/auraphp/Aura.View) delujejo
+ogrodij, knjižnice kot je [Plates][plates] ali [Aura.View][aura] delujejo
 z osnovnimi PHP predlogami enostavnejše s ponujanjem moderne funkcionalnosti predlog, kot je dedovanje, postavitve in
 razširitve.
 
 ### Enostaven primer osnovne PHP predloge
 
-Uporaba knjižnice [Plates](http://platephp.com):
+Uporaba knjižnice [Plates][plates]:
 
 {% highlight php %}
 <?php // user_profile.php ?>
@@ -34,7 +34,7 @@ Uporaba knjižnice [Plates](http://platephp.com):
 
 ### Primer osnovne PHP predloge z uporabo dedovanja
 
-Uporaba knjižnice [Plates](http://platesphp.com/).
+Uporaba knjižnice [Plates][plates].
 
 {% highlight php %}
 <?php // template.php ?>
@@ -62,3 +62,7 @@ Uporaba knjižnice [Plates](http://platesphp.com/).
 <p>Hello, <?=$this->escape($name)?></p>
 
 {% endhighlight %}
+
+
+[plates]: http://platephp.com/
+[aura]: https://github.com/auraphp/Aura.View

@@ -13,4 +13,3 @@ verzijami za vsemi uporabljenimi knjižnicami, ko delate z ekipo razvijalcev.
 morali premisliti o uporabi virtualne naprave.
 Zveni zapleteno, vendar poleg znanih virtualizacijskih okolj kot sta VMware ali VirtualBox, so na voljo
 dodatna oroja, ki vam lahko pomagajo naložiti virtualno okolje v nekaj enostavnih korakih.
-

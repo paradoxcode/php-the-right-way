@@ -6,20 +6,18 @@ anchor:  compiled_templates
 
 ## Prevedene predloge {#compiled_templates}
 
-Medtem ko se je PHP razvil v zrel, objektno orientiran jezik, se
-[ni veliko izboljšal](http://fabien.potencier.org/article/34/templating-engines-in-php) kot jezik predlog.
-Prevedene predloge, kot so [Twig](http://twig.sensiolabs.org/) ali [Smarty](http://www.smarty.net/)*, zapolnjujejo to praznino s
-ponujanjem nove sintakse, ki je bila sestavljena posebej za predloge. Od avtomatskega čiščenja, do dedovanja in
-poenostavljenih krmilnih struktur, so prevedene predloge načrtovane za enostavnejše pisanje, čistejše branje in varnejše za uporabo.
-Prevedene predloge so lahko celo deljene med različnimi jeziki, [Mustache](http://mustache.github.io/) je dober
-primer tega. Ker morajo biti te predloge prevedene, prihaja do manjšega udarca na uspešnost, vendar je ta zelo minimalen,
-ko je uporabljeno ustrezno predpomnenje.
+Medtem ko se je PHP razvil v zrel, objektno orientiran jezik, se [ni veliko izboljšal][article_templating_engines] kot
+jezik predlog. Prevedene predloge, kot so [Twig] ali [Smarty]*, zapolnjujejo to praznino s ponujanjem nove sintakse, ki je
+bila sestavljena posebej za predloge. Od avtomatskega čiščenja, do dedovanja in poenostavljenih krmilnih struktur, so
+prevedene predloge načrtovane za enostavnejše pisanje, čistejše branje in varnejše za uporabo. Prevedene predloge so lahko celo
+deljene med različnimi jeziki, [Mustache] je dober primer tega. Ker morajo biti te predloge prevedene,
+prihaja do manjšega udarca na uspešnost, vendar je ta zelo minimalen, ko je uporabljeno ustrezno predpomnenje.
 
 **Medtem ko Smarty ponuja avtomatsko čiščenje, ta lastnosti NI omogočena privzeto.*
 
 ### Enostaven primer prevedene predloge
 
-Uporaba knjižnice [Twig](http://twig.sensiolabs.org/).
+Uporaba knjižnice [Twig].
 {% highlight text %}
 {% raw %}
 {% include 'header.html' with {'title': 'User Profile'} %}
@@ -33,7 +31,7 @@ Uporaba knjižnice [Twig](http://twig.sensiolabs.org/).
 
 ### Primer prevedenih predlog z uporabo dedovanja
 
-Uporaba knjižnice [Twig](http://twig.sensiolabs.org/).
+Uporaba knjižnice [Twig].
 
 {% highlight text %}
 {% raw %}
@@ -67,3 +65,9 @@ Uporaba knjižnice [Twig](http://twig.sensiolabs.org/).
 {% endblock %}
 {% endraw %}
 {% endhighlight %}
+
+
+[article_templating_engines]: http://fabien.potencier.org/article/34/templating-engines-in-php
+[Twig]: http://twig.sensiolabs.org/
+[Smarty]: http://www.smarty.net/
+[Mustache]: http://mustache.github.io/
