@@ -1,7 +1,7 @@
 ---
 title:   Gradnja in postavitev vaše aplikacije
 isChild: true
-anchor: building_and_deploying_your_application
+anchor:  building_and_deploying_your_application
 ---
 
 ## Gradnja in postavitev vaše aplikacije {#building_and_deploying_your_application_title}

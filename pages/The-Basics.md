@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Osnove
+title:  Osnove
 ---
 
 # Osnove

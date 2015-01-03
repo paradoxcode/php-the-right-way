@@ -1,7 +1,7 @@
 ---
 title:   Varnost spletnih aplikacij
 isChild: true
-anchor: web_application_security
+anchor:  web_application_security
 ---
 
 ## Varnost spletnih aplikacij {#web_application_security_title}

@@ -1,7 +1,7 @@
 ---
 title:   Filtriranje podatkov
 isChild: true
-anchor: data_filtering
+anchor:  data_filtering
 ---
 
 ## Filtriranje podatkov {#data_filtering_title}

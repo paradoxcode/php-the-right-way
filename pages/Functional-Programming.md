@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Funkcijsko programiranje v PHP
+title:  Funkcijsko programiranje v PHP
 ---
 
 # Funkcijsko programiranje v PHP
@@ -81,6 +81,7 @@ zaprtje definirano za zajemanje spremenljivk v prostoru in dostopa do njih kasne
 * [Preberite več o Anonimnih funkcijah][anonymous-functions]
 * [Več podrobnosti v Closures RFC][closures-rfc]
 * [Preberite o dinaminčne sklicevanju funkcij s  `call_user_func_array`][call-user-func-array]
+
 
 [anonymous-functions]: http://php.net/functions.anonymous
 [closures-rfc]: https://wiki.php.net/rfc/closures

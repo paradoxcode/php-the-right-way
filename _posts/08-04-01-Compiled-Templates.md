@@ -1,7 +1,7 @@
 ---
-title: Prevedene predloge
+title:   Prevedene predloge
 isChild: true
-anchor: compiled_templates
+anchor:  compiled_templates
 ---
 
 ## Prevedene predloge {#compiled_templates}

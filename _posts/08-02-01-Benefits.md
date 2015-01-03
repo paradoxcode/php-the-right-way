@@ -1,7 +1,7 @@
 ---
-title: Koristi
+title:   Koristi
 isChild: true
-anchor: templating_benefits
+anchor:  templating_benefits
 ---
 
 ## Koristi {#templating_benefits_title}

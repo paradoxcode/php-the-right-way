@@ -1,7 +1,7 @@
 ---
 title:   Vodič kodnega stila
 isChild: false
-anchor: code_style_guide
+anchor:  code_style_guide
 ---
 
 # Vodič kodnega stila {#code_style_guide_title}

@@ -1,5 +1,5 @@
 ---
-title: Napake in izjeme
+title:  Napake in izjeme
 anchor: errors_and_exceptions
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:   Varnost
 isChild: false
-anchor: security
+anchor:  security
 ---
 
 # Varnost {#security_title}

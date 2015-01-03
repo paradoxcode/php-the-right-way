@@ -1,7 +1,7 @@
 ---
 isChild: true
-title: Plasti abstrakcije
-anchor: databases_abstraction_layers
+title:   Plasti abstrakcije
+anchor:  databases_abstraction_layers
 ---
 
 ## Plasti abstrakcije {#databases_abstraction_layers_title}

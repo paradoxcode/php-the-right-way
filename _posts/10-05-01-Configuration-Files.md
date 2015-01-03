@@ -1,7 +1,7 @@
 ---
 title:   Konfiguracijske datoteke
 isChild: true
-anchor: configuration_files
+anchor:  configuration_files
 ---
 
 ## Konfiguracijske datoteke {#configuration_files_title}

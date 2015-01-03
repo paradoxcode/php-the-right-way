@@ -1,7 +1,7 @@
 ---
 title:   Strežniki in postavitev
 isChild: false
-anchor: servers_and_deployment
+anchor:  servers_and_deployment
 ---
 
 # Strežniki in postavitev {#servers_and_deployment_title}

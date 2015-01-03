@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Načtrovalski vzorci
+title:  Načtrovalski vzorci
 ---
 
 # Načrtovalski vzorci

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Example Stand-Alone Page
+title:  Example Stand-Alone Page
 ---
 
 # Page Title

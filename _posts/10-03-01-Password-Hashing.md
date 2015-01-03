@@ -1,7 +1,7 @@
 ---
 title:   Zgoščevanje gesel
 isChild: true
-anchor: password_hashing
+anchor:  password_hashing
 ---
 
 ## Zgoščevanje gesel {#password_hashing_title}

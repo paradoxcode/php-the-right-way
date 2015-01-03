@@ -1,7 +1,7 @@
 ---
-title: Nadaljnje branje
+title:   Nadaljnje branje
 isChild: true
-anchor: templating_further_reading
+anchor:  templating_further_reading
 ---
 
 ## Nadaljnje branje {#templating_further_reading_title}

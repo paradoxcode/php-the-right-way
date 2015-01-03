@@ -1,7 +1,7 @@
 ---
 title:   Upravljanje odvisnosti
 isChild: false
-anchor: dependency_management
+anchor:  dependency_management
 ---
 
 # Upravljanje odvisnosti {#dependency_management_title}

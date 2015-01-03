@@ -1,7 +1,7 @@
 ---
-title: Vgrajeni spletni strežnik
+title:   Vgrajeni spletni strežnik
 isChild: true
-anchor: builtin_web_server
+anchor:  builtin_web_server
 ---
 
 ## Vgrajeni spletni strežnik {#builtin_web_server_title}

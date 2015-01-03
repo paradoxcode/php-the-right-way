@@ -1,7 +1,7 @@
 ---
 title:   Ogrodja
 isChild: true
-anchor: frameworks
+anchor:  frameworks
 ---
 
 ## Ogrodja {#frameworks_title}

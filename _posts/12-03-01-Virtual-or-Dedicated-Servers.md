@@ -1,7 +1,7 @@
 ---
 title:   Virtualni ali namenski strežniki
 isChild: true
-anchor: virtual_or_dedicated_servers
+anchor:  virtual_or_dedicated_servers
 ---
 
 ## Virtualni ali namenski strežniki {#virtual_or_dedicated_servers_title}

@@ -1,7 +1,7 @@
 ---
-title: Uporabite trenutno stabilno verzijo (5.6)
+title:   Uporabite trenutno stabilno verzijo (5.6)
 isChild: true
-anchor: use_the_current_stable_version
+anchor:  use_the_current_stable_version
 ---
 
 ## Uporabite trenutno stabilno verzijo (5.6) {#use_the_current_stable_version_title}

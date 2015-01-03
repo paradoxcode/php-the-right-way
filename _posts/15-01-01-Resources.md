@@ -1,7 +1,7 @@
 ---
 title:   Viri
 isChild: false
-anchor: resources
+anchor:  resources
 ---
 
 # Viri {#resources_title}

@@ -1,7 +1,7 @@
 ---
-title: Platforma kot storitev (PaaS)
+title:   Platforma kot storitev (PaaS)
 isChild: true
-anchor: platform_as_a_service
+anchor:  platform_as_a_service
 ---
 
 ## Platforma kot storitev (PaaS)  {#platform_as_a_service_title}

@@ -1,7 +1,7 @@
 ---
 title:   Windows namestitev
 isChild: true
-anchor: windows_setup
+anchor:  windows_setup
 ---
 
 ## Namestitev v Windows okolju {#windows_setup_title}

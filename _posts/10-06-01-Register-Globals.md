@@ -1,7 +1,7 @@
 ---
 title:   Registracija globalnih spremenljivk
 isChild: true
-anchor: register_globals
+anchor:  register_globals
 ---
 
 ## Registracija globalnih spremenljivk {#register_globals_title}

@@ -1,7 +1,7 @@
 ---
 title:   Kompleksni problem
 isChild: true
-anchor: complex_problem
+anchor:  complex_problem
 ---
 
 ## Kompleksni problem {#complex_problem_title}

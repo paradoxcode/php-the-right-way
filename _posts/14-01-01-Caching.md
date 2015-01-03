@@ -1,7 +1,7 @@
 ---
 title:   Predpomnenje
 isChild: false
-anchor: caching
+anchor:  caching
 ---
 
 # Predpomnenje {#caching_title}

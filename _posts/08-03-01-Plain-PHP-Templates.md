@@ -1,7 +1,7 @@
 ---
-title: Osnovne PHP predloge
+title:   Osnovne PHP predloge
 isChild: true
-anchor: plain_php_templates
+anchor:  plain_php_templates
 ---
 
 ## Osnovne PHP predloge {#plain_php_templates_title}

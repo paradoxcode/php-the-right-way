@@ -1,7 +1,7 @@
 ---
 title:   Mac namestitev
 isChild: true
-anchor: mac_setup
+anchor:  mac_setup
 ---
 
 ## Namestitev v Mac okolju {#mac_setup_title}

@@ -1,7 +1,7 @@
 ---
 title:   Poročanje o napakah
 isChild: true
-anchor: error_reporting
+anchor:  error_reporting
 ---
 
 ## Poročanje o napakah {#error_reporting_title}

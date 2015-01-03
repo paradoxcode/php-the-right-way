@@ -1,7 +1,7 @@
 ---
 title:   Predpomnilnik ukazne kode
 isChild: true
-anchor: opcode_cache
+anchor:  opcode_cache
 ---
 
 ## Predpomnilnik ukazne kode {#opcode_cache_title}
