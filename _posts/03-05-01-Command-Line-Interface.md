@@ -16,7 +16,7 @@ Poskusite pognati PHP iz komandne vrstice:
 > php -i
 {% endhighlight %}
 
-Opcija `-i` bo izpisala vašo PHP konfiguracijo tako kot funkcija [`phpinfo`][phpinfo].
+Opcija `-i` bo izpisala vašo PHP konfiguracijo tako kot funkcija [`phpinfo()`][phpinfo].
 
 Opcija `-a` ponuja interaktivno lupino, podobno kot Ruby-jev IRB ali Pythonova interaktivna lupina. Na voljo je še mnogo ostalih uporabnih [opcij ukazne vrstice][cli-options].
 
@@ -53,6 +53,6 @@ Hello, world
 [cli-options]: http://php.net/features.commandline.options
 [argc]: http://php.net/reserved.variables.argc
 [argv]: http://php.net/reserved.variables.argv
-[exit-codes]: http://www.gsp.com/cgi-bin/man.cgi?section=3&topic=sysexits
+[exit-codes]: http://www.gsp.com/cgi-bin/man.cgi?section=3&amp;topic=sysexits
 [php-cli]: http://php.net/features.commandline
 [php-cli-windows]: http://php.net/install.windows.commandline

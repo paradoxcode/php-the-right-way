@@ -16,7 +16,7 @@ lahko (na žalost) uporabljajo enako geslo za ostale storitve. Zato je pomembno 
 
 **Zgoščevanje gesel s `password_hash`**
 
-V PHP 5.5 je bila izdana funkcija `password_hash`. Trenutno uporablja BCrypt, najmočnejši algoritem trenutno podprt s strani PHP-ja. Bo pa tudi posodobljena v prihodnosti za podporo večih
+V PHP 5.5 je bila izdana funkcija `password_hash()`. Trenutno uporablja BCrypt, najmočnejši algoritem trenutno podprt s strani PHP-ja. Bo pa tudi posodobljena v prihodnosti za podporo večih
 algoritmov, kakor bo potrebno. Ustvarjena je bila knjižnica `password_compat`, ki ponuja vnaprejšnjo kompatibilnost za PHP >= 5.3.7.
 
 Spodaj bomo zgostili niz in nato preverili zgostitev proti novemu nizu. Ker sta naša dva vira nizov različna ('secret-password' proti 'bad-password'), ta prijava ne bo uspela.
@@ -36,10 +36,10 @@ if (password_verify('bad-password', $passwordHash)) {
 
 
 
-* [Naučite se o `password_hash`] [1]
+* [Naučite se o `password_hash()`] [1]
 * [`password_compat` za PHP >= 5.3.7 && < 5.5] [2]
 * [Naučite se o zgoščevanju v zvezi s kriptografijo] [3]
-* [PHP `password_hash` RFC] [4]
+* [PHP `password_hash()` RFC] [4]
 
 
 [1]: http://php.net/function.password-hash

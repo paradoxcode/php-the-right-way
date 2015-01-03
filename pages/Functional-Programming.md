@@ -17,7 +17,7 @@ Anonimne funkcije (s podporo za zaprtja - closures) so prisotne od PHP 5.3 (2009
 PHP 5.4 je dodal zmožnost vezanja zaprtij na objektov prosto in tudi izboljšal podporo za klicajoče, tako da so
 lahko uporabljeni izmenično z anonimnimi funkcijami v skoraj vseh primerih.
 
-Najbolj pogost primer uporabe funkcij višjih redov je, ko se implementira strateški vzorec. Vgrajena `array_filter`
+Najbolj pogost primer uporabe funkcij višjih redov je, ko se implementira strateški vzorec. Vgrajena `array_filter()`
 funkcija sprašuje tako za vnosno polje (podatki) in funkcijo (strategija ali klicajoči), katera je uporabljena kot
 filtrirna funkcija na vsakem elementu polja.
 
@@ -45,7 +45,7 @@ Zaprtje je anonimna funkcija, ki lahko dostopa do spremenljivk uvoženih iz zuna
 globalnih spremenljivk. Teoretično je zaprtje funkcija z nekaj zaprtimi argumenti (t.j. fiksiranimi) zaradi okolja, ko je
 definirana. Zaprtja lahko delajo okrog omejitev prostora spremenljivke na čisti način.
 
-V naslednjem primeru bomo uporabili zaprtje za definicijo funkcije, ki vrne eno filtrirno funkcijo za `array_filter` izven
+V naslednjem primeru bomo uporabili zaprtje za definicijo funkcije, ki vrne eno filtrirno funkcijo za `array_filter()` izven
 družine filtrirnih funkcij.
 
 {% highlight php %}
@@ -80,7 +80,7 @@ zaprtje definirano za zajemanje spremenljivk v prostoru in dostopa do njih kasne
 
 * [Preberite več o Anonimnih funkcijah][anonymous-functions]
 * [Več podrobnosti v Closures RFC][closures-rfc]
-* [Preberite o dinaminčne sklicevanju funkcij s  `call_user_func_array`][call-user-func-array]
+* [Preberite o dinaminčne sklicevanju funkcij s  `call_user_func_array()`][call-user-func-array]
 
 
 [anonymous-functions]: http://php.net/functions.anonymous

@@ -37,7 +37,7 @@ so lahko uporabljene neodvisno z anonimnimi funkcijami v skoraj vseh primerih.
 * [Preberite o Closure razredu][closure-class]
 * [Več podrobnosti v Closures RFC][closures-rfc]
 * [Preberite o Callables][callables]
-* [Preberte o dinamično sklicujočih funkcijah s `call_user_func_array`][call-user-func-array]
+* [Preberte o dinamično sklicujočih funkcijah s `call_user_func_array()`][call-user-func-array]
 
 ### Meta programiranje
 

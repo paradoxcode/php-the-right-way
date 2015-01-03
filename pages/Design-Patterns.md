@@ -134,11 +134,11 @@ var_dump($anotherObj === SingletonChild::getInstance()); // bool(true)
 Koda zgoraj implementira enojni vzorec z uporabo [*statične* spremenljivke](http://php.net/language.variables.scope#language.variables.scope.static) in statične izdelovalne metode `getInstance()`.
 Upoštevajte sledeče:
 
-* Konstruktor [`__construct`](http://php.net/language.oop5.decon#object.construct) je deklarirana kot 'protected', da
+* Konstruktor [`__construct()`](http://php.net/language.oop5.decon#object.construct) je deklarirana kot 'protected', da
 prepreči novo instanco izven razreda preko operatorja `new`.
-* Magična metoda [`__clone`](http://php.net/language.oop5.cloning#object.clone) je deklarirana kot 'private', da
+* Magična metoda [`__clone()`](http://php.net/language.oop5.cloning#object.clone) je deklarirana kot 'private', da
 prepreči kloniranje instance razreda preko operatorja [`clone`](http://php.net/language.oop5.cloning).
-* Magična metoda [`__wakeup`](http://php.net/language.oop5.magic#object.wakeup) je deklarirana kot 'private', da
+* Magična metoda [`__wakeup()`](http://php.net/language.oop5.magic#object.wakeup) je deklarirana kot 'private', da
 prepreči deserializacijo instance razreda preko globalne funkcije [`unserialize()`](http://php.net/function.unserialize).
 * Nova instanca je narejena preko t.i. ["late static binding"](http://php.net/language.oop5.late-static-bindings) v statični metodi
 izdelave `getInstance()` s ključno besedo `static`. To omogoča podrazredenje razreda `Singleton` v
