@@ -36,6 +36,7 @@ if (strpos('testing', 'test') !== false) {    // true, as strict comparison was 
 
 * [Primerjalni operatorji](http://php.net/language.operators.comparison)
 * [Primerjalna tabela](http://php.net/types.comparisons)
+* [Primerjalni plonk listek](http://phpcheatsheets.com/index.php?page=compare)
 
 ## Pogojni stavki
 
