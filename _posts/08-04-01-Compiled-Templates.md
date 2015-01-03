@@ -18,7 +18,8 @@ prihaja do manjšega udarca na uspešnost, vendar je ta zelo minimalen, ko je up
 ### Enostaven primer prevedene predloge
 
 Uporaba knjižnice [Twig].
-{% highlight text %}
+
+{% highlight html+jinja %}
 {% raw %}
 {% include 'header.html' with {'title': 'User Profile'} %}
 
@@ -33,7 +34,7 @@ Uporaba knjižnice [Twig].
 
 Uporaba knjižnice [Twig].
 
-{% highlight text %}
+{% highlight html+jinja %}
 {% raw %}
 // template.html
 
@@ -52,7 +53,7 @@ Uporaba knjižnice [Twig].
 {% endraw %}
 {% endhighlight %}
 
-{% highlight text %}
+{% highlight html+jinja %}
 {% raw %}
 // user_profile.html
 
