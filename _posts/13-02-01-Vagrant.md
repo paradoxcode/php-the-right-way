@@ -20,12 +20,12 @@ pomeni, da lahko naredite in uredite vaše datoteke na vaši gostiteljski naprav
 
 Če potrebujete malo pomoči za začetek uporabe Vagranta, je na voljo nekaj storitev, ki so lahko uporabne:
 
-- [Rove]: storitev, ki vam omogoča vnaprej genererati tipične Vagrant gradnje, PHP med opcijami na primer. Oskrbovanje
+- [Rove][Rove]: storitev, ki vam omogoča vnaprej genererati tipične Vagrant gradnje, PHP med opcijami na primer. Oskrbovanje
   je narejeno s Chef-om.
-- [Puphpet]: enostaven GUI, da nastavite virtualno napravo za PHP razvoj. **Močno osredotočeno na PHP**. Poleg
+- [Puphpet][Puphpet]: enostaven GUI, da nastavite virtualno napravo za PHP razvoj. **Močno osredotočeno na PHP**. Poleg
   lokalnih virtualnih naprav (VM), je lahko tudi uporabljen za postavitev na oblačne storitve. Oskrbovanje je narejeno s Puppet-om.
-- [Protobox]: je nivo nad vagrant-om in spletni GUI za nastavitev virtualnih naprav za spletni razvoj. En YAML dokument krmili vse, kar je nameščeno na virtualni napravi.
-[Phansible]: ponuja vmesnik, ki je enostaven za uporabo in vam pomaga generirati t.i. Ansible Playbooks za PHP osnovane projekte.
+- [Protobox][Protobox]: je nivo nad vagrant-om in spletni GUI za nastavitev virtualnih naprav za spletni razvoj. En YAML dokument krmili vse, kar je nameščeno na virtualni napravi.
+- [Phansible][Phansible]: ponuja vmesnik, ki je enostaven za uporabo in vam pomaga generirati t.i. Ansible Playbooks za PHP osnovane projekte.
 
 
 [Vagrant]: http://vagrantup.com/
