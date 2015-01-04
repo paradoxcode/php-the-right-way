@@ -46,7 +46,7 @@ Končno, če gradite distribuirano aplikacijo in ne morete biti prepričani, da 
 omogočena, potem premislite o uporabi [patchwork/utf8] Composer paketa. Ta
 bo uporabil `mbstring`, če je na voljo in se vrnil na ne UTF-8 funkcije, če ni.
 
-[razširitve multybyte niza]: http://php.net/book.mbstring
+[razširitve multibyte niza]: http://php.net/book.mbstring
 [patchwork/utf8]: https://packagist.org/packages/patchwork/utf8
 
 ### UTF-8 na nivoju podatkovne baze
