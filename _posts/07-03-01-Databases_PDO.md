@@ -49,12 +49,15 @@ kar bo izbrisalo vse vaše uporabnike! Namesto tega bi morali očistiti ID vnos 
 <?php
 $pdo = new PDO('sqlite:/path/db/users.db');
 $stmt = $pdo->prepare('SELECT name FROM users WHERE id = :id');
-$stmt->bindParam(':id', $_GET['id'], PDO::PARAM_INT); // <-- Automatically sanitized by PDO
+$id = filter_input(FILTER_GET, 'id', FILTER_SANITIZE_NUMBER_INT); // <-- filter your data first (see [Data Filtering](#data_filtering)), especially important for INSERT, UPDATE, etc.
+$stmt->bindParam(':id', $id, PDO::PARAM_INT); // <-- Automatically sanitized for SQL by PDO
 $stmt->execute();
 {% endhighlight %}
 
 To je pravilna koda. Uporablja vezni parameter na PDO stavku. To počisti tuj vnosni ID preden se ga predstavi podatkovni bazi, kar
 preprečuje potencialne SQL vstavljene napade.
+
+Za pisanja, kot sta INSERT ali UPDATE, je poseben kritično, da še vedno najprej [filtrirate vaše podatke](#data_filtering) in jih počistite za drugimi stvarmi (odstranitev HTML značk, JavaScript-a itd.). PDO ga bo samo počistil za SQL, vendar ne pa za vašo aplikacijo.
 
 * [Izvedite več o PDO]
 
