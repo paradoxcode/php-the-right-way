@@ -24,7 +24,7 @@ Napišimo preprost "Hello, $name" CLI program. Da ga preizkusite, ustvarite dato
 
 {% highlight php %}
 <?php
-if ($argc != 2) {
+if ($argc !== 2) {
     echo "Usage: php hello.php [name].\n";
     exit(1);
 }
