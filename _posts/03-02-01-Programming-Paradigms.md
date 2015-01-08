@@ -22,7 +22,7 @@ vmesnike (interfaces), dedovanje, konstruktorje, kloniranje, izjeme in še več.
 
 PHP podpira prvo razredne funkcije, kar pomeni, da je lahko funkcija dodeljena spremenljivki. Tako uporabniško definirane ali
 vgrajene funkcije se lahko sklicujejo na spremenljivko in se jih kliče dinamično. Funkcije se lahko podaja kot argumente drugim
-funkcijam (lastnost višji red - higher-order funkcije) in funkcija lahko vrne tudi drugo funkcijo.
+funkcijam (lastnost višji red - _higher-order funkcije_) in funkcija lahko vrne tudi drugo funkcijo.
 
 Rekurzija, lastnost, ki dovoljuje funkciji, da kliče samo sebe, je podprta v jeziku, vendar večina PHP kode se osredotoča na
 iteracije.
