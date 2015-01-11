@@ -11,7 +11,7 @@ lahko uporabili '.msi' namestitveni program. Namestitveni program ni več podprt
 
 Za učenje in lokalni razvoj lahko uporabite vgrajeni spletni strežnik s PHP 5.4+, tako da vam ni treba skrbeti
 za njegovo konfiguracijo. Če želite "vse v enem", ki vključuje celoten spletni strežnik in tudi MySQL, potem orodja, kot
-so [Web Platform Installer][wpi], [Zend Server CE][zsce], [XAMPP][xampp], [EasyPHP][easyphp] in [WAMP][wamp],
+so [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp] in [WAMP][wamp],
 pripomorejo k hitri namestitvi na Windows razvojno okolje. Tako bodo orodja malenkost drugačna od
 produkcijskih, zato bodite previdni na razlike v razvojnih okoljih, če delate na Windows-u in nalagate na Linux.
 
@@ -23,7 +23,6 @@ je na voljo [namensko področje na iis.net][php-iis] za PHP.
 
 [php-downloads]: http://windows.php.net
 [wpi]: http://www.microsoft.com/web/downloads/platform.aspx
-[zsce]: http://www.zend.com/en/products/server-ce/
 [xampp]: http://www.apachefriends.org/en/xampp.html
 [easyphp]: http://www.easyphp.org/
 [wamp]: http://www.wampserver.com/en/
