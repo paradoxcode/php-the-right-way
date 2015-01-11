@@ -50,5 +50,5 @@ kje lahko najdejo dobre informacije!
 
 [Poglejte si slike pasic][2]
 
-[1]: https://github.com/paradoxcode/php-the-right-way/tree/gh-pages
+[1]: https://github.com/symfony-si/php-the-right-way/
 [2]: /banners.html
