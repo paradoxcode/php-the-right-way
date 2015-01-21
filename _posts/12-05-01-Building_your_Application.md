@@ -44,7 +44,9 @@ razvijalce, ki jih zanima Capistrano.
 [Chef] je bolj postavitveno ogrodje, je zelo močno na Ruby-ju osnovano sistemsko integrirano ogrodje,
 ki ne samo postavi vaše aplikacije, vendar lahko zgradi vaše celotno strežniško ogrodje ali virtualne naprave.
 
-[Deployer] je razvojno orodje napisano v PHP, je enostavno in funkcionalno. Naložite vašo kodo na vse strežnike, kjer želite, podpira nalaganje preko kopiranja ali VCS-a (kot je git), ali preko rsync. Poženite vaša opravila na vseh vaših strežnikih ali uporabite naše recepte za pogosta opravila za Symfony, Laravel, Zend Framework in Yii.
+[Deployer] je razvojno orodje napisano v PHP, je enostavno in funkcionalno. Opravila poganja vzporedno, opravlja
+atomsko nalaganje in drži konsistentnost med strežniki. Uporabite naše recepte za pogosta opravila za Symfony,
+Laravel, Zend Framework in Yii.
 
 #### Chef viri za PHP razvijalce:
 
@@ -58,9 +60,9 @@ ki ne samo postavi vaše aplikacije, vendar lahko zgradi vaše celotno strežni�
 
 ### Zvezna integracija
 
-> Continuous Integration is a software development practice where members of a team integrate their work frequently, 
-> usually each person integrates at least daily — leading to multiple integrations per day. Many teams find that this 
-> approach leads to significantly reduced integration problems and allows a team to develop cohesive software more 
+> Continuous Integration is a software development practice where members of a team integrate their work frequently,
+> usually each person integrates at least daily — leading to multiple integrations per day. Many teams find that this
+> approach leads to significantly reduced integration problems and allows a team to develop cohesive software more
 > rapidly.
 
 *-- Martin Fowler*
@@ -90,4 +92,4 @@ integracije za odprto kodno skupnost. Integriran je z GitHub-om in ponuja prvo r
 [Jenkins]: http://jenkins-ci.org/
 [PHPCI]: http://www.phptesting.org/
 [Teamcity]: http://www.jetbrains.com/teamcity/
-[Deployer]: http://deployer.in/
+[Deployer]: http://deployer.org/
