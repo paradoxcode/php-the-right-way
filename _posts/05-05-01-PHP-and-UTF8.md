@@ -146,3 +146,4 @@ header('Content-Type: text/html; charset=UTF-8');
 * [Stack Overflow: Najboljše prakse v PHP in MySQL z mednarodnimi nizi](http://stackoverflow.com/questions/140728/best-practices-in-php-and-mysql-with-international-strings)
 * [Kako podpirati celtni Unicode v MySQL podatkovnih bazah](http://mathiasbynens.be/notes/mysql-utf8mb4)
 * [Prinašanje Unicode v PHP s prenosnim UTF-8](http://www.sitepoint.com/bringing-unicode-to-php-with-portable-utf8/)
+* [Stack Overflow: DOMDocument loadHTML does not encode UTF-8 correctly](http://stackoverflow.com/questions/8218230/php-domdocument-loadhtml-not-encoding-utf-8-correctly)
