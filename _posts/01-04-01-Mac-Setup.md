@@ -20,6 +20,26 @@ namestiti PHP.
 Na tej točki, lahko namestite `php53`, `php54`, `php55` ali `php56` z uporabo ukaza `brew install`
 in preklapljanje med njimi s spreminjanjem vaše spremenljivke `PATH`.
 
+### Namestitev PHP preko Macports
+
+Projekt [MacPorts] je pobuda odprto kodne skupnosti načrtovati
+sistem enostaven za uporabo, za prevajanje, nameščanje in nadgradnjo bodisi
+ukazne vrstice, X11 ali Aqua osnovane odprto kodne programske opreme na OS X operacijskem
+sistemu.
+
+MacPorts podpira vnaprej prevedene zagonske datoteke, tako da vam ni potrebno prevajati vsake
+odvisnosti iz izvornih tarball datotek, reši vam življenje tudi če
+nimate kakršnegakoli paketa nameščenega na vašem sistemu.
+
+Za sedaj lahko namestite `php53`, `php54`, `php55` ali `php56` z uporabo ukaza `port install` na primer:
+
+    sudo port install php54
+    sudo port install php55
+
+Lahko poženete ukaz `select`, da preklopite vaš aktiven php:
+
+    sudo port select --set php php55
+
 ### Namestitev PHP preko phpbrew
 
 [phpbrew] je orodje za namestitev in upravljanje različnih PHP verzij. To je lahko res uporabno, če dve različni
@@ -40,6 +60,7 @@ vas in jo skupaj povezale, vendar enostavnost namestitve pride z pomanjkanjem fl
 
 [Homebrew]: http://brew.sh/
 [Homebrew PHP]: https://github.com/Homebrew/homebrew-php#installation
+[MacPorts]: https://www.macports.org/install.php
 [phpbrew]: https://github.com/phpbrew/phpbrew
 [mac-compile]: http://php.net/manual/install.macosx.compile
 [xcode-gcc-substitution]: https://github.com/kennethreitz/osx-gcc-installer
