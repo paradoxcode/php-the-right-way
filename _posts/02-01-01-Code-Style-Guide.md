@@ -26,17 +26,13 @@ tretje osebne kode.
 * [Preberite o PSR-2][psr2]
 * [Preberite o PSR-4][psr4]
 * [Preberite o PEAR kodnih standardih][pear-cs]
-* [Preberite o Zend kodnih standardih][zend-cs]
 * [Preberite o Symfony kodnih standardih][symfony-cs]
 
 Lahko uporabite [PHP_CodeSniffer][phpcs], da preverite kodo proti katerimkoli izmed teh priporočil in vtičnike za tekstovne
 urejevalnike, kot je [Sublime Text 2][st-cs], ki nudi realnočasovni odziv.
 
-Postavitev kode lahko popravite avtomatsko z uporabo enega izmed dveh orodij. Eno je Fabien Potencier-jev
-[popravljalnik PHP kodnih standardov][phpcsfixer], ki ima zelo dobro testirano kodno bazo. Je večji in in počasnejši, vendar zelo stabilen
-in uporabljen v nekaterih večjih projektih kot sta Magento in Symfony. Druga opcija je [php.tools][phptools], ki je popularen
-s strani vtičnika urejevalnika [sublime-phpfmt][sublime-phpfmt]. Medtem ko je novejši, ima narejene odlične izboljšave v zmogljivosti,
-kar pomeni bolj tekoče realno časovno urejanje v urejevalniku.
+Postavitev kode lahko avtomatsko popravite z uporabo eneka od dveh sledečih orodij. Eno je [PHP Coding Standards Fixer][phpcsfixer], ki ima zelo dobro testirano bazo kode.
+Druga opcija je [php.tools][phptools], ki je postalo popularno z vtičnikom urejevalnika [sublime-phpfmt][sublime-phpfmt]. Medtem ko je novejše, naredi odlične izboljšave v uspešnosti, kar pomeni, da je popravljanje v realnem časovu urejevalnika bolj tekoče.
 
 Angleščina je priporočljiva za vsa imena simbolov in infrastruktur kode. Komentarji so lahko napisani v kateremkoli jeziku,
 ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s kodo.
@@ -48,7 +44,6 @@ ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s
 [psr2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 [psr4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
 [pear-cs]: http://pear.php.net/manual/en/standards.php
-[zend-cs]: http://framework.zend.com/manual/1.12/en/coding-standard.html
 [symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html
 [phpcs]: http://pear.php.net/package/PHP_CodeSniffer/
 [st-cs]: https://github.com/benmatselby/sublime-phpcs
