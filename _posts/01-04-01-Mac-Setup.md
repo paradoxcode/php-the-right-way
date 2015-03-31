@@ -18,7 +18,8 @@ Obstoja veliko načinov za namestitev PHP na OS X.
 namestiti PHP.
 
 Na tej točki, lahko namestite `php53`, `php54`, `php55` ali `php56` z uporabo ukaza `brew install`
-in preklapljanje med njimi s spreminjanjem vaše spremenljivke `PATH`.
+in preklapljanje med njimi s spreminjanjem vaše spremenljivke `PATH`. Druga možnost je uporaba [brew-php-switcher][brew-php-switcher],
+ki bo preklopil avtomatsko za vas.
 
 ### Namestitev PHP preko Macports
 
@@ -67,3 +68,4 @@ vas in jo skupaj povezale, vendar enostavnost namestitve pride z pomanjkanjem fl
 ["Command Line Tools for XCode"]: https://developer.apple.com/downloads
 [mamp-downloads]: http://www.mamp.info/en/downloads/
 [xampp]: http://www.apachefriends.org/en/xampp.html
+[brew-php-switcher]: https://github.com/philcook/brew-php-switcher
