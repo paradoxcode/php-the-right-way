@@ -46,6 +46,11 @@ Lahko poženete ukaz `select`, da preklopite vaš aktiven php:
 [phpbrew] je orodje za namestitev in upravljanje različnih PHP verzij. To je lahko res uporabno, če dve različni
 aplikaciji/projekta zahtevata različni verziji PHP in ne uporabljate virtualne naprave.
 
+### Namestitev PHP preko Liip-ovega zagonskega namestitvenega programa
+
+Druga popularna opcija je [php-osx.liip.ch], ki ponuja eno vrstične namestitvene metode za verzije 5.3 do 5.6.
+Ne prepisuje php zagonskih datotek nameščenih s strani Apple-a, vendar namesti vse na ločeno lokacijo (/usr/local/php5).
+
 ### Prevajanje iz izvorne kode
 
 Druga opcija. ki vam da kontrolo nad verzijo PHP-ja, ki ga nameščate, je [da ga sami prevedete][mac-compile].
