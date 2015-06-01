@@ -34,6 +34,15 @@ urejevalnike, kot je [Sublime Text 2][st-cs], ki nudi realnočasovni odziv.
 Postavitev kode lahko avtomatsko popravite z uporabo eneka od dveh sledečih orodij. Eno je [PHP Coding Standards Fixer][phpcsfixer], ki ima zelo dobro testirano bazo kode.
 Druga opcija je [php.tools][phptools], ki je postalo popularno z vtičnikom urejevalnika [sublime-phpfmt][sublime-phpfmt]. Medtem ko je novejše, naredi odlične izboljšave v uspešnosti, kar pomeni, da je popravljanje v realnem časovu urejevalnika bolj tekoče.
 
+In phpcs lahko poženete ročno iz terminala:
+
+    phpcs -sw --standard=PSR2 file.php
+
+Prikazal bo napake in opise, kako jih popraviti.
+Lahko je tudi v pomoč pri vključevanju tega ukaza v git hook.
+Na ta način se vej, ki vsebujejo kršitve izbranega standards, ne more vnesti v repozitorij
+dokler se teh kršitev ne odpravi.
+
 Angleščina je priporočljiva za vsa imena simbolov in infrastruktur kode. Komentarji so lahko napisani v kateremkoli jeziku,
 ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s kodo.
 
