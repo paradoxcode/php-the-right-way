@@ -14,11 +14,13 @@ anchor:  templating_further_reading
 * [Ustvarite vaš lastni sistem predlog v PHP](http://code.tutsplus.com/tutorials/roll-your-own-templating-system-in-php--net-16596)
 * [Obvladajte strani](https://laracasts.com/series/laravel-from-scratch/episodes/7)
 * [Delo s predlogami v Symfony 2](http://code.tutsplus.com/tutorials/working-with-templates-in-symfony-2--cms-21172)
+* [Izdelava varnih predlog](https://github.com/box/brainy/wiki/Writing-Safe-Templates)
 
 ### Knjižnice
 
 * [Aura.View](https://github.com/auraphp/Aura.View) *(native)*
 * [Blade](http://laravel.com/docs/templates) *(compiled, framework specific)*
+* [Brainy](https://github.com/box/brainy) *(compiled)*
 * [Dwoo](http://dwoo.org/) *(compiled)*
 * [Latte](https://github.com/nette/latte) *(compiled)*
 * [Mustache](https://github.com/bobthecow/mustache.php) *(compiled)*

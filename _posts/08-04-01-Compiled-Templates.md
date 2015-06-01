@@ -7,7 +7,7 @@ anchor:  compiled_templates
 ## Prevedene predloge {#compiled_templates_title}
 
 Medtem ko se je PHP razvil v zrel, objektno orientiran jezik, se [ni veliko izboljšal][article_templating_engines] kot
-jezik predlog. Prevedene predloge, kot so [Twig] ali [Smarty]*, zapolnjujejo to praznino s ponujanjem nove sintakse, ki je
+jezik predlog. Prevedene predloge, kot so [Twig], [Brainy], ali [Smarty]*, zapolnjujejo to praznino s ponujanjem nove sintakse, ki je
 bila sestavljena posebej za predloge. Od avtomatskega čiščenja, do dedovanja in poenostavljenih krmilnih struktur, so
 prevedene predloge načrtovane za enostavnejše pisanje, čistejše branje in varnejše za uporabo. Prevedene predloge so lahko celo
 deljene med različnimi jeziki, [Mustache] je dober primer tega. Ker morajo biti te predloge prevedene,
@@ -70,5 +70,6 @@ Uporaba knjižnice [Twig].
 
 [article_templating_engines]: http://fabien.potencier.org/article/34/templating-engines-in-php
 [Twig]: http://twig.sensiolabs.org/
+[Brainy]: https://github.com/box/brainy
 [Smarty]: http://www.smarty.net/
 [Mustache]: http://mustache.github.io/
