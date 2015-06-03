@@ -6,8 +6,7 @@ anchor:  windows_setup
 
 ## Namestitev v Windows okolju {#windows_setup_title}
 
-PHP za Windows je na voljo na več načinov. Lahko [prenesete binarne datoteke][php-downloads] in do pred kratkim ste
-lahko uporabili '.msi' namestitveni program. Namestitveni program ni več podprt in na voljo od PHP 5.3.0.
+Prenesete lahko zagonske datoteke iz [windows.php.net/downloads][php-downloads]. Po razširitvi datotek PHP-ja je priporočljivo nastaviti [PATH][windows-path] na vrhovni direktorij vašega PHP direktorija (kjer se nahaja php.exe), da lahko izvršite PHP iz kjerkoli.
 
 Za učenje in lokalni razvoj lahko uporabite vgrajeni spletni strežnik s PHP 5.4+, tako da vam ni treba skrbeti
 za njegovo konfiguracijo. Če želite "vse v enem", ki vključuje celoten spletni strežnik in tudi MySQL, potem orodja, kot
@@ -21,7 +20,8 @@ uporabite [phpmanager][phpmanager] (GUI vtičnik za IIS7), ki enostavno skonfigu
 je na voljo [namensko področje na iis.net][php-iis] za PHP.
 
 
-[php-downloads]: http://windows.php.net
+[php-downloads]: http://windows.php.net/download/
+[windows-path]: http://www.windows-commandline.com/set-path-command-line/
 [wpi]: http://www.microsoft.com/web/downloads/platform.aspx
 [xampp]: http://www.apachefriends.org/en/xampp.html
 [easyphp]: http://www.easyphp.org/
