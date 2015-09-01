@@ -13,11 +13,14 @@ Na voljo je že ogromno PHP knjižnic, ki so kompatibilne s Composer-jem in prip
 
 ### Kako namestiti Composer
 
-Composer lahko namestite lokalno (v vaš trenutni delovni direktorij; čeprav to ni več priporočljivo) ali globalno (npr. /usr/local/bin). Ob predpostavki, da želite namestiti Composer lokalno, se Composer prenese v vaš projektni vrhovni direktorij:
+Composer lahko namestite lokalno (v vaš trenutni delovni direktorij) ali globalno (npr. /usr/local/bin, priporočljivo). Predpostavimo, da želite namestiti Composer globalno:
 
 {% highlight console %}
-curl -s https://getcomposer.org/installer | php
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
 {% endhighlight %}
+
+<strong>Opomba:</strong> Če zgornje ni uspešno zaradi pravic, poženite vrstico `mv` ponovno s `sudo`.
 
 To namesti `composer.phar` (PHP binarni arhiv). To lahko poženete s `php` za upravljanje vaših projektnih odvisnosti.
 <strong>Prosimo, upoštevajte:</strong> Če ste prenesli naloženo kodo direktno v interpreter, prosimo prvo preberite kodo na spletu, da ste prepričani, da je varna.
