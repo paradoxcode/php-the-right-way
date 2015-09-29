@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Spletne pasice
 description: "Razširite besedo! Uporabite te pasice, da bodo PHP programerji spoznali 'PHP: The Right Way'"
 sitemap: true
