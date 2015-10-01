@@ -37,7 +37,7 @@ Za sedaj so tu zabeležene samo komponente, ki so lahko najboljše nevezne._
 [PEAR]: /#pear
 [dm]: /#dependency_management
 [fuelval]: https://github.com/fuelphp/validation
-[Aura]: http://auraphp.github.com/
+[Aura]: http://auraphp.com/framework/2.x/en/
 [FuelPHP]: https://github.com/fuelphp
 [Hoa Project]: https://github.com/hoaproject
 [Orno]: https://github.com/orno
