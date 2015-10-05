@@ -33,8 +33,8 @@ sprejeti. Če poganjate projekt, ki sprejema poteg zahtevkov, potem bi morali pr
 [PHPUnit](http://phpunit.de) je defakto testno ogrodje za pisanje testov enot za PHP aplikacije, vendar je na voljo tudi precej alternativ:
 
 * [atoum](https://github.com/atoum/atoum)
-* [Enhance PHP](https://github.com/Enhance-PHP/Enhance-PHP)
-* [PUnit](http://punit.smf.me.uk/)
+* [Kahlan](https://github.com/crysalead/kahlan)
+* [Peridot](http://peridot-php.github.io/)
 * [SimpleTest](http://simpletest.org)
 
 ### Integracijsko testiranje

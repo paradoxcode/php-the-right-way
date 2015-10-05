@@ -26,6 +26,7 @@ samo dodaten repozitorij za ponovno uporabne komponente:
 * [Symfony komponente]
 * [The League of Extraordinary Packages]
 * Laravel Illuminate komponente
+  * [IoC Container]
   * [Eloquent ORM]
   * [Queue]
 
@@ -43,6 +44,7 @@ Za sedaj so tu zabeležene samo komponente, ki so lahko najboljše nevezne._
 [Orno]: https://github.com/orno
 [Symfony komponente]: http://symfony.com/doc/current/components/index.html
 [The League of Extraordinary Packages]: http://thephpleague.com/
+[IoC Container]: https://github.com/illuminate/container
 [Eloquent ORM]: https://github.com/illuminate/database
 [Queue]: https://github.com/illuminate/queue
 [Illuminate komponente]: https://github.com/illuminate
