@@ -383,6 +383,9 @@ Drug primer je skupek kode spodaj, ki bo vrnil true, če ($a != 3 AND $b != 4) O
 return ($a != 3 && $b != 4) || $c == 5;
 {% endhighlight %}
 
+Od PHP 5.3 je možno izpustiti srednji del trojnega operatorja.
+Izraz "expr1 ?: expr3" vrne expr1, če je enako TRUE drugače pa expr3.
+
 * [Trojni operatorji](http://php.net/language.operators.comparison)
 
 ## Deklaracije spremenljivk
