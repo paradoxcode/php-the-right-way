@@ -6,7 +6,7 @@ anchor:  composer_and_packagist
 
 ## Composer in Packagist {#composer_and_packagist_title}
 
-Composer je **brilijanten** upravljalnik odvisnosti za PHP. Napišite vaše projektne odvisnosti v `composer.json` datoteko in z nekaj enostavnimi ukazi bo Composer avtomatsko prenesel odvisnosti za vaš projekt in nastavil avtomatsko nalaganje (autoloading) za vas.
+Composer je **briljanten** upravljalnik odvisnosti za PHP. Napišite vaše projektne odvisnosti v `composer.json` datoteko in z nekaj enostavnimi ukazi bo Composer avtomatsko prenesel odvisnosti za vaš projekt in nastavil avtomatsko nalaganje (autoloading) za vas. Composer je analogno NPM v svetu Node.js ali Bundler v Ruby svetu.
 
 Na voljo je že ogromno PHP knjižnic, ki so kompatibilne s Composer-jem in pripravljene za uporabo v vašem projektu. Ti
 "paketi" so našteti na [Packagist]-u, uradnem repozitoriju za Composer-kompatibilne PHP knjižnice.

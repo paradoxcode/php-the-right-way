@@ -22,8 +22,11 @@ Ena izmed priporočenih poti za uporabo imenskih prostorov je poudarjena v [PSR-
 razrede in imenske prostore, da omogoča plug-in-play kodo.
 
 V oktobru 2014 je PHP-FIG opustil prejšnji standard za avtomatsko nalaganje: [PSR-0][psr0], ki je bil zamenjan s
-[PSR-4][psr4]. Trenutno sta oba še vedno v uporabi, saj PSR-4 potrebuje PHP 5.3 in mnogi samo PHP 5.2
-projekti imajo trenutno implementiran PSR-0. Če nameravate uporabiti standard za avtomatsko nalaganje za novo aplikacijo ali
+[PSR-4][psr4]. Trenutno sta oba še vedno popolnoma uporabna in PSR-0 še ne odhaja. Kot PSR-4 potrebuje vsaj PHP 5.3 in mnogi samo PHP 5.2
+projekti imajo trenutno implementiran PSR-0. Na srečo te samo PHP 5.2 projekti pričenjajo večati svoje
+zahteve verzij, kar pomeni, da je PSR-0 vedno manj uporabljan.
+
+Če nameravate uporabiti standard za avtomatsko nalaganje za novo aplikacijo ali
 paket potem vsekakor želite preveriti PSR-4.
 
 * [Preberite o imenskih prostorih][namespaces]

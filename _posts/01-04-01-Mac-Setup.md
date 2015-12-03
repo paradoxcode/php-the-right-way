@@ -6,8 +6,8 @@ anchor:  mac_setup
 
 ## Namestitev v Mac okolju {#mac_setup_title}
 
-OS X sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Mountain Lion vsebuje PHP 5.3.10,
-Mavericks ima 5.4.17 in Yosemite ima 5.5.9, vendar z izzidom PHP 5.6 to pogostokrat ni dovolj.
+OS X sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Mavericks vsebuje PHP 5.4.17,
+Yosemite vsebuje 5.5.9 in El Capitan vsebuje 5.5.29, vendar z izzidom PHP 7.0 to pogostokrat ni dovolj.
 
 Obstoja veliko načinov za namestitev PHP na OS X.
 
@@ -32,14 +32,14 @@ MacPorts podpira vnaprej prevedene zagonske datoteke, tako da vam ni potrebno pr
 odvisnosti iz izvornih tarball datotek, reši vam življenje tudi če
 nimate kakršnegakoli paketa nameščenega na vašem sistemu.
 
-Za sedaj lahko namestite `php53`, `php54`, `php55` ali `php56` z uporabo ukaza `port install` na primer:
+Za sedaj lahko namestite `php54`, `php55`, `php56` ali `php70` z uporabo ukaza `port install` na primer:
 
-    sudo port install php54
-    sudo port install php55
+    sudo port install php56
+    sudo port install php70
 
 Lahko poženete ukaz `select`, da preklopite vaš aktiven php:
 
-    sudo port select --set php php55
+    sudo port select --set php php70
 
 ### Namestitev PHP preko phpbrew
 
