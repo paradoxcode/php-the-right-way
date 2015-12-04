@@ -52,6 +52,12 @@ sta Markdown ali BBCode, čeprav s tem namenom obstajajo čistilne knjižnice ko
 
 [Poglejte si čistilne filtre][2]
 
+### Deserijalizacija
+
+Nevarno je uporabiti `unserialize()` za podatke od uporabnikov ali drugih nezaupljivih virov. To lahko omogoči zlonamernim uporabnikom, da sprožijo objekte (z uporabniško definiranimi lastnostmi), katerih destruktorji bodo izvršeni, **tudi če objekti sami niso uporabljeni**. Zato bi se morali izogibati deserializaciji nezaupljivih podatkov.
+
+Če absolutno morate deserializirati podatke iz nezaupljivih virov, uporabite PHP 7 [`allowed_classes`][unserialize] opcijo za omejitev, kateri tipi objektov so dovoljeni za deserializacijo.
+
 ### Preverjanje
 
 Preverjanje zagotavlja, da je tuj vnos to, kar pričakujete. Na primer, lahko boste želeli preveriti
@@ -67,3 +73,4 @@ e-poštni naslov, telefonsko številko ali starost pri procesiranju registracijs
 [5]: http://php.net/function.filter-input
 [6]: http://php.net/security.filesystem.nullbytes
 [html-purifier]: http://htmlpurifier.org/
+[unserialize]: https://secure.php.net/manual/en/function.unserialize.php
