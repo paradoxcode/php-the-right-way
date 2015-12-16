@@ -17,7 +17,7 @@ Obstoja veliko načinov za namestitev PHP na OS X.
 [Homebrew PHP] je repozitorij, ki vsebuje PHP povezane 'formulae' za Homebrew, in vam bo omogočil
 namestiti PHP.
 
-Na tej točki, lahko namestite `php53`, `php54`, `php55` ali `php56` z uporabo ukaza `brew install`
+Na tej točki, lahko namestite `php53`, `php54`, `php55`, `php56` ali `php70` z uporabo ukaza `brew install`
 in preklapljanje med njimi s spreminjanjem vaše spremenljivke `PATH`. Druga možnost je uporaba [brew-php-switcher][brew-php-switcher],
 ki bo preklopil avtomatsko za vas.
 
@@ -48,7 +48,7 @@ aplikaciji/projekta zahtevata različni verziji PHP in ne uporabljate virtualne 
 
 ### Namestitev PHP preko Liip-ovega zagonskega namestitvenega programa
 
-Druga popularna opcija je [php-osx.liip.ch], ki ponuja eno vrstične namestitvene metode za verzije 5.3 do 5.6.
+Druga popularna opcija je [php-osx.liip.ch], ki ponuja eno vrstične namestitvene metode za verzije 5.3 do 7.0.
 Ne prepisuje php zagonskih datotek nameščenih s strani Apple-a, vendar namesti vse na ločeno lokacijo (/usr/local/php5).
 
 ### Prevajanje iz izvorne kode
