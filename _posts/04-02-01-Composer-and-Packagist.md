@@ -20,10 +20,10 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 {% endhighlight %}
 
-<strong>Opomba:</strong> Če zgornje ni uspešno zaradi pravic, poženite vrstico `mv` ponovno s `sudo`.
+**Opomba:** Če zgornje ni uspešno zaradi pravic, poženite vrstico `mv` ponovno s `sudo`.
 
 To namesti `composer.phar` (PHP binarni arhiv). To lahko poženete s `php` za upravljanje vaših projektnih odvisnosti.
-<strong>Prosimo, upoštevajte:</strong> Če ste prenesli naloženo kodo direktno v interpreter, prosimo prvo preberite kodo na spletu, da ste prepričani, da je varna.
+**Prosimo, upoštevajte:** Če ste prenesli naloženo kodo direktno v interpreter, prosimo prvo preberite kodo na spletu, da ste prepričani, da je varna.
 
 #### Namestitev na Windows
 

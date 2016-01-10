@@ -12,7 +12,7 @@ povzroči izpis teh sporočil, morate nastaviti vaš razvojni strežnik drugače
 
 ### Razvoj
 
-Za prikaz vsake možne napake med <strong>razvojem</strong>, nastavite sledeče v vaši `php.ini` datoteki:
+Za prikaz vsake možne napake med **razvojem**, nastavite sledeče v vaši `php.ini` datoteki:
 
 {% highlight ini %}
 display_errors = On
@@ -36,7 +36,7 @@ uporabiti ali `-1` ali `E_ALL | E_STRICT`.
 
 ### Produkcija
 
-Da skrijete napake v vašem <strong>produkcijskem</strong> okolju, nastavite vašo `php.ini` datoteko kot:
+Da skrijete napake v vašem **produkcijskem** okolju, nastavite vašo `php.ini` datoteko kot:
 
 {% highlight ini %}
 display_errors = Off
