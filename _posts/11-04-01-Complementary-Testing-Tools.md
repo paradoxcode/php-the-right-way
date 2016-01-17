@@ -17,7 +17,7 @@ za kateregakoli izbranih prednostnih pristopov.
 
 
 [Selenium]: http://seleniumhq.org/
-[integrirano s PHPUnit]: http://phpunit.de/manual/current/en/selenium.html
+[integrirano s PHPUnit]: https://github.com/giorgiosironi/phpunit-selenium/
 [Mockery]: https://github.com/padraic/mockery
 [PHPUnit]: http://phpunit.de/
 [PHPSpec]: http://www.phpspec.net/
