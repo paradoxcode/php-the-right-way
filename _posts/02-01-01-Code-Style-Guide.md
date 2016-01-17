@@ -32,7 +32,7 @@ Lahko uporabite [PHP_CodeSniffer][phpcs], da preverite kodo proti katerimkoli iz
 urejevalnike, kot je [Sublime Text 2][st-cs], ki nudi realnočasovni odziv.
 
 Postavitev kode lahko avtomatsko popravite z uporabo eneka od dveh sledečih orodij. Eno je [PHP Coding Standards Fixer][phpcsfixer], ki ima zelo dobro testirano bazo kode.
-Druga opcija je [php.tools][phptools], ki je postalo popularno z vtičnikom urejevalnika [sublime-phpfmt][sublime-phpfmt]. Medtem ko je novejše, naredi odlične izboljšave v uspešnosti, kar pomeni, da je popravljanje v realnem časovu urejevalnika bolj tekoče.
+Druga opcija je [php.tools][phptools], ki je postalo popularno z vtičnikom urejevalnika [sublime-phpfmt][sublime-phpfmt]. Medtem ko je novejše, naredi odlične izboljšave zmogljivosti, kar pomeni, da je popravljanje v realnem časovu urejevalnika bolj tekoče.
 
 In phpcs lahko poženete ročno iz terminala:
 

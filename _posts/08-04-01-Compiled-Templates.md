@@ -11,7 +11,7 @@ jezik predlog. Prevedene predloge, kot so [Twig], [Brainy], ali [Smarty]*, zapol
 bila sestavljena posebej za predloge. Od avtomatskega čiščenja, do dedovanja in poenostavljenih krmilnih struktur, so
 prevedene predloge načrtovane za enostavnejše pisanje, čistejše branje in varnejše za uporabo. Prevedene predloge so lahko celo
 deljene med različnimi jeziki, [Mustache] je dober primer tega. Ker morajo biti te predloge prevedene,
-prihaja do manjšega udarca na uspešnost, vendar je ta zelo minimalen, ko je uporabljeno ustrezno predpomnenje.
+prihaja do manjšega udarca na zmogljivost, vendar je ta zelo minimalen, ko je uporabljeno ustrezno predpomnjenje.
 
 **Medtem ko Smarty ponuja avtomatsko čiščenje, ta lastnosti NI omogočena privzeto.*
 

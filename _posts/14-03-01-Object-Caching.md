@@ -1,22 +1,22 @@
 ---
-title:   Predpomnenje objektov
+title:   Predpomnjenje objektov
 isChild: true
 anchor:  object_caching
 ---
 
-## Predpomnenje objektov {#object_caching_title}
+## Predpomnjenje objektov {#object_caching_title}
 
 Pride čas, ko je koristno predpomniti individualne objekte v vašo kodo, kot so podatki, ki so prepomembni,
 da bi jih dobili iz ali klicali v podatkovno bazo, kjer se rezultat verjetno ne bo spremenil. Lahko uporabite programsko
-opremo za predpomnenje objektov, da shrani te dele podatkov v spomin pri izjemno hitrih kasnejših klicih. Če shranite te
+opremo za predpomnjenje objektov, da shrani te dele podatkov v spomin pri izjemno hitrih kasnejših klicih. Če shranite te
 elemente v podatkovno shrambo, ko naredite poizvedbo zanje, potem jih potegnite direktno iz predpomnilnika za le-te zahtevke.
 Dobite lahko izjemno izboljšavo v zmogljivosti kot tudi zmanjšanje obremenitve na vaše strežnike podatkovne baze.
 
-Mnoge popularne rešitve predpomnilnikov ukazne kode, vam omogočajo tudi predpomnenje podatkov po meri. Tako, da je še večji razlog,
+Mnoge popularne rešitve predpomnilnikov ukazne kode, vam omogočajo tudi predpomnjenje podatkov po meri. Tako, da je še večji razlog,
 da jih izkoristite. APCu, XCache in WinCache vsi ponujajo API-je, da shranite podatke iz vaše PHP kode v njihov spomin predpomnilnika.
 
-Najobičajnejši uporabljani sistemi spominsko objektnega predpomnenja sta APCu in memcached. APCu je odlična izbira za objektno
-predpomnenje, vključuje enostaven API za dodajanje vaših podatkov v njihov spomin predpomnilnika in je zelo enostaven za
+Najobičajnejši uporabljani sistemi spominsko objektnega predpomnjenja sta APCu in memcached. APCu je odlična izbira za objektno
+predpomnjenje, vključuje enostaven API za dodajanje vaših podatkov v njihov spomin predpomnilnika in je zelo enostaven za
 nastaviti in uporabiti. Ena realna omejitev APCu-ja je, da je vezan na strežnik, na katerega je nameščen. Memcached po drugi strani je
 nameščen kot ločena storitev in se do nje lahko dostopa čez omrežje, kar pomeni, da lahko shranite objekte v hiper-hitro podatkovno
 shrambo v centralni lokaciji in mnoge različne sisteme lahko potegnete iz nje.
@@ -27,7 +27,7 @@ memcached predpomnilnika, saj ni vezan na PHP procese.
 
 V omrežnih nastavitvah APCu bo običajno prekašal memcached, kar se tiče dostopne hitrosti, vendar memcached bo sposoben
 hitrejšega in širšega skaliranja. Če ne pričakujete, da boste imeli mnoge strežnike za poganjanje vaše aplikacije ali ne potrebujete
-dodatnih lastnosti, ki jih memcached ponuja, potem je APCu verjetno najboljša izbira za predpomnenje objektov.
+dodatnih lastnosti, ki jih memcached ponuja, potem je APCu verjetno najboljša izbira za predpomnjenje objektov.
 
 Primer logike z uporabo APCu:
 
