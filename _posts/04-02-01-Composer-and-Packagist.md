@@ -118,8 +118,8 @@ kot vam tudi povedal, če potrebujete kakšne posodobitve za vaše odvisnosti.
 ### Upravljanje globalnih odvisnosti s Composer-jem
 
 Composer lahko tudi upravlja globalne odvisnosti in njihove zagonske datoteke. Uporaba je enostavna, vse kar morate
-narediti je, da dodate predpono `global` vašim ukazom. Če v primeru, da želite namestiti PHPUnit in da ga imate
-na voljo globalno, bi pognali sledeči ukaz:
+narediti je, da dodate predpono `global` vašim ukazom. Če na primer želite namestiti PHPUnit in ga imeti
+na voljo globalno, poženite sledeči ukaz:
 
 {% highlight console %}
 composer global require phpunit/phpunit
