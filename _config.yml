@@ -1,6 +1,4 @@
 baseurl: /
-highlighter: pygments
-markdown: kramdown
 permalink: date
 maruku:
     use_tex:    false
