@@ -10,7 +10,7 @@ Prenesete lahko zagonske datoteke iz [windows.php.net/downloads][php-downloads].
 
 Za učenje in lokalni razvoj lahko uporabite vgrajeni spletni strežnik s PHP 5.4+, tako da vam ni treba skrbeti
 za njegovo konfiguracijo. Če želite "vse v enem", ki vključuje celoten spletni strežnik in tudi MySQL, potem orodja, kot
-so [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp] in [WAMP][wamp],
+so [Web Platform Installer][wpi], [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] in [WAMP][wamp],
 pripomorejo k hitri namestitvi na Windows razvojno okolje. Tako bodo orodja malenkost drugačna od
 produkcijskih, zato bodite previdni na razlike v razvojnih okoljih, če delate na Windows-u in nalagate na Linux.
 
@@ -19,12 +19,15 @@ uporabite [phpmanager][phpmanager] (GUI vtičnik za IIS7), ki enostavno skonfigu
 že vgrajen FastCGI in je pripravljen na uporabo, tako da potrebujete samo skonfigurirati PHP kot hendler. Za podporo in dodatne vire
 je na voljo [namensko področje na iis.net][php-iis] za PHP.
 
+Chris Tankersley ima zelo uporabno blog objavo, katera orodja uporablja za [PHP razvoj z uporabo Windows-a][windows-tools].
 
-[php-downloads]: http://windows.php.net/download/
-[windows-path]: http://www.windows-commandline.com/set-path-command-line/
-[wpi]: http://www.microsoft.com/web/downloads/platform.aspx
-[xampp]: http://www.apachefriends.org/en/xampp.html
+[phpmanager]: http://phpmanager.codeplex.com/
+[openserver]: http://open-server.ru/
 [easyphp]: http://www.easyphp.org/
 [wamp]: http://www.wampserver.com/en/
-[phpmanager]: http://phpmanager.codeplex.com/
+[php-downloads]: http://windows.php.net/download/
 [php-iis]: http://php.iis.net/
+[windows-path]: http://www.windows-commandline.com/set-path-command-line/
+[windows-tools]: http://ctankersley.com/2015/07/01/developing-on-windows/
+[wpi]: http://www.microsoft.com/web/downloads/platform.aspx
+[xampp]: http://www.apachefriends.org/en/xampp.html
