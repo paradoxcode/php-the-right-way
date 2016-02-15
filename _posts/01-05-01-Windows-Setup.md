@@ -19,11 +19,14 @@ uporabite [phpmanager][phpmanager] (GUI vtičnik za IIS7), ki enostavno skonfigu
 že vgrajen FastCGI in je pripravljen na uporabo, tako da potrebujete samo skonfigurirati PHP kot hendler. Za podporo in dodatne vire
 je na voljo [namensko področje na iis.net][php-iis] za PHP.
 
+V splošnem poganjanje vaše aplikacije v različnih okoljih v razvoju ali produkciji lahko vodi do čudnih hroščev, ko naložite
+v živo. Če razvijate na Windows in nalagate na Linux (ali na karkoli, ki ni Windows), potem bi morali razmisliti o uporabi [virtualne naprave](/#virtualization_title).
+
 Chris Tankersley ima zelo uporabno blog objavo, katera orodja uporablja za [PHP razvoj z uporabo Windows-a][windows-tools].
 
+[easyphp]: http://www.easyphp.org/
 [phpmanager]: http://phpmanager.codeplex.com/
 [openserver]: http://open-server.ru/
-[easyphp]: http://www.easyphp.org/
 [wamp]: http://www.wampserver.com/en/
 [php-downloads]: http://windows.php.net/download/
 [php-iis]: http://php.iis.net/

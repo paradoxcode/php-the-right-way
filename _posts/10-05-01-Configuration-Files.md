@@ -15,3 +15,4 @@ datotečni sistem.
 zagotovi, da tudi če se do skripte direktno dostopi, se ne bo izpisala kot enostaven tekst.
 - Informacije v konfiguracijskih datotekah bi morale biti ustrezno zavarovane, ali preko enkripcije ali preko group/user datotečnih
 sistemskih pravic.
+- Dobra ideja je zagotoviti, da ne pošljete nastavitvenih datotek, ki vsebujejo občutljive informacije npr. gesla ali žetone API v nadzor izvorne kode.
