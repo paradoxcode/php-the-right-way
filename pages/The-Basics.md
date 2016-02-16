@@ -66,6 +66,14 @@ function test($a)
     }
     return false;    // else is not necessary
 }
+
+// ali še krajše:
+
+function test($a)
+{
+    return (bool) $a;
+}
+
 {% endhighlight %}
 
 * [If stavki](http://php.net/control-structures.if)
