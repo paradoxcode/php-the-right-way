@@ -67,7 +67,7 @@ Laravel, Zend Framework in Yii.
 
 *-- Martin Fowler*
 
-Obstaja več različnih poti za implementacijo zvezne integracije za PHP. Pred kratkim je [Travis CI]
+Obstaja več različnih poti za implementacijo zvezne integracije za PHP. [Travis CI] je
 naredil odlično delo zvezne integracije, zaradi česar je realnost tudi za manjše projekte. Travis CI je gostovan servis zvezne
 integracije za odprto kodno skupnost. Integriran je z GitHub-om in ponuja prvo razredno podporo za mnoge jezike, tudi PHP.
 
