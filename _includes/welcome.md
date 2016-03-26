@@ -31,7 +31,7 @@ _PHP: The Right Way_ je preveden v mnoge različne jezike:
 * [Korean](http://modernpug.github.io/php-the-right-way/)
 * [Persian](http://novid.github.io/php-the-right-way/)
 * [Polish](http://pl.phptherightway.com/)
-* [Portuguese](http://br.phptherightway.com/)
+* [Portuguese (Brazil)](http://br.phptherightway.com/)
 * [Romanian](https://bgui.github.io/php-the-right-way/)
 * [Russian](http://getjump.github.io/ru-php-the-right-way)
 * [Serbian](http://phpsrbija.github.io/php-the-right-way/)
@@ -47,7 +47,7 @@ Pomagajte tej strani narediti najboljši vir za nove PHP programerje! [Prispevaj
 
 ## Razširite besedo!
 
-_PHP: The Right Way_ ima na voljo slike pasic, ki jih lahko uporabite na vaši spletni strani. Pokažite vašo podporo in obvestite PHP razvijalce, 
+_PHP: The Right Way_ ima na voljo slike pasic, ki jih lahko uporabite na vaši spletni strani. Pokažite vašo podporo in obvestite PHP razvijalce,
 kje lahko najdejo dobre informacije!
 
 [Poglejte si slike pasic][2]
