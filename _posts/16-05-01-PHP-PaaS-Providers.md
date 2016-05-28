@@ -1,5 +1,5 @@
 ---
-title:   PHP Paas ponudniki
+title:   PHP PaaS ponudniki
 isChild: true
 anchor:  php_paas_providers
 ---
@@ -19,5 +19,6 @@ anchor:  php_paas_providers
 * [Google App Engine](https://developers.google.com/appengine/docs/php/gettingstarted/)
 * [Jelastic](http://jelastic.com/)
 * [Platform.sh](https://platform.sh/)
+* [Cloudways](https://www.cloudways.com/en/)
 
 Da preverite, katere verzije poganjajo te gostitelji PaaS, obiščite stran [PHP Versions](http://phpversions.info/paas-hosting/).
