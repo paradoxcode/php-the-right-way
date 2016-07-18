@@ -20,15 +20,12 @@ var_dump($a == '5');     // compare value (ignore type); return true
 var_dump($a === 5);      // compare type/value (integer vs. integer); return true
 var_dump($a === '5');    // compare type/value (integer vs. string); return false
 
-/**
- * Strict comparisons
- */
+// Primerjava enakosti
 if (strpos('testing', 'test')) {    // 'test' is found at position 0, which is interpreted as the boolean 'false'
     // code...
 }
 
-// proti
-
+// proti striktni primerjavi
 if (strpos('testing', 'test') !== false) {    // true, as strict comparison was made (0 !== false)
     // code...
 }
@@ -42,7 +39,7 @@ if (strpos('testing', 'test') !== false) {    // true, as strict comparison was 
 
 ### If stavki
 
-Pri uporabi 'if/else' stavkov znotraj funkcije ali razreda, je pogosto spregledano, da mora biti 'else' uporabljen
+Pri uporabi 'if/else' stavkov znotraj funkcije ali metode razreda, je pogosto spregledano, da mora biti 'else' uporabljen
 v vezavi, da se deklarira potencialne rezultate. Vendar če rezultat definira vrednost, ki jo vrne, 'else' ni
 potreben saj bo 'return' končala funkcijo, kar naredi 'else' spornega.
 

@@ -29,18 +29,26 @@ tretje osebne kode.
 * [Preberite o Symfony kodnih standardih][symfony-cs]
 
 Lahko uporabite [PHP_CodeSniffer][phpcs], da preverite kodo proti katerimkoli izmed teh priporočil in vtičnike za tekstovne
-urejevalnike, kot je [Sublime Text 2][st-cs], ki nudi realnočasovni odziv.
+urejevalnike, kot je [Sublime Text 2][st-cs], ki nudi odziv v realnem času.
 
-Postavitev kode lahko avtomatsko popravite z uporabo [PHP Coding Standards Fixer][phpcsfixer], ki ima zelo dobro testirano bazo kode.
-
-In phpcs lahko poženete ročno iz terminala:
+PHP_CodeSniffer lahko poženete ročno v terminalu:
 
     phpcs -sw --standard=PSR2 file.php
 
-Prikazal bo napake in opise, kako jih popraviti.
+Prikazal bo napake in opisal, kako jih popraviti.
 Lahko je tudi v pomoč pri vključevanju tega ukaza v git hook.
-Na ta način se vej, ki vsebujejo kršitve izbranega standards, ne more vnesti v repozitorij
-dokler se teh kršitev ne odpravi.
+Na ta način se vej, ki vsebujejo kršitve izbranega standards, ne more vnesti v repozitorij dokler se teh
+kršitev ne odpravi.
+
+Če imate PHP_CodeSniffer, lahko sporočene težave postavitve kode avtomatsko popravite s
+[PHP Code Beautifier and Fixer][phpcbf].
+
+    phpcbf -w --standard=PSR2 file.php
+
+Druga opcija je uporaba orodja [PHP Coding Standards Fixer][phpcsfixer].
+Prikazal bo, katere vrste napak je imela struktura kode pred popravki.
+
+    php-cs-fixer fix -v --level=psr2 file.php
 
 Angleščina je priporočljiva za vsa imena simbolov in infrastruktur kode. Komentarji so lahko napisani v kateremkoli jeziku,
 ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s kodo.
@@ -54,5 +62,6 @@ ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s
 [pear-cs]: http://pear.php.net/manual/en/standards.php
 [symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html
 [phpcs]: http://pear.php.net/package/PHP_CodeSniffer/
+[phpcbf]: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically
 [st-cs]: https://github.com/benmatselby/sublime-phpcs
 [phpcsfixer]: http://cs.sensiolabs.org/
