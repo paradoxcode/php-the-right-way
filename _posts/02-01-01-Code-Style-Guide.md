@@ -29,9 +29,14 @@ tretje osebne kode.
 * [Preberite o Symfony kodnih standardih][symfony-cs]
 
 Lahko uporabite [PHP_CodeSniffer][phpcs], da preverite kodo proti katerimkoli izmed teh priporočil in vtičnike za tekstovne
-urejevalnike, kot je [Sublime Text 2][st-cs], ki nudi odziv v realnem času.
+urejevalnike, kot je [Sublime Text][st-cs], ki nudi odziv v realnem času.
 
-PHP_CodeSniffer lahko poženete ročno v terminalu:
+Postavitev kode lahko popravite avtomatično z uporabo enega izmed sledečih orodij:
+
+- Eno je [PHP Coding Standards Fixer][phpcsfixer], ki ima zelo dobro testirano osnovo kode.
+- Ter lahko se uporabi tudi orodje [PHP Code Beautifier and Fixer][phpcbf], ki je vključeno v PHP_CodeSniffer, da ustrezno prilagodite vašo kodo.
+
+In PHP_CodeSniffer lahko poženete ročno v terminalu:
 
     phpcs -sw --standard=PSR2 file.php
 
