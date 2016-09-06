@@ -20,5 +20,7 @@ anchor:  php_paas_providers
 * [Jelastic](http://jelastic.com/)
 * [Platform.sh](https://platform.sh/)
 * [Cloudways](https://www.cloudways.com/en/)
+* [IBM Bluemix Cloud Foundry](https://console.ng.bluemix.net/)
+* [Pivotal Web Service Cloud Foundry](https://run.pivotal.io/)
 
-Da preverite, katere verzije poganjajo te gostitelji PaaS, obiščite stran [PHP Versions](http://phpversions.info/paas-hosting/).
+Katere verzije poganjajo gostitelji PaaS, preverite na strani [PHP Versions](http://phpversions.info/paas-hosting/).
