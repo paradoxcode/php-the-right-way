@@ -13,8 +13,8 @@ knjižnic za njihove projekte.
 
 [Framework Interop Group][fig] so predlagali in odobrili serijo stilskih priporočil. Vsa niso vezana na kodne stile, vendar
 tista ki so, so [PSR-0][psr0], [PSR-1][psr1], [PSR-2][psr2] in [PSR-4][psr4]. Ta priporočila so samo
-skupek pravil, ki jih določeni projekti, kot so Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium itd.
-pričenjajo privzemati. Lahko jih uporabite v vaših projektih, ali nadaljujete z uporabo vaših osebnih stilov.
+skupek pravil, ki jih privzemajo mnogi projekti, kot so Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium itd.
+Lahko jih uporabite v vaših projektih, ali nadaljujete z uporabo vaših osebnih stilov.
 
 Idealno bi morali pisati PHP kodo, ki se oprijema znanih standardov. To je lahko kakršnakoli kombinacija PSR-jev, ali
 enega izmed kodnih standardov izdelanih s strani PEAR ali Zend. To pomeni, da ostali razvijalci lahko enostavno berejo
