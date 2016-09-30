@@ -7,7 +7,7 @@ anchor:  mac_setup
 ## Namestitev v Mac okolju {#mac_setup_title}
 
 OS X sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Mavericks vsebuje PHP 5.4.17,
-Yosemite vsebuje 5.5.9 in El Capitan vsebuje 5.5.29, vendar z izzidom PHP 7.0 to pogostokrat ni dovolj.
+Yosemite 5.5.9, El Capitan 5.5.29 in Sierra 5.6.24, vendar z izzidom PHP 7.0 to pogostokrat ne zadostuje.
 
 Obstoja veliko načinov za namestitev PHP na OS X.
 

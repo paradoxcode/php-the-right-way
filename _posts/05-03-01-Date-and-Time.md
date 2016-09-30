@@ -61,6 +61,8 @@ foreach ($periodIterator as $date) {
 }
 {% endhighlight %}
 
+Popularna PHP API razširitev je [Carbon](http://carbon.nesbot.com). Podeduje vse iz razreda DateTime, tako da vključuje minimalno število sprememb kode, dodatne lastnosti pa vključujejo podporo za lokalizacijo, nadaljnje načine za dodajanje, odštevanje in oblikovanje objekta DateTime ter sredstva za testiranje vaše kode s simuliranjem datuma in časa po izbiri.
+
 * [Preberite o DateTime][datetime]
 * [Preberite o oblikovanju datuma][dateformat] (sprejete opcije niza oblikovanja datuma)
 
