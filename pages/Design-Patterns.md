@@ -12,7 +12,7 @@ kodo naredilo enostavnejšo za upravljanje in enostavnejšo drugim za razumevanj
 
 * [Arhitekturni vzorci na Wikipediji](https://en.wikipedia.org/wiki/Architectural_pattern)
 * [Načrtovalski vzorci programske opreme na Wikipediji](https://en.wikipedia.org/wiki/Software_design_pattern)
-* [Zbirka primerov implementacij](https://github.com/domnikl/DesignPatternsPHP)
+* [Zbirka primerov implementacij](http://designpatternsphp.readthedocs.io/en/latest/)
 
 ## Tovarna
 
