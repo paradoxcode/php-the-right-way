@@ -98,8 +98,8 @@ Sedaj lahko uporabite odvisnosti vašega projekta in bodo avtomatsko naložene n
 ### Posodobitev vaših odvisnosti
 
 Composer ustvari datoteko imenovano `composer.lock`, ki shrani točno verzijo za vsak paket, ki ga je
-prenesel, ko ste prvič pognali ukaz `composer install`. Če delite vaš projekt z drugimi razvijalci in je datoteka `composer.lock`
-del vaše distribucije, bodo ob ukazu `composer install` dobili točno enake verzije kot vi. Za posodobitev vaših odvisnosti poženite ukaz `composer update`.
+prenesel, ko ste prvič pognali ukaz `composer install`. Če delite vaš projekt z drugimi, zagotovite, da je datoteka `composer.lock`
+vključena, tako da bodo ob ukazu `composer install` dobili enake verzije kot vi. Za posodobitev vaših odvisnosti poženite ukaz `composer update`. Ne uporabljajte `composer update`, ko nalagate aplikacijo na strežnik. Takrat poženite samo `composer install`, drugače boste lahko imeli drugačne verzije paketov v produkciji.
 
 To je najbolj uporabno, ko definirate vaše verzije zahtev fleksibilno. Na primer zahtevana verzija
 `~1.8` pomeni "karkoli novejše od `1.8.0`, vendar manj kot `2.0.x-dev`". Lahko uporabite tudi
