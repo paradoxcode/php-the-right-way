@@ -35,11 +35,14 @@ Alternativno, če želite stisniti več zmogljivosti in stabilnosti iz Apache-ja
 enak FPM sistem kot nginx in pognati [worker MPM] ali [event MPM] z mod_fastcgi ali mod_fcgid. Ta nastavitev bo
 bistveno bolj spominsko učinkovita in bolj hitra, vendar je potrebno več dela za vzpostavitev.
 
+Če poganjate Apache 2.4 ali novejši, lahko uporabite [mod_proxy_fcgi], da dobite enostavno nastavljivo zmogljivost.
+
 * [Preberite več o Apache][apache]
 * [Preberite več o Multi-Processing modulih][apache-MPM]
 * [Preberite več o mod_fastcgi][mod_fastcgi]
 * [Preberite več o mod_fcgid][mod_fcgid]
-
+* [Preberite več o mod_proxy_fcgi][mod_proxy_fcgi]
+* [Preberite več o nastavitvah Apache in PHP-FPM z mod_proxy_fcgi][tutorial-mod_proxy_fcgi]
 
 [nginx]: http://nginx.org/
 [phpfpm]: http://php.net/install.fpm
@@ -50,5 +53,8 @@ bistveno bolj spominsko učinkovita in bolj hitra, vendar je potrebno več dela 
 [event MPM]: http://httpd.apache.org/docs/2.4/mod/event.html
 [apache]: http://httpd.apache.org/
 [apache-MPM]: http://httpd.apache.org/docs/2.4/mod/mpm_common.html
+[mod_fastcgi]: https://blogs.oracle.com/opal/entry/php_fpm_fastcgi_process_manager
 [mod_fastcgi]: http://www.fastcgi.com/mod_fastcgi/docs/mod_fastcgi.html
 [mod_fcgid]: http://httpd.apache.org/mod_fcgid/
+[mod_proxy_fcgi]: https://httpd.apache.org/docs/current/mod/mod_proxy_fcgi.html
+[tutorial-mod_proxy_fcgi]: https://serversforhackers.com/video/apache-and-php-fpm

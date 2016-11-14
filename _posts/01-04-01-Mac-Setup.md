@@ -28,8 +28,8 @@ sistem enostaven za uporabo, za prevajanje, nameščanje in nadgradnjo bodisi
 ukazne vrstice, X11 ali Aqua osnovane odprto kodne programske opreme na OS X operacijskem
 sistemu.
 
-MacPorts podpira vnaprej prevedene zagonske datoteke, tako da vam ni potrebno prevajati vsake
-odvisnosti iz izvornih tarball datotek, reši vam življenje tudi če
+MacPorts podpira vnaprej prevedene zagonske datoteke, tako da vam ni potrebno prevajati vsako
+odvisnost iz izvornih tarball datotek, reši vam življenje tudi če
 nimate kakršnegakoli paketa nameščenega na vašem sistemu.
 
 Za sedaj lahko namestite `php54`, `php55`, `php56` ali `php70` z uporabo ukaza `port install` na primer:
@@ -37,7 +37,7 @@ Za sedaj lahko namestite `php54`, `php55`, `php56` ali `php70` z uporabo ukaza `
     sudo port install php56
     sudo port install php70
 
-Lahko poženete ukaz `select`, da preklopite vaš aktiven php:
+Lahko poženete ukaz `select`, da preklopite vaš aktiven PHP:
 
     sudo port select --set php php70
 
@@ -49,7 +49,7 @@ aplikaciji/projekta zahtevata različni verziji PHP in ne uporabljate virtualne 
 ### Namestitev PHP preko Liip-ovega zagonskega namestitvenega programa
 
 Druga popularna opcija je [php-osx.liip.ch], ki ponuja eno vrstične namestitvene metode za verzije 5.3 do 7.0.
-Ne prepisuje php zagonskih datotek nameščenih s strani Apple-a, vendar namesti vse na ločeno lokacijo (/usr/local/php5).
+Ne prepisuje PHP zagonskih datotek nameščenih s strani Apple-a, vendar namesti vse na ločeno lokacijo (/usr/local/php5).
 
 ### Prevajanje iz izvorne kode
 
