@@ -42,16 +42,21 @@ _PHP: The Right Way_ je preveden v mnoge različne jezike:
 * [简体中文](http://laravel-china.github.io/php-the-right-way/)
 * [繁體中文](http://laravel-taiwan.github.io/php-the-right-way)
 
+## Knjiga
+
+Najnovejša verzija _PHP: The Right Way_ je navoljo tudi v PDF, EPUB in MOBI formatih. [Obiščite Leanpub][1]
+
 ## Kako prispevati
 
-Pomagajte tej strani narediti najboljši vir za nove PHP programerje! [Prispevajte preko GitHub-a][1]
+Pomagajte tej strani narediti najboljši vir za nove PHP programerje! [Prispevajte preko GitHub-a][2]
 
 ## Razširite besedo!
 
 _PHP: The Right Way_ ima na voljo slike pasic, ki jih lahko uporabite na vaši spletni strani. Pokažite vašo podporo in obvestite PHP razvijalce,
 kje lahko najdejo dobre informacije!
 
-[Poglejte si slike pasic][2]
+[Poglejte si slike pasic][3]
 
-[1]: https://github.com/symfony-si/php-the-right-way/
-[2]: /banners.html
+[1]: https://leanpub.com/phptherightway
+[2]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
+[3]: /banners.html

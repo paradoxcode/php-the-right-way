@@ -31,6 +31,6 @@ Chris Tankersley ima zelo uporabno blog objavo, katera orodja uporablja za [PHP 
 [php-downloads]: http://windows.php.net/download/
 [php-iis]: http://php.iis.net/
 [windows-path]: http://www.windows-commandline.com/set-path-command-line/
-[windows-tools]: http://ctankersley.com/2015/07/01/developing-on-windows/
-[wpi]: http://www.microsoft.com/web/downloads/platform.aspx
+[windows-tools]: http://ctankersley.com/2016/11/13/developing-on-windows-2016/
+[wpi]: https://www.microsoft.com/web/downloads/platform.aspx
 [xampp]: http://www.apachefriends.org/en/xampp.html

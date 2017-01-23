@@ -54,7 +54,6 @@ bistveno bolj spominsko učinkovita in bolj hitra, vendar je potrebno več dela 
 [apache]: http://httpd.apache.org/
 [apache-MPM]: http://httpd.apache.org/docs/2.4/mod/mpm_common.html
 [mod_fastcgi]: https://blogs.oracle.com/opal/entry/php_fpm_fastcgi_process_manager
-[mod_fastcgi]: http://www.fastcgi.com/mod_fastcgi/docs/mod_fastcgi.html
 [mod_fcgid]: http://httpd.apache.org/mod_fcgid/
 [mod_proxy_fcgi]: https://httpd.apache.org/docs/current/mod/mod_proxy_fcgi.html
 [tutorial-mod_proxy_fcgi]: https://serversforhackers.com/video/apache-and-php-fpm

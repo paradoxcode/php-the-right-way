@@ -34,7 +34,7 @@ nekatera ne. To vas ne bi smelo ovirati pri njihovi uporabi, če so bolj primern
 
 [Rocketeer] je dobil inspiracijo in filozofijo iz ogrodja Laravel. Cilj je hitrost, elegantnost in enostavna uporaba s smiselnimi privzetimi nastavitvami. Vsebuje več strežnikov, več razvojnih stopenj, atomske namestitve in vzporedno izvedene namestitve. Vse v orodju se lahko zamenja ali razširi med delovanjem in vse je napisano v PHP.
 
-[Deployer] je orodje za namestitev napisano v PHP, je enostavno in funkcionalno. Opravila poganja vzporedno, opravlja atomske namestitve in obdrži konsistentnost med strežniki. Na voljo so recepti pogostih opravil za Symfony, Laravel, Zend Framework in Yii. Younes Rafie-jev članek [Easy Deployment of PHP Applications with Deployer][phpdeploy_deployer] je odličen vodič za namestiev vaše aplikacije s tem orodjem.
+[Deployer] je orodje za namestitev napisano v PHP. Je enostavno in funkcionalno. Lastnosti vključujejo poganja opravil vzporedno, opravljanje atomske namestitve in obdržanje konsistentnosti med strežniki. Na voljo so recepti pogostih opravil za Symfony, Laravel, Zend Framework in Yii. Younes Rafie-jev članek [Easy Deployment of PHP Applications with Deployer][phpdeploy_deployer] je odličen vodič za namestiev vaše aplikacije s tem orodjem.
 
 [Magallanes] je drugo orodje napisano v PHP z enostavno konfiguracijo v YAML datotekah. Podpira več strežnikov in okolij, atomske namestitve in ima vgrajena opravila, ki jih lahko uporabite pri pogostih orodjih in ogrodjih.
 

@@ -18,8 +18,8 @@ Da si prihranite čas s poglabljanjem v vaše nastavitve `php.ini`, da vidite, k
 v vašem priljubljenem urejevalniku. Če se pojavi katerakoli izmed funkcij, kot je `mysql_connect` in `mysql_query`, potem je
 v uporabi `mysql`.
 
-Tudi če še ne uporabljate PHP 7.0, izpustitev te nadgradnje kakor hitro je mogoče, bo vodilo k še večjim
-težavam, ko boste prišli do nadgradnje PHP 7.0. Najboljša opcija je zamenjati uporabo mysql z [mysqli] ali [PDO] v
+Tudi če še ne uporabljate PHP 7.x, izpustitev te nadgradnje kakor hitro je mogoče, bo vodilo k še večjim
+težavam, ko boste prišli do nadgradnje PHP 7.x. Najboljša opcija je zamenjati uporabo mysql z [mysqli] ali [PDO] v
 vaši aplikacijah znotraj vašega razvojnega razporeda, tako da se vam ne bo kasneje mudilo.
 
 **Če nadgrajujete iz [mysql] k [mysqli], bodite pozorni o lenobnih vodičih nadgradnje, ki enostavno predlagajo najti in zamenjati `mysql_*` z `mysqli_*`. Ne samo, da je to prevelika posplošitev, pozablja tudi prednosti, ki jih mysqli ponuja, kot je vezava parametrov, ki je ponujena tudi v [PDO][pdo].**
