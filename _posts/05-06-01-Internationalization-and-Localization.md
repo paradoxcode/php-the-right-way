@@ -266,7 +266,7 @@ bližnjica funkcije `_()`, ki deluje na enak način;
  * @return bool
  */
 function valid($locale) {
-    return in_array($locale, ['en_US', 'en', 'pt_BR', 'pt', 'es_ES', 'es');
+    return in_array($locale, ['en_US', 'en', 'pt_BR', 'pt', 'es_ES', 'es']);
 }
 
 //setting the source/default locale, for informational purposes
