@@ -50,13 +50,5 @@ Najnovejša verzija _PHP: The Right Way_ je navoljo tudi v PDF, EPUB in MOBI for
 
 Pomagajte tej strani narediti najboljši vir za nove PHP programerje! [Prispevajte preko GitHub-a][2]
 
-## Razširite besedo!
-
-_PHP: The Right Way_ ima na voljo slike pasic, ki jih lahko uporabite na vaši spletni strani. Pokažite vašo podporo in obvestite PHP razvijalce,
-kje lahko najdejo dobre informacije!
-
-[Poglejte si slike pasic][3]
-
 [1]: https://leanpub.com/phptherightway
 [2]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
-[3]: /banners.html

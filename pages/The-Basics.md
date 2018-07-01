@@ -289,6 +289,26 @@ EOD;                        // closing 'EOD' must be on it's own line, and to th
 
 * [Heredoc sintaksa](http://php.net/language.types.string#language.types.string.syntax.heredoc)
 
+> Potrebno je opozoriti, da več vrstični nizi so lahko tudi tvorjeni z nadaljevanjem preko večih vrstic v stavku. _npr._
+
+{% highlight php %}
+$str = "
+Example of string
+spanning multiple lines
+using statement syntax.
+$a are parsed.
+";
+
+/**
+ * Output:
+ *
+ * Example of string
+ * spanning multiple lines
+ * using statement syntax.
+ * Variables are parsed.
+ */
+{% endhighlight %}
+
 ### Kaj je hitreje?
 
 Naokoli obstoja mit, da enojni citati so frakcijsko hitrejši kot dvojni nizi. To v
