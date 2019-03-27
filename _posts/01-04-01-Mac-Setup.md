@@ -6,20 +6,21 @@ anchor:  mac_setup
 
 ## Namestitev v Mac okolju {#mac_setup_title}
 
-OS X sicer že vsebuje PHP, vendar ima običajno nekoliko starejšo verzijo za zadnjo stabilno. Mavericks vsebuje PHP 5.4.17,
-Yosemite 5.5.9, El Capitan 5.5.29 in Sierra 5.6.24, vendar z izzidom PHP 7.1 to pogostokrat ne zadostuje.
-
-Obstoja veliko načinov za namestitev PHP na OS X.
+macOS sicer že vsebuje PHP, vendar ponavadi ne vsebuje zadnje stabilne verzije. Obstaja več načinov za namestitev zadnje verzije PHP jezika na macOS.
 
 ### Namestitev PHP preko Homebrew
 
-[Homebrew] je močan paketni urejevalnik za OS X, ki vam lahko pomaga namestiti PHP in različne razširitve enostavno.
-[Homebrew PHP] je repozitorij, ki vsebuje PHP povezane 'formulae' za Homebrew, in vam bo omogočil
-namestiti PHP.
+[Homebrew] je paketni urejevalnik za macOS, ki omogoča enostavno namestitev PHP jezika ter različnih razširitev. [Homebrew PHP] je repozitorij, ki vsebuje PHP povezane "formulae", med drugim tudi vse zadnje stabilne verzije: 7.1, 7.2 ter 7.3. Zadnjo verzijo lahko namestite z sledečo komando:
+```
+brew install php
+```
 
-Na tej točki, lahko namestite `php53`, `php54`, `php55`, `php56`, `php70` ali `php71` z uporabo ukaza `brew install`
-in preklapljanje med njimi s spreminjanjem vaše spremenljivke `PATH`. Druga možnost je uporaba [brew-php-switcher][brew-php-switcher],
-ki bo preklopil avtomatsko za vas.
+Če želite namestiti starejšo verzijo uporabite sledečo komando:
+```
+brew install php@7.1
+```
+
+Če želite preklapljati med različnimi verzijami PHP-ja lahko to storite s spreminjanjem vaše spremenljivke `PATH`. Druga možnost je uporaba [brew-php-switcher][brew-php-switcher], ki bo preklopil avtomatsko za vas.
 
 ### Namestitev PHP preko Macports
 
@@ -32,14 +33,14 @@ MacPorts podpira vnaprej prevedene zagonske datoteke, tako da vam ni potrebno pr
 odvisnost iz izvornih tarball datotek, reši vam življenje tudi če
 nimate kakršnegakoli paketa nameščenega na vašem sistemu.
 
-Za sedaj lahko namestite `php54`, `php55`, `php56`, `php70` ali `php71` z uporabo ukaza `port install` na primer:
+Za sedaj lahko namestite `php71`, `php72` ali `php73` z uporabo ukaza `port install` na primer:
 
-    sudo port install php56
-    sudo port install php71
+    sudo port install php72
+    sudo port install php73
 
 Lahko poženete ukaz `select`, da preklopite vaš aktiven PHP:
 
-    sudo port select --set php php71
+    sudo port select --set php php73
 
 ### Namestitev PHP preko phpbrew
 
@@ -48,7 +49,7 @@ aplikaciji/projekta zahtevata različni verziji PHP in ne uporabljate virtualne 
 
 ### Namestitev PHP preko Liip-ovega zagonskega namestitvenega programa
 
-Druga popularna opcija je [php-osx.liip.ch], ki ponuja eno vrstične namestitvene metode za verzije 5.3 do 7.1.
+Druga popularna opcija je [php-osx.liip.ch], ki ponuja eno vrstične namestitvene metode za verzije 5.3 do 7.3.
 Ne prepisuje PHP zagonskih datotek nameščenih s strani Apple-a, vendar namesti vse na ločeno lokacijo (/usr/local/php5).
 
 ### Prevajanje iz izvorne kode
@@ -64,13 +65,14 @@ Rešitve napisane zgoraj v glavnem upravljajo sam PHP in ne podpirajo stvari kot
 vas in jo skupaj povezale, vendar enostavnost namestitve pride z pomanjkanjem fleksibilnosti.
 
 
-[Homebrew]: http://brew.sh/
+[Homebrew]: https://brew.sh/
 [Homebrew PHP]: https://github.com/Homebrew/homebrew-php#installation
 [MacPorts]: https://www.macports.org/install.php
 [phpbrew]: https://github.com/phpbrew/phpbrew
-[mac-compile]: http://php.net/manual/install.macosx.compile
+[php-osx.liip.ch]: https://php-osx.liip.ch/
+[mac-compile]: https://secure.php.net/install.macosx.compile
 [xcode-gcc-substitution]: https://github.com/kennethreitz/osx-gcc-installer
 ["Command Line Tools for XCode"]: https://developer.apple.com/downloads
-[mamp-downloads]: http://www.mamp.info/en/downloads/
-[xampp]: http://www.apachefriends.org/en/xampp.html
+[mamp-downloads]: https://www.mamp.info/en/downloads/
+[xampp]: https://www.apachefriends.org/index.html
 [brew-php-switcher]: https://github.com/philcook/brew-php-switcher
