@@ -10,14 +10,10 @@ macOS sicer že vsebuje PHP, vendar ponavadi ne vsebuje zadnje stabilne verzije.
 
 ### Namestitev PHP preko Homebrew
 
-[Homebrew] je paketni urejevalnik za macOS, ki omogoča enostavno namestitev PHP jezika ter različnih razširitev. [Homebrew PHP] je repozitorij, ki vsebuje PHP povezane "formulae", med drugim tudi vse zadnje stabilne verzije: 7.1, 7.2 ter 7.3. Zadnjo verzijo lahko namestite z sledečo komando:
-```
-brew install php
-```
+[Homebrew] je paketni urejevalnik za macOS, ki omogoča enostavno namestitev PHP jezika ter različnih razširitev. [Homebrew PHP] je repozitorij, ki vsebuje PHP povezane "formulae", med drugim tudi vse zadnje stabilne verzije: 7.1, 7.2, 7.3 ter 7.4. Zadnjo verzijo lahko namestite z sledečo komando:
 
-Če želite namestiti starejšo verzijo uporabite sledečo komando:
 ```
-brew install php@7.1
+brew install php@7.4
 ```
 
 Če želite preklapljati med različnimi verzijami PHP-ja lahko to storite s spreminjanjem vaše spremenljivke `PATH`. Druga možnost je uporaba [brew-php-switcher][brew-php-switcher], ki bo preklopil avtomatsko za vas.
@@ -33,14 +29,14 @@ MacPorts podpira vnaprej prevedene zagonske datoteke, tako da vam ni potrebno pr
 odvisnost iz izvornih tarball datotek, reši vam življenje tudi če
 nimate kakršnegakoli paketa nameščenega na vašem sistemu.
 
-Za sedaj lahko namestite `php71`, `php72` ali `php73` z uporabo ukaza `port install` na primer:
+Za sedaj lahko namestite `php71`, `php72`, `php73`, ali `php74` z uporabo ukaza `port install` na primer:
 
-    sudo port install php72
     sudo port install php73
+    sudo port install php74
 
 Lahko poženete ukaz `select`, da preklopite vaš aktiven PHP:
 
-    sudo port select --set php php73
+    sudo port select --set php php74
 
 ### Namestitev PHP preko phpbrew
 
@@ -60,7 +56,7 @@ V tem primeru zagotovite, da imate nameščen ali [Xcode][xcode-gcc-substitution
 
 ### All-in-One Installers
 
-Rešitve napisane zgoraj v glavnem upravljajo sam PHP in ne podpirajo stvari kot je Apache, Nginx ali SQL server.
+Rešitve napisane zgoraj v glavnem upravljajo sam PHP in ne podpirajo stvari kot je [Apache][apache], [Nginx][nginx] ali SQL server.
 "Vse-v-enem" rešitve kot je [MAMP][mamp-downloads] in [XAMPP][xampp] bodo namestile ostale dele programske opreme za
 vas in jo skupaj povezale, vendar enostavnost namestitve pride z pomanjkanjem fleksibilnosti.
 
@@ -73,6 +69,8 @@ vas in jo skupaj povezale, vendar enostavnost namestitve pride z pomanjkanjem fl
 [mac-compile]: https://secure.php.net/install.macosx.compile
 [xcode-gcc-substitution]: https://github.com/kennethreitz/osx-gcc-installer
 ["Command Line Tools for XCode"]: https://developer.apple.com/downloads
+[apache]: https://httpd.apache.org/
+[nginx]: https://www.nginx.com/
 [mamp-downloads]: https://www.mamp.info/en/downloads/
 [xampp]: https://www.apachefriends.org/index.html
 [brew-php-switcher]: https://github.com/philcook/brew-php-switcher

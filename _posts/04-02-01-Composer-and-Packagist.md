@@ -108,9 +108,8 @@ odvisnosti na najnovejše verzije, ki ustrezajo omejitvam, ki ste jih definirali
 
 ### Obvestila posodobitev
 
-Da dobite obvestila o novih verzijah izdaj se lahko naročite na [VersionEye], spletno storitev,
-ki nadzira vaše GitHub in BitBucket račune za `composer.json` datotekami in pošilja e-pošto z novimi
-izdajami paketov.
+Da dobite obvestila o novih verzijah izdaj se lahko naročite na [libraries.io], spletno storitev,
+ki nadzira odvisnosti in pošilja e-pošto z novimi izdajami paketov.
 
 ### Preverjanje vaših odvisnosti za varnostnimi težavami
 
@@ -136,7 +135,7 @@ spremenljivki `$PATH`.
 
 [Packagist]: http://packagist.org/
 [Twig]: http://twig.sensiolabs.org
-[VersionEye]: https://www.versioneye.com/
-[Security Advisories Checker]: https://security.sensiolabs.org/
+[libraries.io]: https://libraries.io/
+[Security Advisories Checker]: https://security.symfony.com/
 [Naučite se o Composer-ju]: http://getcomposer.org/doc/00-intro.md
 [ComposerSetup]: https://getcomposer.org/Composer-Setup.exe

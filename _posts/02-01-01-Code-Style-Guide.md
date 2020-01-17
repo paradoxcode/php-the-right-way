@@ -12,7 +12,7 @@ običajno, da izbirajo med mnogimi od le teh in jih kombinirajo v določenem pro
 knjižnic za njihove projekte.
 
 [Framework Interop Group][fig] so predlagali in odobrili serijo stilskih priporočil. Vsa niso vezana na kodne stile, vendar
-tista ki so, so [PSR-0][psr0], [PSR-1][psr1], [PSR-2][psr2] in [PSR-4][psr4]. Ta priporočila so samo
+tista ki so, so [PSR-0][psr0], [PSR-1][psr1], [PSR-12][psr12] in [PSR-4][psr4]. Ta priporočila so samo
 skupek pravil, ki jih privzemajo mnogi projekti, kot so Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium itd.
 Lahko jih uporabite v vaših projektih, ali nadaljujete z uporabo vaših osebnih stilov.
 
@@ -21,9 +21,8 @@ enega izmed kodnih standardov izdelanih s strani PEAR ali Zend. To pomeni, da os
 in delajo z vašo kodo ter aplikacije, ki implementirajo komponente, imajo lahko konsistentnost celo, ko se uporablja veliko
 tretje osebne kode.
 
-* [Preberite o PSR-0][psr0]
 * [Preberite o PSR-1][psr1]
-* [Preberite o PSR-2][psr2]
+* [Preberite o PSR-12][psr12]
 * [Preberite o PSR-4][psr4]
 * [Preberite o PEAR kodnih standardih][pear-cs]
 * [Preberite o Symfony kodnih standardih][symfony-cs]
@@ -38,7 +37,7 @@ Postavitev kode lahko popravite avtomatično z uporabo enega izmed sledečih oro
 
 In PHP_CodeSniffer lahko poženete ročno v terminalu:
 
-    phpcs -sw --standard=PSR2 file.php
+    phpcs -sw --standard=PSR1 file.php
 
 Prikazal bo napake in opisal, kako jih popraviti.
 Lahko je tudi v pomoč pri vključevanju tega ukaza v git hook.
@@ -48,21 +47,20 @@ kršitev ne odpravi.
 Če imate PHP_CodeSniffer, lahko sporočene težave postavitve kode avtomatsko popravite s
 [PHP Code Beautifier and Fixer][phpcbf].
 
-    phpcbf -w --standard=PSR2 file.php
+    phpcbf -w --standard=PSR1 file.php
 
 Druga opcija je uporaba orodja [PHP Coding Standards Fixer][phpcsfixer].
 Prikazal bo, katere vrste napak je imela struktura kode pred popravki.
 
-    php-cs-fixer fix -v --level=psr2 file.php
+    php-cs-fixer fix -v rules=@PSR1 file.php
 
 Angleščina je priporočljiva za vsa imena simbolov in infrastruktur kode. Komentarji so lahko napisani v kateremkoli jeziku,
 ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s kodo.
 
-
 [fig]: http://www.php-fig.org/
 [psr0]: http://www.php-fig.org/psr/psr-0/
 [psr1]: http://www.php-fig.org/psr/psr-1/
-[psr2]: http://www.php-fig.org/psr/psr-2/
+[psr12]: http://www.php-fig.org/psr/psr-12/
 [psr4]: http://www.php-fig.org/psr/psr-4/
 [pear-cs]: http://pear.php.net/manual/en/standards.php
 [symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html

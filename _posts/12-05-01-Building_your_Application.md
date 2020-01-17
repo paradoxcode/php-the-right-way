@@ -80,6 +80,7 @@ integracije za odprto kodno skupnost. Integriran je z GitHub-om in ponuja prvo r
 
 * [Zvezna integracija z Jenkins][Jenkins]
 * [Zvezna integracija s PHPCI][PHPCI]
+* [Zvezna integracija s PHP Censor][PHP Censor]
 * [Zvezna integracija s Teamcity][Teamcity]
 
 
@@ -96,7 +97,8 @@ integracije za odprto kodno skupnost. Integriran je z GitHub-om in ponuja prvo r
 [apache_ant_tutorial]: http://net.tutsplus.com/tutorials/other/automate-your-projects-with-apache-ant/
 [Travis CI]: https://travis-ci.org/
 [Jenkins]: http://jenkins-ci.org/
-[PHPCI]: http://www.phptesting.org/
+[PHPCI]: https://github.com/dancryer/phpci
+[PHP Censor]: https://github.com/php-censor/php-censor
 [Teamcity]: http://www.jetbrains.com/teamcity/
 [Deployer]: https://github.com/deployphp/deployer
 [Rocketeer]: http://rocketeer.autopergamene.eu/

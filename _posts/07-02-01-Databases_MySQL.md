@@ -24,6 +24,7 @@ vaši aplikacijah znotraj vašega razvojnega razporeda, tako da se vam ne bo kas
 
 **Če nadgrajujete iz [mysql] k [mysqli], bodite pozorni o lenobnih vodičih nadgradnje, ki enostavno predlagajo najti in zamenjati `mysql_*` z `mysqli_*`. Ne samo, da je to prevelika posplošitev, pozablja tudi prednosti, ki jih mysqli ponuja, kot je vezava parametrov, ki je ponujena tudi v [PDO][pdo].**
 
+* [MySQLi Prepared Statements][mysqli_prepared_statements]
 * [PHP: Izbira API-ja za MySQL][mysql_api]
 * [PDO Tutorial for MySQL Developers][pdo4mysql_devs]
 
@@ -35,3 +36,4 @@ vaši aplikacijah znotraj vašega razvojnega razporeda, tako da se vam ne bo kas
 [PDO]: http://php.net/pdo
 [mysql_api]: http://php.net/mysqlinfo.api.choosing
 [pdo4mysql_devs]: http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers
+[mysqli_prepared_statements]: https://websitebeaver.com/prepared-statements-in-php-mysqli-to-prevent-sql-injection

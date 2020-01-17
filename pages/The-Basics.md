@@ -364,13 +364,13 @@ Pozoren je treba biti, da ne potrebujete uporabljati trojnih operatorjev za vra�
 <?php
 $a = 3;
 
-return ($a == 3) ? true : false; // Will return true or false if $a == 3
+return ($a == 3) ? true : false; // Will return true if $a == 3 or false
 
 // proti
 
 $a = 3;
 
-return $a == 3; // Will return true or false if $a == 3
+return $a == 3; // Will return true if $a == 3 or false
 {% endhighlight %}
 
 To lahko rečemo tudi za vse operacije (===, !==, !=, == itd.).
@@ -383,13 +383,13 @@ Ko se uporablja trojni operator, lahko oklepaji igrajo svojo vlogo za izboljšan
 <?php
 $a = 3;
 
-return ($a == 3) ? "yay" : "nope"; // return yay or nope if $a == 3
+return ($a == 3) ? "yay" : "nope"; // return yay if $a == 3 or nope
 
 // proti
 
 $a = 3;
 
-return $a == 3 ? "yay" : "nope"; // return yay or nope if $a == 3
+return $a == 3 ? "yay" : "nope"; // return yay if $a == 3 or nope
 {% endhighlight %}
 
 Oklepaji nam tudi omogočajo zmožnost izdelave zvez znotraj blokov stavkov, kjer bo blok preverjen kot celota. Kot ta primer spodaj, ki bo vrnil true če oba ($a == 3 in $b == 4) sta true in $c == 5 je tudi true.

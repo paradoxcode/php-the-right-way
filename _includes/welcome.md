@@ -20,7 +20,6 @@ in primeri, ko bodo na voljo.
 _PHP: The Right Way_ je preveden v mnoge različne jezike:
 
 * [English](http://www.phptherightway.com)
-* [Deutsch](http://rwetzlmayr.github.io/php-the-right-way)
 * [Español](http://phpdevenezuela.github.io/php-the-right-way)
 * [Français](http://eilgin.github.io/php-the-right-way/)
 * [Indonesia](http://id.phptherightway.com)
@@ -39,8 +38,8 @@ _PHP: The Right Way_ je preveden v mnoge različne jezike:
 * [ภาษาไทย](https://apzentral.github.io/php-the-right-way/)
 * [한국어판](http://modernpug.github.io/php-the-right-way)
 * [日本語](http://ja.phptherightway.com)
-* [简体中文](http://laravel-china.github.io/php-the-right-way/)
-* [繁體中文](http://laravel-taiwan.github.io/php-the-right-way)
+* [简体中文](https://laravel-china.github.io/php-the-right-way/)
+* [繁體中文](https://laravel-taiwan.github.io/php-the-right-way)
 
 ## Knjiga
 
