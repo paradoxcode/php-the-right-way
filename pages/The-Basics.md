@@ -289,7 +289,7 @@ EOD;                        // closing 'EOD' must be on it's own line, and to th
 
 * [Heredoc sintaksa](http://php.net/language.types.string#language.types.string.syntax.heredoc)
 
-> Potrebno je opozoriti, da več vrstični nizi so lahko tudi tvorjeni z nadaljevanjem preko večih vrstic v stavku. _npr._
+> Potrebno je opozoriti, da več vrstični nizi so lahko tvorjeni tudi z nadaljevanjem preko večih vrstic v stavku. _npr._
 
 {% highlight php %}
 $str = "

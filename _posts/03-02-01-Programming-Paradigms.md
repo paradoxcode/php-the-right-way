@@ -50,7 +50,7 @@ kot `__call()` in `__callStatic()`.
 * [Preberite o refleksiji][reflection]
 * [Preberite o t.i. overloading-u][overloading]
 
-[namespaces]: http://php.net/language.namespaces
+[namespaces]: https://www.php.net/language.namespaces
 [overloading]: http://php.net/language.oop5.overloading
 [oop]: http://php.net/language.oop5
 [traits]: http://www.php.net/traits

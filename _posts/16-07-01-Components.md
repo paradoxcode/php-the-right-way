@@ -20,6 +20,13 @@ lahko uporabite [FuelPHP paket preverjanje][fuelval], brez potrebe po uporabi sa
 samo dodaten repozitorij za ponovno uporabne komponente:
 
 * [Aura]
+* CakePHP komponente
+    * [Collection]
+    * [Database]
+    * [Datasource]
+    * [Event]
+    * [I18n]
+    * [ORM]
 * [FuelPHP]
 * [Hoa Project]
 * [Orno]
@@ -48,3 +55,9 @@ Za sedaj so tu zabeležene samo komponente, ki so lahko najboljše nevezne._
 [Eloquent ORM]: https://github.com/illuminate/database
 [Queue]: https://github.com/illuminate/queue
 [Illuminate komponente]: https://github.com/illuminate
+[Collection]: https://github.com/cakephp/collection
+[Database]: https://github.com/cakephp/database
+[Datasource]: https://github.com/cakephp/datasource
+[Event]: https://github.com/cakephp/event
+[I18n]: https://github.com/cakephp/i18n
+[ORM]: https://github.com/cakephp/orm

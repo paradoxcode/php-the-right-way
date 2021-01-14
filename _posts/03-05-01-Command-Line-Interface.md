@@ -47,7 +47,6 @@ Hello, world
 
 
  * [Naučite se o poganjanju PHP-ja iz ukazne vrstice][php-cli]
- * [Naučite se o nastavitvi Windows okolja za poganjanje PHP-ja iz ukazne vrstice][php-cli-windows]
 
 [phpinfo]: http://php.net/function.phpinfo
 [cli-options]: http://php.net/features.commandline.options
@@ -55,4 +54,3 @@ Hello, world
 [argv]: http://php.net/reserved.variables.argv
 [exit-codes]: http://www.gsp.com/cgi-bin/man.cgi?section=3&amp;topic=sysexits
 [php-cli]: http://php.net/features.commandline
-[php-cli-windows]: http://php.net/install.windows.commandline

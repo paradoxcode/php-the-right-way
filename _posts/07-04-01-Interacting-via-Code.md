@@ -45,7 +45,7 @@ Izdelajte razred, kamor date to metodo in imate "Model". Izdelajte enostavno `.p
 
 {% highlight php %}
 <?php
-$db = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8', 'username', 'password');
+$db = new PDO('mysql:host=localhost;dbname=testdb;charset=utf8mb4', 'username', 'password');
 
 // Make your model available
 include 'models/FooModel.php';

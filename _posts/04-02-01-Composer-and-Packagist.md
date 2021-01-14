@@ -6,18 +6,18 @@ anchor:  composer_and_packagist
 
 ## Composer in Packagist {#composer_and_packagist_title}
 
-Composer je **briljanten** upravljalnik odvisnosti za PHP. Napišite vaše projektne odvisnosti v `composer.json` datoteko in z nekaj enostavnimi ukazi bo Composer avtomatsko prenesel odvisnosti za vaš projekt in nastavil avtomatsko nalaganje (autoloading) za vas. Composer je analogno NPM v svetu Node.js ali Bundler v Ruby svetu.
+Composer je priporočeni upravljalnik odvisnosti za PHP. Napišite vaše projektne odvisnosti v `composer.json` datoteko in z nekaj enostavnimi ukazi bo Composer avtomatsko prenesel odvisnosti za vaš projekt in nastavil avtomatsko nalaganje (autoloading) za vas. Composer je analogno NPM v svetu Node.js ali Bundler v Ruby svetu.
 
-Na voljo je že ogromno PHP knjižnic, ki so kompatibilne s Composer-jem in pripravljene za uporabo v vašem projektu. Ti
+Na voljo je obilica PHP knjižnic, ki so kompatibilne s Composer-jem in pripravljene za uporabo v vašem projektu. Ti
 "paketi" so našteti na [Packagist]-u, uradnem repozitoriju za Composer-kompatibilne PHP knjižnice.
 
 ### Kako namestiti Composer
 
 Najbolj varen način za namestitev Composer-ja je [slediti uradnim navodilom](https://getcomposer.org/download/).
 To preveri, da namestitveni program ni pokvarjen ali ponarejen.
-Namestitveni program namesti Composer *lokalno* v vaš trenutni delovni direktorij.
+Namestitveni program namesti binarno skripto `composer.phar` v _vaš trenutni delovni direktorij_.
 
-Priporočamo ga namestiti *globalno* (npr. enojna kopija v /usr/local/bin) - da to naredite, za tem poženite:
+Composer priporočamo namestiti *globalno* (npr. v `/usr/local/bin`). Da to naredite, poženite sledeči ukaz:
 
 {% highlight console %}
 mv composer.phar /usr/local/bin/composer
@@ -33,38 +33,6 @@ Za Windows uporabnike je najenostavnejši način za pričetek uporaba namestitve
 izvede globalno namestitev in nastavi vašo `$PATH`, da lahko samo pokličete `composer` iz kateregakoli
 direktorija v vaši ukazni vrstici.
 
-### Kako namestiti Composer (ročno)
-
-Ročna namestitev Composer-ja je napredna tehnika, čeprav obstajajo različni razlogi, zakaj
-bi razvijalec raje uporabil sledečo metodo proti uporabi interaktivne namestitvene rutine. Interaktivna
-namestitev preveri vašo PHP namestitev za zagotovitev, da:
-
-- je uporabljena zadostna verzija PHP-ja
-- `.phar` datoteke se lahko izvaja pravilno
-- so zadostne nekatere pravice direktorijev
-- določene problematične razširitve niso naložene
-- so nastavljene določene `php.ini` nastavitve
-
-Ker ročna namestitev ne izvede nobenih od teh preverjanj, se morate odločiti ali je to
-ustrezno za vas. Tako je na voljo Composer tudi ročno:
-
-{% highlight console %}
-curl -s https://getcomposer.org/composer.phar -o $HOME/local/bin/composer
-chmod +x $HOME/local/bin/composer
-{% endhighlight %}
-
-Pot `$HOME/local/bin` (ali direktorij po vaši izbiri) bi moral biti v vaši potni `$PATH` spremenljivki okolja.
-To bo omogočilo izvajanje ukaza `composer`.
-
-Ko v dokumentaciji naletite na ukaz, kot je npr. `php composer.phar install`, ga lahko
-zamenjate in poženete sledeče:
-
-{% highlight console %}
-composer install
-{% endhighlight %}
-
-Ta sekcija predvideva, da ste namestili Composer globalno.
-
 ### Kako definirati in namestiti odvisnosti
 
 Composer beleži odvisnosti vašega projekta v datoteki imenovani `composer.json`. Če želite, jo lahko upravljate
@@ -73,7 +41,7 @@ in če nimate `composer.json` datoteke, bo kreirana. Spodaj je primer, ki doda [
 kot odvisnost v vaš projekt.
 
 {% highlight console %}
-composer require twig/twig:~1.8
+composer require twig/twig:^2.0
 {% endhighlight %}
 
 Alternativno, ukaz `composer init` vas bo vodil skozi ustvarjanje celotne datoteke `composer.json`
@@ -133,9 +101,9 @@ spremenljivki `$PATH`.
 * [Naučite se o Composer-ju]
 
 
-[Packagist]: http://packagist.org/
-[Twig]: http://twig.sensiolabs.org
+[Packagist]: https://packagist.org/
+[Twig]: https://twig.symfony.com/
 [libraries.io]: https://libraries.io/
 [Security Advisories Checker]: https://security.symfony.com/
-[Naučite se o Composer-ju]: http://getcomposer.org/doc/00-intro.md
+[Naučite se o Composer-ju]: https://getcomposer.org/doc/00-intro.md
 [ComposerSetup]: https://getcomposer.org/Composer-Setup.exe

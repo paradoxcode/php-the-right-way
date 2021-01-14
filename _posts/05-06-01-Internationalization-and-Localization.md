@@ -31,8 +31,7 @@ ne poskušajte tega, če bo vaš projekt vseboval več kot nekaj strani.
 
 Najbolj klasičen način in pogosta vzet kot referenca za i18n in l10n je [orodje za Unix, imenovano `gettext`][gettext]. Izvira
 nazaj iz leta 1995 in je še vedno popolna izvedba za prevajanje programske opreme. Zelo enostavno ga je postaviti, medtem ko
-je še vedno omogoča močna podporna orodja. Tu bomo govorili o Gettext. Poleg tega, da vam pomaga pri
-ukazni vrstici, bomo predstavili oglično GUI aplikacijo, ki se lahko uporablja za enostavno posodobitev virov
+je še vedno omogoča močna podporna orodja. Podrobneje bomo o Gettext govorili spodaj. Če bi se želeli izogniti uporabi ukazne vrstice, bomo predstavili odlično GUI aplikacijo, ki se jo lahko uporablja za enostavno posodobitev virov
 datotek l10n.
 
 ### Druga orodja

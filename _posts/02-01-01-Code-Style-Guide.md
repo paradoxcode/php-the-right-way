@@ -12,7 +12,7 @@ običajno, da izbirajo med mnogimi od le teh in jih kombinirajo v določenem pro
 knjižnic za njihove projekte.
 
 [Framework Interop Group][fig] so predlagali in odobrili serijo stilskih priporočil. Vsa niso vezana na kodne stile, vendar
-tista ki so, so [PSR-0][psr0], [PSR-1][psr1], [PSR-12][psr12] in [PSR-4][psr4]. Ta priporočila so samo
+tista ki so, so [PSR-1][psr1], [PSR-12][psr12] in [PSR-4][psr4]. Ta priporočila so samo
 skupek pravil, ki jih privzemajo mnogi projekti, kot so Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium itd.
 Lahko jih uporabite v vaših projektih, ali nadaljujete z uporabo vaših osebnih stilov.
 
@@ -57,14 +57,13 @@ Prikazal bo, katere vrste napak je imela struktura kode pred popravki.
 Angleščina je priporočljiva za vsa imena simbolov in infrastruktur kode. Komentarji so lahko napisani v kateremkoli jeziku,
 ki ga lahko enostavno preberejo vse trenutne in bodoče strani, ki bodo delale s kodo.
 
-[fig]: http://www.php-fig.org/
-[psr0]: http://www.php-fig.org/psr/psr-0/
-[psr1]: http://www.php-fig.org/psr/psr-1/
-[psr12]: http://www.php-fig.org/psr/psr-12/
-[psr4]: http://www.php-fig.org/psr/psr-4/
-[pear-cs]: http://pear.php.net/manual/en/standards.php
-[symfony-cs]: http://symfony.com/doc/current/contributing/code/standards.html
-[phpcs]: http://pear.php.net/package/PHP_CodeSniffer/
+[fig]: https://www.php-fig.org/
+[psr1]: https://www.php-fig.org/psr/psr-1/
+[psr12]: https://www.php-fig.org/psr/psr-12/
+[psr4]: https://www.php-fig.org/psr/psr-4/
+[pear-cs]: https://pear.php.net/manual/en/standards.php
+[symfony-cs]: https://symfony.com/doc/current/contributing/code/standards.html
+[phpcs]: https://pear.php.net/package/PHP_CodeSniffer/
 [phpcbf]: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Fixing-Errors-Automatically
 [st-cs]: https://github.com/benmatselby/sublime-phpcs
-[phpcsfixer]: http://cs.sensiolabs.org/
+[phpcsfixer]: https://cs.sensiolabs.org/

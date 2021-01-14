@@ -33,4 +33,4 @@ Chris Tankersley ima zelo uporabno blog objavo, katera orodja uporablja za [PHP 
 [windows-path]: http://www.windows-commandline.com/set-path-command-line/
 [windows-tools]: http://ctankersley.com/2016/11/13/developing-on-windows-2016/
 [wpi]: https://www.microsoft.com/web/downloads/platform.aspx
-[xampp]: http://www.apachefriends.org/en/xampp.html
+[xampp]: https://www.apachefriends.org/en/xampp.html
