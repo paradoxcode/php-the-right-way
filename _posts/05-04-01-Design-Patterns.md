@@ -15,4 +15,6 @@ da veliko izbir vzorcev je že urejenih namesto vas. Vendar je še vedno na vas,
 sledili v kodi, ki jo gradite na osnovi ogrodja. Po drugi strani, če ne uporabljate ogrodja za grajenje vaše aplikacije,
 potem morate najti vzorce, ki najbolje zadostijo tipu in velikosti aplikacije, ki jo gradite.
 
-* Nadaljujte branje na strani [načrtovalski vzorci](/pages/Design-Patterns.html)
+Več o načrtovalskih vzorcih PHP in primerih uporabe si lahko preberete na:
+
+<https://designpatternsphp.readthedocs.io/>

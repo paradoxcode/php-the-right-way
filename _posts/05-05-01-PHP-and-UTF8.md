@@ -46,7 +46,7 @@ Končno, če gradite distribuirano aplikacijo in ne morete biti prepričani, da 
 omogočena, potem premislite o uporabi [patchwork/utf8] Composer paketa. Ta
 bo uporabil `mbstring`, če je na voljo in se vrnil na ne UTF-8 funkcije, če ni.
 
-[razširitve multibyte niza]: http://php.net/book.mbstring
+[razširitve multibyte niza]: https://php.net/book.mbstring
 [patchwork/utf8]: https://packagist.org/packages/patchwork/utf8
 
 ### UTF-8 na nivoju podatkovne baze
@@ -139,23 +139,21 @@ header('Content-Type: text/html; charset=UTF-8'); // Unnecessary if your default
 
 ### Nadaljnje branje
 
-* [PHP priročnik: operacije nizov](http://php.net/language.operators.string)
-* [PHP priročnik: funkcije nizov](http://php.net/ref.strings)
-    * [`strpos()`](http://php.net/function.strpos)
-    * [`strlen()`](http://php.net/function.strlen)
-    * [`substr()`](http://php.net/function.substr)
-* [PHP priročnik: večbajtne funkcije nizov](http://php.net/ref.mbstring)
-    * [`mb_strpos()`](http://php.net/function.mb-strpos)
-    * [`mb_strlen()`](http://php.net/function.mb-strlen)
-    * [`mb_substr()`](http://php.net/function.mb-substr)
-    * [`mb_internal_encoding()`](http://php.net/function.mb-internal-encoding)
-    * [`mb_http_output()`](http://php.net/function.mb-http-output)
-    * [`htmlentities()`](http://php.net/function.htmlentities)
-    * [`htmlspecialchars()`](http://php.net/function.htmlspecialchars)
-* [PHP UTF-8 plonkec](http://blog.loftdigital.com/blog/php-utf-8-cheatsheet)
-* [Upravljanje UTF-8 s PHP](http://www.phpwact.org/php/i18n/utf-8)
-* [Stack Overflow: Kateri faktorji narejo PHP nekompatibilnega z Unicode?](http://stackoverflow.com/questions/571694/what-factors-make-php-unicode-incompatible)
-* [Stack Overflow: Najboljše prakse v PHP in MySQL z mednarodnimi nizi](http://stackoverflow.com/questions/140728/best-practices-in-php-and-mysql-with-international-strings)
-* [Kako podpirati celtni Unicode v MySQL podatkovnih bazah](http://mathiasbynens.be/notes/mysql-utf8mb4)
-* [Prinašanje Unicode v PHP s prenosnim UTF-8](http://www.sitepoint.com/bringing-unicode-to-php-with-portable-utf8/)
-* [Stack Overflow: DOMDocument loadHTML does not encode UTF-8 correctly](http://stackoverflow.com/questions/8218230/php-domdocument-loadhtml-not-encoding-utf-8-correctly)
+* [PHP priročnik: operacije nizov](https://php.net/language.operators.string)
+* [PHP priročnik: funkcije nizov](https://php.net/ref.strings)
+    * [`strpos()`](https://php.net/function.strpos)
+    * [`strlen()`](https://php.net/function.strlen)
+    * [`substr()`](https://php.net/function.substr)
+* [PHP priročnik: večbajtne funkcije nizov](https://php.net/ref.mbstring)
+    * [`mb_strpos()`](https://php.net/function.mb-strpos)
+    * [`mb_strlen()`](https://php.net/function.mb-strlen)
+    * [`mb_substr()`](https://php.net/function.mb-substr)
+    * [`mb_internal_encoding()`](https://php.net/function.mb-internal-encoding)
+    * [`mb_http_output()`](https://php.net/function.mb-http-output)
+    * [`htmlentities()`](https://php.net/function.htmlentities)
+    * [`htmlspecialchars()`](https://php.net/function.htmlspecialchars)
+* [Stack Overflow: Kateri faktorji narejo PHP nekompatibilnega z Unicode?](https://stackoverflow.com/questions/571694/what-factors-make-php-unicode-incompatible)
+* [Stack Overflow: Najboljše prakse v PHP in MySQL z mednarodnimi nizi](https://stackoverflow.com/questions/140728/best-practices-in-php-and-mysql-with-international-strings)
+* [Kako podpirati celtni Unicode v MySQL podatkovnih bazah](https://mathiasbynens.be/notes/mysql-utf8mb4)
+* [Prinašanje Unicode v PHP s prenosnim UTF-8](https://www.sitepoint.com/bringing-unicode-to-php-with-portable-utf8/)
+* [Stack Overflow: DOMDocument loadHTML does not encode UTF-8 correctly](https://stackoverflow.com/questions/8218230/php-domdocument-loadhtml-not-encoding-utf-8-correctly)

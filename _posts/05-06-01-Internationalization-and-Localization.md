@@ -399,7 +399,7 @@ Po vključitvi teh novih pravil v datoteko `.po`, se bo pričelo novo skeniranje
 * [Wikipedia: i18n in l10n](https://en.wikipedia.org/wiki/Internationalization_and_localization)
 * [Wikipedia: Gettext](https://en.wikipedia.org/wiki/Gettext)
 * [LingoHub: PHP internationalization with gettext tutorial][lingohub]
-* [PHP Manual: Gettext](http://php.net/manual/en/book.gettext.php)
+* [PHP Manual: Gettext](https://www.php.net/manual/en/book.gettext.php)
 * [Gettext Manual][manual]
 
 [Poedit]: https://poedit.net
@@ -408,22 +408,22 @@ Po vključitvi teh novih pravil v datoteko `.po`, se bo pričelo novo skeniranje
 [lingohub_plurals]: https://lingohub.com/blog/2013/07/php-internationalization-with-gettext-tutorial/#Plurals
 [plural]: http://docs.translatehouse.org/projects/localization-guide/en/latest/l10n/pluralforms.html
 [gettext]: https://en.wikipedia.org/wiki/Gettext
-[manual]: http://www.gnu.org/software/gettext/manual/gettext.html
+[manual]: https://www.gnu.org/software/gettext/manual/gettext.html
 [639-1]: https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
-[3166-1]: http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-[rare]: http://www.gnu.org/software/gettext/manual/gettext.html#Rare-Language-Codes
+[3166-1]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+[rare]: https://www.gnu.org/software/gettext/manual/gettext.html#Rare-Language-Codes
 [func_format]: https://www.gnu.org/software/gettext/manual/gettext.html#Language-specific-options
 [oscarotero]: https://github.com/oscarotero/Gettext
 [symfony]: https://symfony.com/doc/current/components/translation.html
 [zend]: https://docs.zendframework.com/zend-i18n/translation
 [laravel]: https://laravel.com/docs/master/localization
-[yii]: http://www.yiiframework.com/doc-2.0/guide-tutorial-i18n.html
-[intl]: http://br2.php.net/manual/en/intro.intl.php
+[yii]: https://www.yiiframework.com/doc-2.0/guide-tutorial-i18n.html
+[intl]: https://www.php.net/manual/en/intro.intl.php
 [ICU project]: http://www.icu-project.org
 [symfony-keys]: https://symfony.com/doc/current/components/translation/usage.html#creating-translations
 
-[sprintf]: http://php.net/manual/en/function.sprintf.php
-[func]: http://php.net/manual/en/function.gettext.php
-[n_func]: http://php.net/manual/en/function.ngettext.php
-[d_func]: http://php.net/manual/en/function.dgettext.php
-[dn_func]: http://php.net/manual/en/function.dngettext.php
+[sprintf]: https://www.php.net/manual/en/function.sprintf.php
+[func]: https://www.php.net/manual/en/function.gettext.php
+[n_func]: https://www.php.net/manual/en/function.ngettext.php
+[d_func]: https://www.php.net/manual/en/function.dgettext.php
+[dn_func]: https://www.php.net/manual/en/function.dngettext.php
